@@ -1,12 +1,12 @@
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 345% of weekly capacity used. Weekly burn: 138h / 40h.
+[Progress Bar: ██████████] 338% of weekly capacity used. Weekly burn: 135h / 40h.
 
 # 🚀 ACTIVE PROJECTS
-- [ ] LCTX-01 Security-header hardening | [5h] | Status: On Track | Due: 2026-03-20
 - [ ] MASC-02 EN feedback cleanup bundle | [6h] | Status: On Track | Due: 2026-03-20
 - [ ] MASC-03 Search regression handoff | [5h] | Status: Triage Needed
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
 - [ ] MASC-05 Responsiveness remediation action plan + Alex sync | [2h] | Status: On Track | Due: 2026-03-27
+- [ ] MASC-06 FR logo asset review + update | [2h] | Status: On Track | Due: 2026-03-23
 - [ ] IFWH-01 Accessibility audit + remediation | [4h] | Status: On Track | Due: 2026-03-27
 - [ ] MACY-01 Recommended Tracking CPT refactor | [5h] | Status: On Track | Due: 2026-03-27
 - [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-03-27
@@ -30,7 +30,7 @@
 - None
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Currently focusing on `Local Contexts` and MASC on Friday, March 20, 2026, with `IFWH` still prioritized above `Banff` for next week's execution because it closes sooner on Friday, March 27, 2026. MASC homepage responsiveness, thematic crop maps rollout, EN feedback review, dynamic script evaluation, archive-page category coin update, the MASC calculator missing-values fix, the Banff audio-cleanup recommendation reply, and the Orbeon historical survey CSV export are all complete; today's active execution is `LCTX-01` first and `MASC-02` second, the agency portfolio audit is queued as a 2h review for Wednesday, March 25, 2026, `IFWH`, `NWAC`, `MACY-01`, and `MASC-05` are scheduled into next week's lane through Friday, March 27, 2026, the Banff PM decision block has been pushed to the end of next week as time-permitting work because the formal feedback update is not due until Thursday, April 3, 2026, and `UA Local 179` has been added as a new queued maintenance compatibility check for Samsung Galaxy S7 devices. The queued backlog is behind due to 138h of tracked work against a 40h week and unresolved client, design, access, translation, plugin, asset, documentation-framing, test-environment, handoff, and portfolio-definition dependencies on Encore Cabinets, Orbeon Forms, the agency portfolio audit, parts of Banff remediation, the MASC cleanup bundle, the remaining MASC regression handoff items, `MASC-05`, `MACY-01`, and `UA Local 179`."
+"Currently focusing on MASC on Friday, March 20, 2026, with `IFWH` still prioritized above `Banff` for next week's execution because it closes sooner on Friday, March 27, 2026. MASC homepage responsiveness, thematic crop maps rollout, EN feedback review, dynamic script evaluation, archive-page category coin update, the MASC calculator missing-values fix, the Banff audio-cleanup recommendation reply, the Local Contexts security-header updates, and the Orbeon historical survey CSV export are all complete; today's remaining active execution is `MASC-02`, and if time remains at end of day the next step is light prep on `MASC-05` ahead of the Monday, March 23, 2026 sync, with `MASC-06` now scheduled first thing Monday morning as a short FR logo asset review plus update using the broader asset set Mike shared. The agency portfolio audit is queued as a 2h review for Wednesday, March 25, 2026, `IFWH`, `NWAC`, `MACY-01`, `MASC-05`, and `MASC-06` are scheduled into next week's lane through Friday, March 27, 2026, the Banff PM decision block has been pushed to the end of next week as time-permitting work because the formal feedback update is not due until Thursday, April 3, 2026, and `UA Local 179` has been added as a new queued maintenance compatibility check for Samsung Galaxy S7 devices. The queued backlog is behind due to 135h of tracked work against a 40h week and unresolved client, design, access, translation, plugin, asset, documentation-framing, test-environment, handoff, and portfolio-definition dependencies on Encore Cabinets, Orbeon Forms, the agency portfolio audit, parts of Banff remediation, the MASC cleanup bundle, the remaining MASC regression handoff items, `MASC-05`, `MASC-06`, `MACY-01`, and `UA Local 179`."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-02, should the AgriInsurance Claims whitespace fix reuse the How to File a Report image-overlap pattern, or is a lighter spacing adjustment preferred?
@@ -52,11 +52,10 @@
 17. For ENCR-01, should Zonos own the full U.S. checkout and payment flow, or should WooCommerce keep payment while Zonos handles cross-border shipping and landed-cost logic?
 18. For ENCR-01, is the recommendation strictly for U.S. shipments, or should it include a rollout path for additional countries later?
 19. For NWAC-01, should the final document map controls to PIPEDA and an Indigenous data governance framework, or document implemented controls and open gaps only?
-20. For LCTX-01, should the task stay at hosting-level header changes only, or include WordPress app review for CSP exceptions and third-party dependencies?
-21. For the Orbeon export handoff, who should receive the historical survey CSV, and what is the approved sharing method?
-22. For AGCY-01, should this audit rank ahead of Banff and IPAM next week, or stay as background work while current delivery commitments close?
-23. For AGCY-01, should the audit judge only technical update needs, or also content, UX, and design refresh needs?
-24. For the MASC French-side rollout, can the content team add the required translations for the featured thematic crop maps block on the French `MMPP` page?
-25. For UAL-01, what is the target completion date for the Galaxy S7 compatibility check?
-26. For UAL-01, how should it be prioritized relative to MASC, Local Contexts, IFWH, and Banff?
-27. For UAL-01, do you have access to a physical Samsung Galaxy S7 device, or should this be planned against an emulator or other test environment?
+20. For the Orbeon export handoff, who should receive the historical survey CSV, and what is the approved sharing method?
+21. For AGCY-01, should this audit rank ahead of Banff and IPAM next week, or stay as background work while current delivery commitments close?
+22. For AGCY-01, should the audit judge only technical update needs, or also content, UX, and design refresh needs?
+23. For the MASC French-side rollout, can the content team add the required translations for the featured thematic crop maps block on the French `MMPP` page?
+24. For UAL-01, what is the target completion date for the Galaxy S7 compatibility check?
+25. For UAL-01, how should it be prioritized relative to MASC, Local Contexts, IFWH, and Banff?
+26. For UAL-01, do you have access to a physical Samsung Galaxy S7 device, or should this be planned against an emulator or other test environment?

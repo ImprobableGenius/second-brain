@@ -9,7 +9,7 @@
 - Current branch: `dev`
 - Remote: `git@github.com:Vincent-Design-Inc/masc-wordpress.git`
 - Load: Medium
-- Working estimate: 17h total for current open tasks
+- Working estimate: 19h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -36,6 +36,9 @@
 - [ ] MASC-03 Search regression handoff | Estimate: 5h | Due: TBD
 - [ ] MASC-04 News and Updates regression + coin review | Estimate: 4h | Due: TBD
 - [ ] MASC-05 Responsiveness remediation action plan + Alex sync | Estimate: 2h | Due: 2026-03-27
+- [ ] MASC-06 FR logo asset review + update | Estimate: 2h | Due: 2026-03-23
+- Execution note on 2026-03-20: if time remains after `MASC-02`, use the end of day for light prep on `MASC-05` ahead of the Monday, `2026-03-23` sync.
+- Monday note: schedule `MASC-06` first thing on Monday, `2026-03-23`, using the broader French logo asset set Mike shared.
 - Triage decision: with the EN feedback review, dynamic script evaluation, archive-page coin update, and calculator missing-values fix all closed, use the remaining time to route or schedule the cleanup bundle and unresolved handoff items.
 - Triage sequence:
   - 2026-03-19: complete EN feedback review and capture follow-on scope
@@ -66,6 +69,15 @@
 - Current planning assumption: this is a short PM or tech-lead alignment task to define the next remediation lane after the completed homepage responsiveness pass.
 - Scheduling note: the Alex sync should happen during the week of `2026-03-23`, and `MASC-05` now sits in next week's execution lane with a working due date of `2026-03-27`.
 - Delivery note: the remediation plan should be built collaboratively with Aaron and should include owner assignment and sequencing recommendations, not just notes from the Alex conversation.
+- Prep note: if execution time remains at the end of Friday, `2026-03-20`, use it to sketch inputs for the Monday, `2026-03-23` sync rather than starting another unrelated MASC workstream.
+
+## FR Review Note
+- Mike has now provided the French version of the MASC logo.
+- Immediate follow-up: update the FR side with the new logo asset first thing Monday, `2026-03-23`.
+- Asset note: the supplied vector is a colour version; current working assumption is that it can be converted to solid white if needed without requiring a separate redesign request.
+- Mike is collecting French content feedback separately, so `MASC-06` should stay scoped to the logo update rather than absorb the broader FR review.
+- Update on `2026-03-20`: there are apparently multiple logo assets in the shared Drive folder, so `MASC-06` should now start with a short asset review before the final FR-side swap is made.
+- Validation note: the Drive folder contents have not been independently inspected from this environment, so this scope update is based on the user's note rather than direct file review.
 
 ## Recent Completed Work
 - The calculator missing-values fix was completed on `2026-03-20`.
