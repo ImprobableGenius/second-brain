@@ -33,7 +33,9 @@
 - Delivery note on 2026-03-19: the archive-page category coin pattern update was completed and deployed to production.
 - [ ] MASC-02 EN feedback cleanup bundle | Estimate: 6h | Due: 2026-03-20
 - Execution note on 2026-03-20: after `LCTX-01`, the next active work item is to finish `MASC-02`.
+- End-of-day note on 2026-03-20: `MASC-02` did not close and now carries into Monday, `2026-03-23`, after the `MASC-06` logo lane and the `MASC-05` sync discussion.
 - [ ] MASC-03 Search regression handoff | Estimate: 5h | Due: TBD
+- Search note on 2026-03-20: raise in the Monday, `2026-03-23` sync that some calculator-driven pages and similar thin-content pages are producing awkward WordPress auto-generated search descriptions because the page body is mostly just the calculator embed or output.
 - [ ] MASC-04 News and Updates regression + coin review | Estimate: 4h | Due: TBD
 - [ ] MASC-05 Responsiveness remediation action plan + Alex sync | Estimate: 2h | Due: 2026-03-27
 - [ ] MASC-06 FR logo asset review + update | Estimate: 2h | Due: 2026-03-23
@@ -126,6 +128,11 @@
   - the missing lending rates link may be a Holly or content update and needs ownership confirmation
   - the sub-bullet differentiation under the myMASC information bullets may already be partly addressed and needs confirmation on what remains
   - the whitespace feedback should be confirmed against the intended How to File a Report layout pattern before implementation begins
+
+## Search Regression Note
+- `MASC-03` should include search-result summary quality, not just the visible search bar and results layout.
+- Specific symptom to review in the Monday, `2026-03-23` sync: calculator pages and similar pages where the page body is mostly just the calculator are producing awkward WordPress-generated descriptions in search results.
+- Likely outcome needed from sync: decide whether those pages need custom excerpts, search-specific summary fields, or a theme-level override for search-result descriptions.
 
 ## What This Project Appears To Be
 - A custom MASC site built on a reusable `Basic-WP` starter, then extended with MASC-specific blocks, content types, and templates

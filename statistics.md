@@ -42,6 +42,7 @@
 | 2026-03-17 | 4.0 | 0.0 | 0.0 | 0.0 | 0.0 | 4.0 | 4.0 | 100 | n/a | 0 | Seed row from confirmed MASC thematic crop maps archive completion; historical scope additions before statistics tracking are intentionally excluded. |
 | 2026-03-18 | 11.0 | 4.0 | 0.0 | 26.0 | 0.0 | 13.8 | 4.0 | 345 | 245 | 188 | MASC delivery drove the day with homepage responsiveness and the featured maps block closed; scope pressure stayed high as Banff internal discussion items, a new EN feedback review, and new MASC regression/calculator tasks were added to the queue. |
 | 2026-03-19 | 7.0 | 2.0 | 0.0 | 6.0 | 0.0 | 8.4 | 8.9 | 94 | -39 | 71 | MASC archive-page category coin deployment and the Orbeon CSV export drove delivery; the main constraint was new MASC cleanup scope opened by the EN feedback pass, though scope pressure fell well below the prior day. |
+| 2026-03-20 | 7.0 | 1.0 | 1.0 | 10.0 | 1.0 | 8.2 | 8.4 | 98 | -2 | 122 | Local Contexts hardening and the MASC calculator fix drove delivery; `MASC-02` stayed open at end of day as scope and ownership questions kept the cleanup bundle from closing. |
 
 ## Rolling Notes
 - Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.

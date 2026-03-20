@@ -4,9 +4,9 @@
 - Project type: Cross-portfolio agency site audit
 - Working estimate: 2h
 - Task code prefix: `AGCY`
-- Priority: TBD
-- Deadline: 2026-03-25
-- Status: Queued
+- Priority: Removed from queue
+- Deadline: N/A
+- Status: Off plate
 - Source of truth: Google Sheet provided by the user
 - Source link: `https://docs.google.com/spreadsheets/d/1M_OnH0yncjc14ApT3p5anQpNzMiPgbRbGetiqoGXbnI/edit?usp=sharing`
 
@@ -14,7 +14,7 @@
 - Audit the current agency portfolio of sites and identify which site most needs updating next.
 
 ## Active Task
-- [ ] AGCY-01 Portfolio audit | Estimate: 2h | Due: 2026-03-25 | Status: Triage Needed
+- None. `AGCY-01` was removed from Aaron's queue on `2026-03-20`.
 
 ## Working Context
 - The shared Google Sheet is now the working source for the portfolio list.
@@ -23,13 +23,12 @@
 - Validation note: the sheet contents have not been independently inspected from this environment yet.
 
 ## Tracking Assumptions
-- "Next mid week" is being tracked as Wednesday, `2026-03-25`.
-- The estimate is now set at `2h` based on direct instruction.
-- The audit is currently assumed to include review and prioritization work, not implementation.
+- The estimate remains recorded at `2h` for reference only.
+- The audit was assumed to include review and prioritization work, not implementation.
+- As of `2026-03-20`, this work is no longer on Aaron's plate and should not appear in the active queue.
 
 ## Open Questions
-- Should this audit rank ahead of Banff and IPAM next week, or stay as background work while current delivery commitments close?
-- Should the audit assess only technical update needs, or also content, UX, and design refresh needs?
+- None while the task remains off plate.
 
 ## Expected Output
 - A ranked view of the sites reviewed.
