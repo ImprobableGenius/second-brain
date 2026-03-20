@@ -1,0 +1,55 @@
+name: Deploy Quartz Dashboard
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Work Files
+        uses: actions/checkout@v4
+        with:
+          path: content_repo # Puts your .md files in a subfolder
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Clone Quartz Framework
+        run: git clone https://github.com/jackyzha0/quartz.git quartz_engine
+
+      - name: Move Content to Engine
+        run: |
+          rm -rf quartz_engine/content/*
+          cp -r content_repo/* quartz_engine/content/
+          # Fix: Quartz needs an index.md. We'll map brain.md to it.
+          cp content_repo/brain.md quartz_engine/content/index.md 
+
+      - name: Install & Build
+        run: |
+          cd quartz_engine
+          npm install
+          npx quartz build
+
+      - name: Upload Artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: quartz_engine/public
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

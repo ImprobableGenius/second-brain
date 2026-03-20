@@ -1,0 +1,48 @@
+# Productivity Statistics
+
+## Purpose
+- Track day-on-day productivity using the same estimate-based task system already used in the portfolio.
+- Keep the score adaptive by comparing each day against a rolling baseline instead of a fixed target.
+- Separate delivery output from scope growth so busy days with heavy intake do not get mistaken for high delivery.
+
+## Tracking Basis
+- This model uses task estimates from the portfolio, not clocked timesheet hours.
+- `Shipped h`: estimate hours on implementation or deployment tasks fully completed that day.
+- `Response h`: estimate hours on review, comment, PM, QA-response, or admin tasks fully completed that day.
+- `Progress h`: estimate hours of meaningful progress on unfinished tasks that moved materially forward that day.
+- `New Scope h`: estimate hours added to the queue that day.
+- `Blocked h`: estimate hours explicitly blocked by missing access, client input, assets, or approvals.
+
+## Adaptive Metric
+- `Weighted Output = Shipped h + (0.7 x Response h) + (0.5 x Progress h)`
+- `Rolling Baseline = median of the prior 5 logged workdays' Weighted Output`
+- If fewer than 5 prior workdays exist, use all prior logged workdays.
+- If no prior workdays exist, set the baseline equal to the current day's Weighted Output and set the index to `100`.
+- `Adaptive Productivity Index (API) = round(100 x Weighted Output / Rolling Baseline)`
+- `Day Delta % = round(100 x (Weighted Output - Previous Day Weighted Output) / Previous Day Weighted Output)`
+- `Scope Pressure % = round(100 x New Scope h / max(Weighted Output, 1))`
+
+## Reading The Metric
+- `API = 100`: on baseline for the current rolling period.
+- `API > 100`: above recent baseline.
+- `API < 100`: below recent baseline.
+- `Scope Pressure > 100%`: more estimated work entered the system than was output that day.
+- A low-output day is not necessarily a bad day if response or unblock work was the priority; that should be logged in `Response h`.
+
+## Update Rules
+- Log one row per workday at the end of the day.
+- Count a task in `Shipped h` or `Response h` only when it is fully closed for the day.
+- Use `Progress h` only for meaningful movement on open work; do not carry the same progress twice across multiple days without new movement.
+- Keep notes short and factual: one delivery driver and one constraint or blocker.
+- Do not backfill historical scope churn unless it is explicitly confirmed; use conservative seed data instead.
+
+## Daily Log
+| Date | Shipped h | Response h | Progress h | New Scope h | Blocked h | Weighted Output | Rolling Baseline | API | Day Delta % | Scope Pressure % | Notes |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: | --- |
+| 2026-03-17 | 4.0 | 0.0 | 0.0 | 0.0 | 0.0 | 4.0 | 4.0 | 100 | n/a | 0 | Seed row from confirmed MASC thematic crop maps archive completion; historical scope additions before statistics tracking are intentionally excluded. |
+| 2026-03-18 | 11.0 | 4.0 | 0.0 | 26.0 | 0.0 | 13.8 | 4.0 | 345 | 245 | 188 | MASC delivery drove the day with homepage responsiveness and the featured maps block closed; scope pressure stayed high as Banff internal discussion items, a new EN feedback review, and new MASC regression/calculator tasks were added to the queue. |
+| 2026-03-19 | 7.0 | 2.0 | 0.0 | 6.0 | 0.0 | 8.4 | 8.9 | 94 | -39 | 71 | MASC archive-page category coin deployment and the Orbeon CSV export drove delivery; the main constraint was new MASC cleanup scope opened by the EN feedback pass, though scope pressure fell well below the prior day. |
+
+## Rolling Notes
+- Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.
+- Once 10 or more workdays are logged, the API becomes a more reliable trend signal for comparing delivery rhythm and scope pressure over time.
