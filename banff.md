@@ -21,6 +21,7 @@
 - Current tracked estimate: 38h total
 - Task code prefix: `BANF`
 - [x] Respond to Michel Technical Lead feedback in Asana | Completed: 2026-03-18
+- [x] BANF-09 Audio cleanup recommendation reply | Completed: 2026-03-20
 - [ ] BANF-01 MI_308 internal wording decision | Estimate: 1h | Due: 2026-03-27 | Scheduling: only if time remains
 - [ ] BANF-02 MI_310 internal UX decision | Estimate: 1h | Due: 2026-03-27 | Scheduling: only if time remains
 - [ ] BANF-03 MI_313 return-to-map decision | Estimate: 1h | Due: 2026-03-27 | Scheduling: only if time remains
@@ -35,8 +36,20 @@
 - Reminder: schedule an internal Banff meeting by end of next week, targeting Friday, `2026-03-27`.
 - Deployment target: production
 - Deployment trigger: GitHub Action on merge to `main`
+- Audio note: a same-day recommendation request came in on `2026-03-20` for spoken-word audio recorded in a restaurant with heavy background noise; the immediate output is a tool recommendation and reply, not full production cleanup.
 - Estimate assumption: existing GitHub access plus a standard production deployment flow
 - Estimate risk: add 2h to 4h if hosting credentials, environment approvals, or custom deployment tooling are still undefined
+
+## Audio Cleanup Note - 2026-03-20
+- Incoming ask: provide guidance on better background-noise cleanup for restaurant-recorded audio where CapCut Premium did not remove enough ambient noise.
+- Response status: outreach reply completed on `2026-03-20`; no further immediate Banff prioritization is needed unless the team asks for actual audio rescue work.
+- Recommended response path:
+  - first try [Adobe Podcast Enhance Speech](https://podcast.adobe.com/en/enhance-speech-v2) for fast spoken-word cleanup
+  - if that is still not strong enough, try [Auphonic](https://auphonic.com/help/algorithms/multitrack.html) for adaptive denoise and leveling
+  - if the recording is important enough to justify a paid desktop repair pass, use [iZotope RX 11](https://www.izotope.com/en/products/rx/features/dialogue-isolate.html) or [VEA](https://www.izotope.com/en/products/vea) for stronger dialogue isolation
+- PM guidance:
+  - restaurant ambience with overlapping voices is high-uncertainty cleanup work, so a recommendation reply should avoid promising a perfect result
+  - if the Banff team needs actual rescue work beyond the tool recommendation, schedule that as a separate implementation item rather than absorbing it into `BANF-09`
 
 ## Michel Technical Lead Feedback Intake
 - Extracted `37` Technical Lead comments from the Phase 3 CSV.
