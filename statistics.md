@@ -44,6 +44,7 @@
 | 2026-03-19 | 7.0 | 2.0 | 0.0 | 6.0 | 0.0 | 8.4 | 8.9 | 94 | -39 | 71 | MASC archive-page category coin deployment and the Orbeon CSV export drove delivery; the main constraint was new MASC cleanup scope opened by the EN feedback pass, though scope pressure fell well below the prior day. |
 | 2026-03-20 | 7.0 | 1.0 | 1.0 | 10.0 | 1.0 | 8.2 | 8.4 | 98 | -2 | 122 | Local Contexts hardening and the MASC calculator fix drove delivery; `MASC-02` stayed open at end of day as scope and ownership questions kept the cleanup bundle from closing. |
 | 2026-03-23 | 6.0 | 1.0 | 0.0 | 59.0 | 0.0 | 6.7 | 8.3 | 81 | -18 | 881 | `LFMP-01` and `MASC-06` drove delivery, with the Monday internal sync closing cleanly as coordination work; the main pressure was the large `MASC-07` staging-feedback backlog entering the system the same day. |
+| 2026-03-24 | 10.5 | 1.0 | 4.0 | 8.0 | 1.0 | 13.2 | 8.2 | 161 | 97 | 61 | `MASC-02` and `MASC-D01` drove delivery, with `MASC-09` closed as a contained response item; the main constraint was that `MASC-D02` stopped just short of completion with two team-discussion blockers carried to the next day. |
 
 ## Rolling Notes
 - Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.

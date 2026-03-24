@@ -84,11 +84,16 @@
 - Make footer `News` styling match `About` and `Careers`.
 - Normalize homepage spacing between `Insurance`, `Lending`, `FSTR`, `Resources`, `Careers`, and `Contact Us`.
 - Dependency: `MASC-C01` image and copy decisions.
+- Status update on `2026-03-24`: completed.
 
 ### MASC-D02 Overview-page remediation pass `[4.5h]`
 - `Insurance Overview`: align insurance CTA buttons, fix `Seeding Deadlines` links, fit `View Land Parcel Info` on one line, correct the `Rates and Coverage` link target, and fix `Seedling` -> `Seeding`.
 - `Young Farmer Supports Overview`: fix the video link, align the `Borrowing with MASC Video` header with the video, fix the `Seeding Deadlines` resource link, and apply the approved fee-credit destination.
 - Dependency: `MASC-C01` and `MASC-C02`.
+- Status update on `2026-03-24`: in progress after `MASC-D01` completion.
+- Blockers carried to `2026-03-25` team discussion:
+  - `View Land Parcel Info` should likely be reworded instead of being forced onto one line; confirm the preferred wording with the team.
+  - Hero-image alignment should be reviewed with Kali; moving the image further left currently makes the composition look worse rather than cleaner.
 
 ### MASC-D03 Lending landing pages and IA cleanup `[5h]`
 - `Lending Overview`: restore the approved hero copy and structure, rename `Stocker Loans` -> `Livestock Loans`, update the main nav label, keep `Lending Rates` in the same tab, and align the two footer CTA rows visually.
@@ -192,6 +197,7 @@
 ## Planning Notes
 - This file is a sort-and-batch document, not a replacement for the active board.
 - `MASC-02`, `MASC-03`, and `MASC-04` already overlap some of this work, especially search, homepage cleanup, and the news block.
+- `MASC-D01` is now complete, but the main board estimate is being left conservative until the overlap with the still-open `MASC-02` cleanup bundle is reconciled.
 - If repeated factsheet issues can be solved through shared template and print-style fixes, the later page-specific sprints should compress materially.
 - If content assets, copy decks, or approvals lag, `MASC-C01` to `MASC-C06` become the main blockers to sprint flow.
 - The `Program` + `Category` factsheet filter request is likely understated if the current content is not already tagged cleanly; treat it as data-structure and categorization work first, UI work second.

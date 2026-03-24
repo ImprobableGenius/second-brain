@@ -9,7 +9,7 @@
 - Current branch: `dev`
 - Remote: `git@github.com:Vincent-Design-Inc/masc-wordpress.git`
 - Load: Medium
-- Working estimate: 76h total for current open tasks
+- Working estimate: 72.5h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -31,9 +31,8 @@
 - [x] Update archive page info cards to showcase coin categories for year, crop, and map type | Completed: 2026-03-19
 - [x] MASC-01 Missing calculator values | Completed: 2026-03-20
 - Delivery note on 2026-03-19: the archive-page category coin pattern update was completed and deployed to production.
-- [ ] MASC-02 EN feedback cleanup bundle | Estimate: 6h | Due: 2026-03-20
-- Execution note on 2026-03-20: after `LCTX-01`, the next active work item is to finish `MASC-02`.
-- End-of-day note on 2026-03-20: `MASC-02` did not close and now carries into Monday, `2026-03-23`, after the `MASC-06` logo lane and the `MASC-05` sync discussion.
+- [x] MASC-02 EN feedback cleanup bundle | Completed: 2026-03-24
+- Completion note on 2026-03-24: the cleanup bundle is now closed.
 - [ ] MASC-03 Search regression handoff | Estimate: 5h | Due: TBD
 - Search note on 2026-03-20: raise in the Monday, `2026-03-23` sync that some calculator-driven pages and similar thin-content pages are producing awkward WordPress auto-generated search descriptions because the page body is mostly just the calculator embed or output.
 - [ ] MASC-04 News and Updates regression + coin review | Estimate: 4h | Due: TBD
@@ -43,6 +42,17 @@
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | Estimate: 55h | Due: TBD
 - [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | Estimate: 4h | Due: 2026-03-25
 - Execution note on 2026-03-24: pull `MASC-08` into today only if `MASC-02` and `BANF-10` stay contained; otherwise treat it as the next MASC implementation item for Wednesday, `2026-03-25`.
+- [ ] MASC-10 Tristin dataset-path response | Estimate: 0.5h | Due: 2026-03-25
+- Execution note on 2026-03-24: handle `MASC-10` as a short response task after the main staging bundles, not as a full implementation lane.
+- [ ] MASC-11 Borrowing with MASC calculator block follow-up | Estimate: 2h | Due: 2026-03-25
+- Execution note on 2026-03-24: treat `MASC-11` as a separate follow-up from `MASC-08`; this is a second missing calculator-block issue on the `Borrowing with MASC` page and should be handled only if capacity opens after the primary staging lane.
+- [x] MASC-09 Feeder Plus loan maximum rendering review | Completed: 2026-03-24
+- Completion note on 2026-03-24: the response relating to `programDetails.xml` and the `FeederPlus` dataset has been completed, so this contained review item is now off the active MASC lane.
+- Sprint-batch update on `2026-03-24`: `MASC-D01` is complete and `MASC-D02` is now the next active staging-feedback lane.
+- `2026-03-24` progress note: `MASC-D02` is almost complete, with two remaining discussion items to carry into tomorrow:
+  - review better wording for `View Land Parcel Info` instead of forcing the current label onto one line
+  - review hero-image alignment with Kali because pushing the image left currently makes the layout look worse
+- Burn-down note on `2026-03-24`: `MASC-02` is now closed. Keep `MASC-07` conservative until the next planning pass instead of reducing the backlog ad hoc midstream.
 - Execution note on 2026-03-20: if time remains after `MASC-02`, use the end of day for light prep on `MASC-05` ahead of the Monday, `2026-03-23` sync.
 - Monday note: schedule `MASC-06` first thing on Monday, `2026-03-23`, using the broader French logo asset set Mike shared.
 - Triage decision: with the EN feedback review, dynamic script evaluation, archive-page coin update, and calculator missing-values fix all closed, use the remaining time to route or schedule the cleanup bundle and unresolved handoff items.
@@ -81,6 +91,40 @@
   - add the circular bin volume calculator to the page without turning this into a broader calculators redesign
   - prioritize completion today only if the current spillover work closes quickly; otherwise make it the next implementation item tomorrow
 
+## Borrowing With MASC Calculator Note - 2026-03-24
+- Follow-up item: there is also a missing calculator block on the `Borrowing with MASC` page that did not get completed today.
+- Working PM read:
+  - treat this as separate from `MASC-08`, because it affects a different page and may not be the same widget
+  - keep it as a contained follow-up rather than broadening it into a full calculator-pages sweep
+- Planning assumption for `MASC-11`:
+  - identify the missing block and restore or wire it correctly on the page
+  - complete only if capacity opens after `MASC-D02`, `MASC-D03`, `BANF-10`, and `MASC-10`
+- Estimate note:
+  - `2h` assumes the missing block can reuse an existing MASC calculator or block pattern without new component work
+
+## Feeder Plus Loan Maximum Note - 2026-03-24
+- Reminder item: review the `Feeder Plus` lending content where `Loans are available up to $5,750,000` is expected to be supplied from `programDetails.xml / lending / program / FeederPlus / FP_loan_maximum`.
+- Working issue summary:
+  - calculator/details were previously blocked because required details were missing
+  - a `[year]` shortcode was proposed as a fallback or rendering aid
+  - latest note says the current implementation is turning the value into a date, which needs verification
+- Goal for `MASC-09`:
+  - confirm whether the field source is correct
+  - confirm whether the shortcode choice is wrong for this field
+  - decide what the correct rendering path should be before this gets folded into broader lending cleanup
+
+## Tristin Dataset Path Note - 2026-03-24
+- New short response item: reply to Tristin on the MASC dataset-path question.
+- Source notes to reference:
+  - `Imported from allCrops.xml / Basic Hay / varieties / Low Dollar Value`
+  - `Supplied by allCrops / crop Wheat / variety Winter Wheat / per_bushel`
+- Current issue:
+  - these are examples where the available path options are not visible or not obvious in the current tooling path picker
+- Goal for `MASC-10`:
+  - send a bounded response back to Tristin
+  - confirm the intended source paths from the data model
+  - note the gap that the path options are not appearing as expected
+
 ## Staging Feedback Intake - 2026-03-23
 - Source reviewed: `/Users/aarongilani/Downloads/MASC Staging Link Feedback/Main.html`
 - Detailed content-vs-dev sort and sprint batching file: `/Users/aarongilani/project-manager/masc/masc-new-feedback-sort-2026-03-23.md`
@@ -107,6 +151,16 @@
   - search and calculator issues such as awkward search descriptions, search input problems, calculator double-entry flow, and data-driven value mismatches
   - resource and MMPP issues such as active-year labeling, table presentation, link hookups, and Program and Seeding Deadlines structure
   - factsheets index issues such as filter redesign, taxonomy tagging, missing entries, and categorization cleanup
+- Execution update on `2026-03-24`:
+  - `MASC-D01` completed
+  - `MASC-D02` is now in progress
+  - `MASC-02` is now complete, so the active delivery lane is `MASC-D02` first, then `MASC-08`
+- Immediate next-day plan:
+  - close `MASC-D02`
+  - move into `MASC-D03`
+  - complete `MASC-10`
+  - complete the pending Banff follow-up from `BANF-10`
+  - treat `IDE-01` and `MASC-08` as float items only if capacity opens after the primary lane
 - Main estimate assumption:
   - if the repeated factsheet issues must be fixed page by page instead of through shared template or stylesheet changes, add `20h` to `30h`
 - Scope note:

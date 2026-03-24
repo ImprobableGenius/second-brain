@@ -1,8 +1,8 @@
 # Daily Report - 2026-03-17
 
 ## 📊 Capacity
-- Weekly burn: 192h / 40h
-- Portfolio load: 480% of weekly capacity
+- Weekly burn: 187h / 40h
+- Portfolio load: 468% of weekly capacity
 - Near-term delivery window: MASC due 2026-03-20, Banff release due 2026-03-31, Banff feedback update due 2026-04-03
 
 ## 🟢 What's Done
@@ -36,6 +36,9 @@
 - Next week closeout: complete `IFWH` accessibility audit and remediation updates by Friday, 2026-03-27.
 - Next week closeout: complete `NWAC` final documentation and compliance research by Friday, 2026-03-27.
 - Next week scheduled item: `MACY-01` is approved to proceed, stays owned by Aaron for now, carries an internal follow-up on Wednesday, 2026-03-25, has an internal target date of Friday, 2026-03-27, and now explicitly includes data backfill plus a short update note for the new post type workflow.
+- New project intake: `IDE-01` is a bounded 1h support reply for tomorrow to help the client update the `Initiative Hero` circular image and the `Download Brochure (PDF)` button on the IDE Canada site.
+- New MASC short-response item: `MASC-10` is a 0.5h reply to Tristin on missing dataset-path options for `allCrops.xml`, currently queued for tomorrow behind the primary staging bundles.
+- New MASC float item: `MASC-11` is a 2h follow-up to restore the missing calculator block on the `Borrowing with MASC` page that did not get completed today.
 - MASC EN feedback triage surfaced a new 6h cleanup bundle covering page-header whitespace reduction, table-border cleanup, a targeted program-link fix, borrowing-amount formatting, and a direct `my.masc.mb.ca` sign-in URL update once ownership and scope are confirmed.
 - MASC queue addition: handoff-ready search regression fix to restore search results and the search bar to acceptable quality, estimated at 5h and currently waiting on scope clarification.
 - Monday sync reminder for `MASC-03`: some calculator-driven pages and similar thin-content pages are producing awkward WordPress auto-generated search descriptions, so the sync should decide whether the right fix is custom excerpts, search-summary overrides, or a theme-level search-result rule.
@@ -44,6 +47,13 @@
 - `MASC-05` internal sync is now complete; the remaining follow-through is to capture the written plan, owner assignment, and sequencing recommendations cleanly.
 - MASC staging feedback intake from `2026-03-23` has now been processed: `106` rows were reviewed, `344` struck-through items were excluded as complete, and `579` unresolved lines remain, so `MASC-07` has been added as a `55h` net-new remediation backlog estimate beyond the work already tracked in `MASC-02`, `MASC-03`, and `MASC-04`.
 - MASC queue addition: `MASC-08` is a new 4h build item to create or restore the circular bin volume calculator widget and place it on the `Insurance with MASC` page, with a working due date of Wednesday, 2026-03-25 and permission to pull it into today if the current spillover lane stays contained.
+- MASC queue addition: `MASC-09` is a same-day 1h review item to inspect the `Feeder Plus` loan-maximum rendering path, verify the `FP_loan_maximum` source, and confirm why the current shortcode approach appears to be turning the value into a date.
+- `MASC-09` was completed on 2026-03-24; the `programDetails.xml` response for the `FeederPlus` dataset is now closed.
+- MASC sprint-batch update: `MASC-D01` is complete, `MASC-D02` is now in progress, and the cleanup bundle is still being worked in parallel.
+- `MASC-02` was completed on 2026-03-24.
+- `MASC-D01` was completed on 2026-03-24.
+- MASC sprint-batch update: `MASC-D02` is nearly complete, with two discussion blockers carried to tomorrow, wording for `View Land Parcel Info` and hero-image alignment review with Kali.
+- `MASC-02` was completed on 2026-03-24.
 - MASC later-sync flag: several lending-page feedback items now look backend-dataset-driven rather than content-only, including `Loan Maximum`, `Young Farmer Rebate`, and `View Lending Rates`, so they should be reviewed as rendering / formatter logic instead of routine copy cleanup.
 - MASC later-sync flag: the factsheets filter request to move from the current single filter to `Program` + `Category` also looks materially larger than a UI change because it likely requires tagging, categorization, and source-data cleanup first.
 - High-priority MASC QA fix: factsheets with white text on the webpage are not readable in print, so that issue should be treated as urgent print breakage under the print-stylesheet remediation lane.
@@ -80,9 +90,10 @@
 - The new MASC News and Updates regression task depends on design review of the category coin treatment and may widen if that design decision needs to be propagated beyond the `masc-home-news` block.
 - `MASC-05` now explicitly includes the written plan, Alex sync outcome, owner assignment, and sequencing recommendations, and it could still widen if the conversation turns into a broader sitewide responsiveness audit.
 - `MASC-08` is expected to be contained if it can reuse the existing calculator-widget pattern, but it may widen if the bin volume tool needs net-new widget rendering or custom styling work to fit the current page layout.
+- `MASC-D01` completion is positive delivery, but `MASC-07` should still stay conservative until the next planning pass rather than being reduced ad hoc midstream.
 - The MASC EN feedback pass has already surfaced a new cleanup bundle plus ownership questions around Jordan, Holly, client-approved global changes, and whether the myMASC sign-in update is page-local or sitewide.
 - The newly processed MASC staging feedback export is the largest current portfolio scope increase: the estimate assumes repeated factsheet issues can be solved systemically, and it will grow materially if those fixes must be handled page by page.
-- `MASC-02` is still open even though the Monday `MASC-06` and internal sync items are now complete, so the spillover cleanup bundle still needs a clean execution slot.
+- `MASC-02` is now closed, so the active MASC execution lane shifts to `MASC-D02`, `MASC-08`, and the remaining `MASC-05` follow-through.
 - The new thematic crop maps archive-page info-card task assumes existing coin styling can be reused for year, crop, and map type; it may widen if design wants a new taxonomy-coin variant.
 - The featured thematic crop maps block is now live on the French-side page, but the content team still needs to supply French translations for the block content.
 - Mike is collecting broader FR content feedback separately, and `MASC-06` has now closed cleanly without expanding into a wider French review task.
@@ -93,6 +104,9 @@
 - New maintenance intake: UA Local 179 Galaxy S7 compatibility check
 - Current MASC next steps: route Jordan-owned plugin items and content-owned fixes to the right owners, finish `MASC-02`, capture the `MASC-05` written plan and sequencing follow-through, and get French translations for the featured block content on the French `MMPP` page.
 - Current MASC next steps: finish `MASC-02`, complete `BANF-10`, pull `MASC-08` into today if runway opens, otherwise make it the next MASC implementation item tomorrow, and then return to the remaining owner-routing and `MASC-05` follow-through.
+- Tomorrow support item: `IDE-01` to investigate the custom `Initiative Hero` image source and brochure-PDF button flow, then send the client the correct update path.
+- Current MASC next steps: close `MASC-D02`, move into `MASC-D03`, complete `BANF-10`, handle `MASC-10`, and use `IDE-01`, `MASC-08`, plus `MASC-11` only as float items if capacity opens after the primary lane.
+- Current MASC next steps: use tomorrow to clear the two `MASC-D02` discussion blockers with the team, then close `MASC-D02`, keep `MASC-08` as the next contained MASC implementation item, handle `IDE-01`, and then return to `BANF-10` and the remaining `MASC-05` follow-through.
 - New MASC queue item: `MASC-07` staging feedback remediation backlog beyond the currently tracked MASC scope
 - New MASC handoff item: search results and search bar regression fix
 - New MASC handoff item: News and Updates block regression with category coin design review
@@ -129,4 +143,4 @@
 - Keep the `MI_330` alt-text reminder visible so content collection closes image metadata gaps before submission.
 
 ## Slack Update
-Today's PM pass now reflects that `MASC-06` is complete and the Monday internal sync has also been completed, while `MASC-02` remains the main open MASC spillover item and `MASC-05` now only needs the written follow-through captured. `IFWH`, `NWAC`, and `MACY-01` remain the main closeout items for the week ahead of Banff PM-only work. The main risk is still capacity: tracked work sits at 186h against a 40h week, and the cleanup bundle, owner-dependent follow-ups, Banff remediation, `MASC-05` follow-through, `MACY-01` handoff planning, the new `UA Local 179` maintenance intake, and the `NWAC` documentation framing decisions still need clean sequencing.
+Today's closeout reflects a strong MASC delivery day: `MASC-02`, `MASC-D01`, and `MASC-09` are closed, and `MASC-D02` is nearly complete with only two discussion blockers carrying into tomorrow. The next contained MASC build item is still `MASC-08`, while `IDE-01` is queued as a short client-support item for tomorrow and `BANF-10` remains a bounded research-and-response task. The main long-tail risk is still capacity: tracked work sits at 187h against a 40h week, and the remaining pressure comes from the larger MASC staging backlog, Banff remediation and release work, `IFWH`, `NWAC`, `MACY-01`, and the other owner-dependent follow-ups still open on the board.

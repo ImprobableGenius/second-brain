@@ -16,6 +16,7 @@
 - [amik.md](./amik.md)
 - [banff.md](./banff.md)
 - [encore-cabinets.md](./encore-cabinets.md)
+- [ide.md](./ide.md)
 - [ifwh.md](./ifwh.md)
 - [ipam.md](./ipam.md)
 - [leaflet-maps-plugin.md](./leaflet-maps-plugin.md)
@@ -37,6 +38,7 @@
 - [production-summary-2026-03-23.md](./production-summary-2026-03-23.md)
 - [production-summary-2026-03-23.pdf](./production-summary-2026-03-23.pdf)
 - [tomorrow-2026-03-24.md](./tomorrow-2026-03-24.md)
+- [tomorrow-2026-03-25.md](./tomorrow-2026-03-25.md)
 
 ## Notes
 - MASC-specific working documents now live under [`./masc/`](./masc/).
