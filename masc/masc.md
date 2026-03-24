@@ -9,7 +9,7 @@
 - Current branch: `dev`
 - Remote: `git@github.com:Vincent-Design-Inc/masc-wordpress.git`
 - Load: Medium
-- Working estimate: 19h total for current open tasks
+- Working estimate: 76h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -38,7 +38,11 @@
 - Search note on 2026-03-20: raise in the Monday, `2026-03-23` sync that some calculator-driven pages and similar thin-content pages are producing awkward WordPress auto-generated search descriptions because the page body is mostly just the calculator embed or output.
 - [ ] MASC-04 News and Updates regression + coin review | Estimate: 4h | Due: TBD
 - [ ] MASC-05 Responsiveness remediation action plan + Alex sync | Estimate: 2h | Due: 2026-03-27
-- [ ] MASC-06 FR logo asset review + update | Estimate: 2h | Due: 2026-03-23
+- 2026-03-23 update: the internal sync is complete; `MASC-05` remains open only for the written plan capture, owner assignment, and sequencing follow-through.
+- [x] MASC-06 FR logo asset review + update | Completed: 2026-03-23
+- [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | Estimate: 55h | Due: TBD
+- [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | Estimate: 4h | Due: 2026-03-25
+- Execution note on 2026-03-24: pull `MASC-08` into today only if `MASC-02` and `BANF-10` stay contained; otherwise treat it as the next MASC implementation item for Wednesday, `2026-03-25`.
 - Execution note on 2026-03-20: if time remains after `MASC-02`, use the end of day for light prep on `MASC-05` ahead of the Monday, `2026-03-23` sync.
 - Monday note: schedule `MASC-06` first thing on Monday, `2026-03-23`, using the broader French logo asset set Mike shared.
 - Triage decision: with the EN feedback review, dynamic script evaluation, archive-page coin update, and calculator missing-values fix all closed, use the remaining time to route or schedule the cleanup bundle and unresolved handoff items.
@@ -59,12 +63,80 @@
 - Estimate assumption: EN feedback follow-up cleanup covers developer-owned fixes already identified in review, specifically page-header whitespace reduction, table-border cleanup, a targeted program-link update, borrowing-amount formatting cleanup, and a direct `my.masc.mb.ca` sign-in link change rather than plugin-owned or content-owned changes
 - Estimate assumption: search regression work covers restoring the global search bar behavior, search results presentation, and search-quality regressions in the current theme stack rather than redesigning search from scratch
 - Estimate assumption: News and Updates regression work covers the existing `masc-home-news` block and its category coin treatment rather than a full news-block redesign
+- Estimate assumption: `MASC-08` reuses the existing MASC calculator widget pattern and existing circular bin volume calculator functionality, and the work is mainly block placement, page wiring, and visual fit on the Insurance with MASC page rather than a net-new calculator engine
 - Estimate risk: add 2h to 4h if responsiveness issues span multiple custom blocks, if production rollout reveals regression fixes, or if the featured maps block needs bespoke query logic or editorial controls beyond standard block fields
 - Estimate risk: add 2h to 4h if any of the EN feedback cleanup items turn out to be sitewide template changes, plugin-layer edits, or content-owned updates rather than isolated theme fixes
 - Estimate risk: add 2h to 4h if the missing calculator values trace back to a broader payload, schema, or cross-program data issue instead of a contained correction
 - Estimate risk: add 2h to 3h if the regression includes deeper query relevance issues in `lib/search-features.php` in addition to the visible search bar and search results UI regressions
 - Estimate risk: add 1h to 2h if the design department asks for broader category coin changes that need to be propagated beyond the News and Updates block
 - Estimate risk: add 1h to 2h if MASC-05 expands beyond the agreed plan, Alex sync, owner assignment, and sequencing recommendation set into a broader remediation audit
+- Estimate risk: add 1h to 2h if `MASC-08` requires net-new widget rendering, custom data hookup, or new calculator-specific styling beyond the existing MASC calculator frame pattern
+
+## Insurance With MASC Calculator Note - 2026-03-24
+- New delivery item: the circular bin volume calculator widget is currently missing from the `Insurance with MASC` page and needs to be created or restored and wired into that page.
+- Reference page: `https://mascag.wpenginepowered.com/insurance/insurance-coverage/insurance-with-masc/`
+- Visual note from review: the missing section currently sits between the `Resources` area and `Quick Links`, where the page still shows a placeholder that the calculators and tools section should be added.
+- Current PM assumption:
+  - reuse the existing calculator-widget pattern already present elsewhere on the MASC site
+  - add the circular bin volume calculator to the page without turning this into a broader calculators redesign
+  - prioritize completion today only if the current spillover work closes quickly; otherwise make it the next implementation item tomorrow
+
+## Staging Feedback Intake - 2026-03-23
+- Source reviewed: `/Users/aarongilani/Downloads/MASC Staging Link Feedback/Main.html`
+- Detailed content-vs-dev sort and sprint batching file: `/Users/aarongilani/project-manager/masc/masc-new-feedback-sort-2026-03-23.md`
+- Processing rule used: struck-through feedback items were treated as complete and excluded from the new estimate.
+- Working parse totals:
+  - `106` feedback rows reviewed
+  - `344` struck-through items treated as already complete
+  - `579` unresolved feedback lines remain
+  - `48` rows include explicit `NEW` items
+  - `24` rows include explicit `NOT FIXED` or carryover items
+- Estimate approach:
+  - treat repeated factsheet and template issues as systemic fixes where possible instead of estimating every page as a standalone implementation
+  - keep the already-tracked `MASC-02`, `MASC-03`, and `MASC-04` estimates in place and add only the net-new remainder as `MASC-07`
+- Working bundle estimate behind `MASC-07`:
+  - shared factsheet and template remediation across repeated page patterns: `28h`
+  - overview, lending, resource, and general page remediation beyond current tracked scope: `18h`
+  - search, calculator, dynamic-data, and date-logic fixes beyond current tracked scope: `16h`
+  - final regression, print stylesheet, and QA sweep: `8h`
+  - less work already tracked in `MASC-02`, `MASC-03`, and `MASC-04`: `-15h`
+  - net new estimate added as `MASC-07`: `55h`
+- Main repeated patterns found in the export:
+  - factsheet template issues such as missing illustrations, bold-date treatment, missing logos, broken contact links, print styling, breadcrumb spacing, and bullet-list alignment
+  - overview and landing-page issues such as hero image or copy mismatches, footer or Quick Links inconsistencies, and incorrect link targets
+  - search and calculator issues such as awkward search descriptions, search input problems, calculator double-entry flow, and data-driven value mismatches
+  - resource and MMPP issues such as active-year labeling, table presentation, link hookups, and Program and Seeding Deadlines structure
+  - factsheets index issues such as filter redesign, taxonomy tagging, missing entries, and categorization cleanup
+- Main estimate assumption:
+  - if the repeated factsheet issues must be fixed page by page instead of through shared template or stylesheet changes, add `20h` to `30h`
+- Scope note:
+  - copy approvals, image swaps, and content-provided assets are still likely dependencies even where implementation is straightforward
+- Meeting flag:
+  - `News`: confirm whether the `Category` control should be deleted and the search bar alone is enough for filtering before treating that as a dev change
+- Meeting flag:
+  - `Knowledge Centre`: applied-filter colour coding to match content chips is technically feasible, but it is not in the current design and should be discussed before being treated as dev remediation
+- High-priority QA note:
+  - factsheets with white text on the webpage are not readable on the printable version; treat this as urgent print QA breakage inside the print-stylesheet lane, not as optional print cleanup
+  - table cell shading should be removed for printer-friendliness, with only light grey header cells retained; treat this as the same urgent print QA lane and complete it as soon as possible
+
+## Later Sync Flag - factsheets taxonomy and categorization
+- The requested factsheets filter change from the current single filter to `Program` + `Category` is flagged as significant tagging and categorization work.
+- PM guidance:
+  - do not treat this as a light UI-filter enhancement
+  - review the source taxonomy document in sync first, then confirm whether the current factsheet content is already tagged cleanly enough to support a primary `Program` filter plus secondary `Category` filter
+  - if tagging is incomplete or inconsistent, the work should be estimated as content-model and source-data normalization before front-end filter implementation
+
+## Later Sync Flag - backend-driven lending values
+- The following MASC feedback items are flagged for a later sync because they appear to be sourced from the backend dataset and may need conditional rendering or formatter logic rather than static page edits:
+  - `Loan Maximum` comma formatting such as `$5,750,000`
+  - `View Lending Rates` link behavior where the CTA may be rendered from dataset-driven content
+  - `Young Farmer Rebate` numeric formatting such as `$400,000`
+  - phrase normalization such as `two per cent` and `five years of the loan` if those strings are injected from structured source data
+- PM guidance:
+  - do not treat these as normal content polish inside a small page-cleanup sprint
+  - review in sync first, then decide whether they belong in a separate backend-logic task or a rendering-layer formatting pass
+- Separate dev remediation note:
+  - `Your myMASC` browser tab title should render as `Your myMASC`, not `Your **my**MASC`; this is tracked as front-end rendering cleanup rather than content review.
 
 ## Responsiveness Planning Note
 - Add a follow-up to build an action plan for responsiveness remediation and discuss it with Alex.
@@ -72,6 +144,7 @@
 - Scheduling note: the Alex sync should happen during the week of `2026-03-23`, and `MASC-05` now sits in next week's execution lane with a working due date of `2026-03-27`.
 - Delivery note: the remediation plan should be built collaboratively with Aaron and should include owner assignment and sequencing recommendations, not just notes from the Alex conversation.
 - Prep note: if execution time remains at the end of Friday, `2026-03-20`, use it to sketch inputs for the Monday, `2026-03-23` sync rather than starting another unrelated MASC workstream.
+- Update on `2026-03-23`: the internal sync is complete; keep `MASC-05` open only for the written plan, owner assignment, and sequencing capture that follows from that discussion.
 
 ## FR Review Note
 - Mike has now provided the French version of the MASC logo.
@@ -80,8 +153,11 @@
 - Mike is collecting French content feedback separately, so `MASC-06` should stay scoped to the logo update rather than absorb the broader FR review.
 - Update on `2026-03-20`: there are apparently multiple logo assets in the shared Drive folder, so `MASC-06` should now start with a short asset review before the final FR-side swap is made.
 - Validation note: the Drive folder contents have not been independently inspected from this environment, so this scope update is based on the user's note rather than direct file review.
+- Completion note on `2026-03-23`: the FR logo asset review and update are now complete.
 
 ## Recent Completed Work
+- The FR logo asset review and update, `MASC-06`, were completed on `2026-03-23`.
+- The Monday internal sync for the broader responsiveness lane was completed on `2026-03-23`.
 - The calculator missing-values fix was completed on `2026-03-20`.
 - The archive-page category coin update for year, crop, and map type was completed and deployed to production on `2026-03-19`.
 - The dynamic script evaluation and next-step capture were completed on `2026-03-19`.
@@ -254,3 +330,4 @@
 - This is not a blank starter anymore; it is an actively customized client theme with multiple content systems already in place
 - The strongest immediate execution risk is not missing architecture, it is coordination: current work-in-progress, outdated sprint notes, and partially stale QA tooling can create false signals if treated as fully current
 - Before committing to a short deadline, confirm which of the current workstreams is the actual March 27 deliverable
+- The `2026-03-23` staging feedback export materially expands open scope, so a fresh due date and execution order should be confirmed before treating `MASC-07` as committed delivery

@@ -87,7 +87,7 @@
 ## Queue Positioning
 - Keep this project in the queue until capacity is available
 - Do not assign a hard delivery date yet
-- Follow-up reminder: if no response is received by Monday, 2026-03-23, send an AMIK check-in and confirm whether `ENH-001` should remain parked until capacity opens
+- Follow-up reminder: if no response is received by Monday, 2026-03-30, send an AMIK check-in and confirm whether `ENH-001` should remain parked until capacity opens
 - When capacity opens, first step should be to review `fix/open-date-bug` against `docs/PROJECT_BOARD.md` and decide whether to continue that branch or reconcile it with `main`
 
 ## Useful Starting Points
@@ -101,5 +101,5 @@
 ## PM Notes
 - AMIK is in maintenance mode, not active sprint delivery
 - The queue trigger is available capacity, not calendar urgency
-- Current PM reminder is to follow up next week if the client or stakeholder does not respond by 2026-03-23
+- Current PM reminder is to follow up during the week of `2026-03-30` if the client or stakeholder still has not responded
 - When this project is pulled into active work, treat the first hour as review/reconciliation time because the board and branch state are not aligned

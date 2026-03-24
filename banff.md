@@ -18,7 +18,7 @@
 - Feedback update due: 2026-04-03
 - Tracking override: using `2026-03-31` for release work based on direct instruction, with the Banff feedback update now formally due `2026-04-03`
 - Priority: Medium
-- Current tracked estimate: 38h total
+- Current tracked estimate: 40h total
 - Task code prefix: `BANF`
 - [x] Respond to Michel Technical Lead feedback in Asana | Completed: 2026-03-18
 - [x] BANF-09 Audio cleanup recommendation reply | Completed: 2026-03-20
@@ -30,6 +30,7 @@
 - [ ] BANF-06 Michel feedback remediation bundle | Estimate: 20h | Queue week of: 2026-03-23 | Formal due: 2026-04-03 | Internal target: 2026-03-27
 - [ ] BANF-07 Push theme to GitHub | Estimate: 2h | Due: 2026-03-31
 - [ ] BANF-08 Production deployment pipeline | Estimate: 6h | Due: 2026-03-31
+- [ ] BANF-10 WPML URL structure review + Michele response | Estimate: 2h | Due: 2026-03-27
 - Working date assumption: "this week" = Friday, March 20, 2026; "next week" = Friday, March 27, 2026
 - Scheduling note: the Banff feedback update is formally due Friday, April 3, 2026, but planning should still target completion ahead of that date so the submission is not carried to the edge.
 - Internal PM note: Banff PM-only review work should now sit at the end of next week and be treated as time-permitting internal triage rather than a same-day or early-week commitment.
@@ -126,10 +127,25 @@
 - `MI_312`: flag to the PO and content collection team that sponsor logos should be acquired or created as SVG versions where possible. The current versions render blurry at times on high-DPI screens, so this is also an asset-quality dependency rather than only a styling issue.
 - `MI_324`: flag to the PO and content collection team that the next submission needs at least one full language-toggle implementation example backed by actual translated content. This depends on confirming the content pair and supplying approved source and translated copy, not only wiring the toggle UI.
 - `MI_330`: flag to the content collection team that all non-decorative Banff images need alt text. Michel's note is a reminder-level observation, but it should be treated as a concrete content QA requirement before submission.
+- `MI_336`: password protection is implemented and complete as of `2026-03-23`; this is no longer an open Banff environment dependency.
 
 ## Decision Log
 - `2026-03-18` - `MI_315`: use ASCII or Unicode character encoding to obfuscate publicly rendered email addresses instead of exposing them as straight HTML. Planning assumption: treat this as the working spam-mitigation approach for next week's remediation, while keeping the visible address readable for users.
 - `2026-03-18` - `MI_324`: confirm that the next submission should include at least one full language-toggle implementation example with actual translated content, and treat PO/content approval as a prerequisite instead of assuming placeholder text is sufficient.
+
+## WPML URL Structure Note - 2026-03-24
+- Michele's question is architectural: do translated Banff pages keep English slugs, or do slugs and path segments translate as part of the language-toggle experience.
+- Working research note from WPML official docs:
+  - WPML supports multiple language URL formats, including directories, separate domains, and query-parameter mode.
+  - WPML supports translated slugs for pages, posts, custom post types, and taxonomies when slug translation is enabled and the content type is configured as translatable.
+  - This should be treated as an early architecture decision because it affects permalink strategy, translated content setup, and how closely the language switcher should mirror localized URL structures.
+- Response goal for `BANF-10`:
+  - confirm the supported URL patterns
+  - confirm whether translated slugs are viable for Banff's intended content model
+  - reply to Michele with a recommendation before the next-submission language-toggle implementation example is scoped
+- Source notes:
+  - [Language Setup](https://wpml.org/documentation/getting-started-guide/language-setup/)
+  - [How to Translate URL Slugs with WPML](https://wpml.org/documentation/getting-started-guide/translating-page-slugs/)
 
 ## Remediation Buckets
 - Map, filter, and navigation behavior:
@@ -167,7 +183,7 @@
 - `MI_324` remains deferred to the next submission and depends on PO/content confirming the translated example content needed to validate the language toggle properly.
 - `MI_315` now has a working implementation decision: use ASCII or Unicode email obfuscation rather than leaving exposed addresses as plain HTML, and verify the rendered output remains usable.
 - `MI_330` should be flagged to content collection as a reminder to add alt text to all non-decorative images, while `MI_334` may still need content review to distinguish decorative imagery from content images needing alt text.
-- `MI_336` requires password-protection access outside normal theme code.
+- `MI_336` password protection was implemented and completed on `2026-03-23`, so it should no longer be treated as an open access blocker.
 - `MI_314` and `MI_335` may expand once breakpoint and keyboard-regression testing begins.
 
 ## What This Project Appears To Be
