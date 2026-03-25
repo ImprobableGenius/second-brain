@@ -45,6 +45,7 @@
 ## Scheduling Note
 - This project is now targeted for closure during the week of `2026-03-23`, with completion due by Friday, `2026-03-27`.
 - Planning assumption: if audience or compliance-framing decisions remain unresolved, the documentation should still be pushed to a closeout-ready draft rather than left unscheduled.
+- Protection note on `2026-03-25`: `NWAC-01` must be pushed through this week so the week of `2026-03-30` can be protected for Banff execution.
 
 ## Source Links
 - [PIPEDA fair information principles](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/)

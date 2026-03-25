@@ -9,7 +9,7 @@
 - Current branch: `dev`
 - Remote: `git@github.com:Vincent-Design-Inc/masc-wordpress.git`
 - Load: Medium
-- Working estimate: 72.5h total for current open tasks
+- Working estimate: 75h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -36,22 +36,28 @@
 - [ ] MASC-03 Search regression handoff | Estimate: 5h | Due: TBD
 - Search note on 2026-03-20: raise in the Monday, `2026-03-23` sync that some calculator-driven pages and similar thin-content pages are producing awkward WordPress auto-generated search descriptions because the page body is mostly just the calculator embed or output.
 - [ ] MASC-04 News and Updates regression + coin review | Estimate: 4h | Due: TBD
-- [ ] MASC-05 Responsiveness remediation action plan + Alex sync | Estimate: 2h | Due: 2026-03-27
-- 2026-03-23 update: the internal sync is complete; `MASC-05` remains open only for the written plan capture, owner assignment, and sequencing follow-through.
+- [x] MASC-05 Responsiveness remediation action plan + Alex sync | Completed: 2026-03-25
+- 2026-03-25 completion note: the sync is done, the responsive tasks were broken out, and the remediation lane was handed off to Alex.
 - [x] MASC-06 FR logo asset review + update | Completed: 2026-03-23
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | Estimate: 55h | Due: TBD
 - [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | Estimate: 4h | Due: 2026-03-25
 - Execution note on 2026-03-24: pull `MASC-08` into today only if `MASC-02` and `BANF-10` stay contained; otherwise treat it as the next MASC implementation item for Wednesday, `2026-03-25`.
-- [ ] MASC-10 Tristin dataset-path response | Estimate: 0.5h | Due: 2026-03-25
-- Execution note on 2026-03-24: handle `MASC-10` as a short response task after the main staging bundles, not as a full implementation lane.
+- Blocked note on 2026-03-25: `MASC-08` is now blocked pending design input and client input before implementation can continue.
+- [x] MASC-10 Tristin dataset-path response | Completed: 2026-03-25
+- Completion note on 2026-03-25: the sort message was sent to Tristin and the dataset-path response is now resolved.
 - [ ] MASC-11 Borrowing with MASC calculator block follow-up | Estimate: 2h | Due: 2026-03-25
 - Execution note on 2026-03-24: treat `MASC-11` as a separate follow-up from `MASC-08`; this is a second missing calculator-block issue on the `Borrowing with MASC` page and should be handled only if capacity opens after the primary staging lane.
+- Blocked note on 2026-03-25: `MASC-11` is now blocked pending design input and client input before implementation can continue.
+- [ ] MASC-12 Overview hero program image size increase | Estimate: 2h | Due: TBD
+- Estimate assumption: `MASC-12` is a contained hero-image sizing and layout pass on the existing overview-page hero pattern, not a broader hero redesign.
+- [ ] MASC-13 Overview nav gradient accessibility fix | Estimate: 3h | Due: TBD
+- Estimate assumption: `MASC-13` is a contained fix to restore the dark gradient treatment under the nav on overview landing pages and improve contrast, not a full WCAG audit of the entire page family.
+- [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25
+- Completion note on 2026-03-25: the missing plugin fields were added and the same-day expansion task is now closed.
 - [x] MASC-09 Feeder Plus loan maximum rendering review | Completed: 2026-03-24
 - Completion note on 2026-03-24: the response relating to `programDetails.xml` and the `FeederPlus` dataset has been completed, so this contained review item is now off the active MASC lane.
 - Sprint-batch update on `2026-03-24`: `MASC-D01` is complete and `MASC-D02` is now the next active staging-feedback lane.
-- `2026-03-24` progress note: `MASC-D02` is almost complete, with two remaining discussion items to carry into tomorrow:
-  - review better wording for `View Land Parcel Info` instead of forcing the current label onto one line
-  - review hero-image alignment with Kali because pushing the image left currently makes the layout look worse
+- `2026-03-25` progress note: `MASC-D02` is now complete.
 - Burn-down note on `2026-03-24`: `MASC-02` is now closed. Keep `MASC-07` conservative until the next planning pass instead of reducing the backlog ad hoc midstream.
 - Execution note on 2026-03-20: if time remains after `MASC-02`, use the end of day for light prep on `MASC-05` ahead of the Monday, `2026-03-23` sync.
 - Monday note: schedule `MASC-06` first thing on Monday, `2026-03-23`, using the broader French logo asset set Mike shared.
@@ -90,6 +96,37 @@
   - reuse the existing calculator-widget pattern already present elsewhere on the MASC site
   - add the circular bin volume calculator to the page without turning this into a broader calculators redesign
   - prioritize completion today only if the current spillover work closes quickly; otherwise make it the next implementation item tomorrow
+- Blocker update on `2026-03-25`:
+  - work is paused pending design input and client input
+  - treat this as blocked rather than active same-day execution work
+
+## Overview Hero Image Sizing Note - 2026-03-25
+- New follow-up item: increase the size of the overview hero program images.
+- Current PM assumption:
+  - this is a visual adjustment on the existing overview hero pattern
+  - scope is limited to image sizing and related layout fit
+  - do not treat this as a broader redesign of the overview hero section unless new direction emerges
+
+## Overview Nav Gradient Accessibility Note - 2026-03-25
+- New follow-up item: several overview landing pages appear to be missing the dark gradient treatment under the navigation.
+- Current risk:
+  - this likely weakens contrast and may create a WCAG issue on those pages
+  - because the treatment looks like a shared pattern, the fix may belong at the overview hero template level rather than as isolated page edits
+- Current PM assumption:
+  - start with restoring the missing dark gradient treatment on the affected overview landing pages
+  - do not widen this by default into a full accessibility audit unless additional contrast issues are found
+
+## Plugin Missing Fields Note - 2026-03-25
+- New same-day delivery item: incoming MASC plugin work is expanding into adding multiple missing fields.
+- Current PM assumption:
+  - this is a contained plugin schema or field-definition pass on the current WordPress plugin work
+  - estimate at `2h` based on the current read that the missing fields are already known and you are actively implementing them
+  - if the work turns into field logic, migrations, or broader plugin behavior changes, re-estimate instead of absorbing it silently
+- Today's intended sequence:
+  - `MASC-14` is now complete
+  - then close `MASC-08`
+  - then close `MASC-11`
+  - then close `IDE-01` if capacity still holds
 
 ## Borrowing With MASC Calculator Note - 2026-03-24
 - Follow-up item: there is also a missing calculator block on the `Borrowing with MASC` page that did not get completed today.
@@ -98,9 +135,12 @@
   - keep it as a contained follow-up rather than broadening it into a full calculator-pages sweep
 - Planning assumption for `MASC-11`:
   - identify the missing block and restore or wire it correctly on the page
-  - complete only if capacity opens after `MASC-D02`, `MASC-D03`, `BANF-10`, and `MASC-10`
+  - complete only if capacity opens after `MASC-D02`, `MASC-D03`, and `BANF-10`
 - Estimate note:
   - `2h` assumes the missing block can reuse an existing MASC calculator or block pattern without new component work
+- Blocker update on `2026-03-25`:
+  - work is paused pending design input and client input
+  - treat this as blocked rather than active same-day execution work
 
 ## Feeder Plus Loan Maximum Note - 2026-03-24
 - Reminder item: review the `Feeder Plus` lending content where `Loans are available up to $5,750,000` is expected to be supplied from `programDetails.xml / lending / program / FeederPlus / FP_loan_maximum`.
@@ -124,6 +164,9 @@
   - send a bounded response back to Tristin
   - confirm the intended source paths from the data model
   - note the gap that the path options are not appearing as expected
+- Completion update on `2026-03-25`:
+  - the response was sent to Tristin
+  - the item is now closed as resolved
 
 ## Staging Feedback Intake - 2026-03-23
 - Source reviewed: `/Users/aarongilani/Downloads/MASC Staging Link Feedback/Main.html`
@@ -153,13 +196,15 @@
   - factsheets index issues such as filter redesign, taxonomy tagging, missing entries, and categorization cleanup
 - Execution update on `2026-03-24`:
   - `MASC-D01` completed
-  - `MASC-D02` is now in progress
-  - `MASC-02` is now complete, so the active delivery lane is `MASC-D02` first, then `MASC-08`
+  - `MASC-D02` completed
+  - `MASC-02` is now complete, so the active delivery lane is `MASC-D03` first, then `MASC-08`
+- `2026-03-25` sync note:
+  - `MASC-D03` now needs a quick sync on the `Lending Overview` point before implementation continues
+  - queue that discussion for `2026-03-26`
 - Immediate next-day plan:
-  - close `MASC-D02`
   - move into `MASC-D03`
-  - complete `MASC-10`
-  - complete the pending Banff follow-up from `BANF-10`
+  - `MASC-10` is now complete
+  - `BANF-10` is now complete
   - treat `IDE-01` and `MASC-08` as float items only if capacity opens after the primary lane
 - Main estimate assumption:
   - if the repeated factsheet issues must be fixed page by page instead of through shared template or stylesheet changes, add `20h` to `30h`
@@ -194,11 +239,12 @@
 
 ## Responsiveness Planning Note
 - Add a follow-up to build an action plan for responsiveness remediation and discuss it with Alex.
+- Working checklist file: `/Users/aarongilani/project-manager/masc/masc-responsiveness-qa-checklist-2026-03-25.md`
 - Current planning assumption: this is a short PM or tech-lead alignment task to define the next remediation lane after the completed homepage responsiveness pass.
-- Scheduling note: the Alex sync should happen during the week of `2026-03-23`, and `MASC-05` now sits in next week's execution lane with a working due date of `2026-03-27`.
+- Scheduling note: the Alex sync was planned for the week of `2026-03-23`, and `MASC-05` has now closed with the responsive tasks broken out and handed off to Alex.
 - Delivery note: the remediation plan should be built collaboratively with Aaron and should include owner assignment and sequencing recommendations, not just notes from the Alex conversation.
 - Prep note: if execution time remains at the end of Friday, `2026-03-20`, use it to sketch inputs for the Monday, `2026-03-23` sync rather than starting another unrelated MASC workstream.
-- Update on `2026-03-23`: the internal sync is complete; keep `MASC-05` open only for the written plan, owner assignment, and sequencing capture that follows from that discussion.
+- Update on `2026-03-25`: the responsiveness sync is complete, the responsive tasks were broken out, and the remediation lane was handed off to Alex.
 
 ## FR Review Note
 - Mike has now provided the French version of the MASC logo.
@@ -211,6 +257,7 @@
 
 ## Recent Completed Work
 - The FR logo asset review and update, `MASC-06`, were completed on `2026-03-23`.
+- `MASC-05` was completed on `2026-03-25`; the responsiveness tasks were broken out and handed off to Alex.
 - The Monday internal sync for the broader responsiveness lane was completed on `2026-03-23`.
 - The calculator missing-values fix was completed on `2026-03-20`.
 - The archive-page category coin update for year, crop, and map type was completed and deployed to production on `2026-03-19`.

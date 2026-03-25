@@ -18,7 +18,7 @@
 - Feedback update due: 2026-04-03
 - Tracking override: using `2026-03-31` for release work based on direct instruction, with the Banff feedback update now formally due `2026-04-03`
 - Priority: Medium
-- Current tracked estimate: 40h total
+- Current tracked estimate: 38h total
 - Task code prefix: `BANF`
 - [x] Respond to Michel Technical Lead feedback in Asana | Completed: 2026-03-18
 - [x] BANF-09 Audio cleanup recommendation reply | Completed: 2026-03-20
@@ -30,10 +30,11 @@
 - [ ] BANF-06 Michel feedback remediation bundle | Estimate: 20h | Queue week of: 2026-03-23 | Formal due: 2026-04-03 | Internal target: 2026-03-27
 - [ ] BANF-07 Push theme to GitHub | Estimate: 2h | Due: 2026-03-31
 - [ ] BANF-08 Production deployment pipeline | Estimate: 6h | Due: 2026-03-31
-- [ ] BANF-10 WPML URL structure review + Michele response | Estimate: 2h | Due: 2026-03-27
+- [x] BANF-10 WPML URL structure review + Michele response | Completed: 2026-03-25
 - Working date assumption: "this week" = Friday, March 20, 2026; "next week" = Friday, March 27, 2026
 - Scheduling note: the Banff feedback update is formally due Friday, April 3, 2026, but planning should still target completion ahead of that date so the submission is not carried to the edge.
 - Internal PM note: Banff PM-only review work should now sit at the end of next week and be treated as time-permitting internal triage rather than a same-day or early-week commitment.
+- Protection note on `2026-03-25`: protect the week of `2026-03-30` for Banff execution and delivery because the external Banff deadline is now the next hard date on the board.
 - Reminder: schedule an internal Banff meeting by end of next week, targeting Friday, `2026-03-27`.
 - Deployment target: production
 - Deployment trigger: GitHub Action on merge to `main`
@@ -143,6 +144,9 @@
   - confirm the supported URL patterns
   - confirm whether translated slugs are viable for Banff's intended content model
   - reply to Michele with a recommendation before the next-submission language-toggle implementation example is scoped
+- Completion note on `2026-03-25`:
+  - `BANF-10` is complete
+  - working recommendation delivered: let WPML own localized page, post, and taxonomy URLs and feed JS the localized permalinks or archive/filter URLs rather than inventing English-only route names in the client layer
 - Source notes:
   - [Language Setup](https://wpml.org/documentation/getting-started-guide/language-setup/)
   - [How to Translate URL Slugs with WPML](https://wpml.org/documentation/getting-started-guide/translating-page-slugs/)

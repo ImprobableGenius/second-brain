@@ -1,18 +1,17 @@
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 474% of weekly capacity used. Weekly burn: 189.5h / 40h.
+[Progress Bar: ██████████] 473% of weekly capacity used. Weekly burn: 189h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] MASC-03 Search regression handoff | [5h] | Status: Triage Needed
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
-- [ ] MASC-05 Responsiveness remediation action plan + Alex sync | [2h] | Status: On Track | Due: 2026-03-27
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
-- [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | [4h] | Status: On Track | Due: 2026-03-25
-- [ ] MASC-10 Tristin dataset-path response | [0.5h] | Status: On Track | Due: 2026-03-25
-- [ ] MASC-11 Borrowing with MASC calculator block follow-up | [2h] | Status: On Track | Due: 2026-03-25
 - [ ] IFWH-01 Accessibility audit + remediation | [4h] | Status: On Track | Due: 2026-03-27
+- [ ] NWAC-01 Final documentation + compliance research | [10h] | Status: On Track | Due: 2026-03-27
+- [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | [4h] | Status: Behind | Due: 2026-03-25
+- [ ] MASC-11 Borrowing with MASC calculator block follow-up | [2h] | Status: Behind | Due: 2026-03-25
+- [ ] MASC-12 Overview hero program image size increase | [2h] | Status: Triage Needed
+- [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: Triage Needed
 - [ ] MACY-01 Recommended Tracking CPT refactor | [5h] | Status: On Track | Due: 2026-03-27
-- [ ] IDE-01 Initiative Hero + brochure button support reply | [1h] | Status: On Track | Due: 2026-03-25
-- [ ] BANF-10 WPML URL structure review + Michele response | [2h] | Status: On Track | Due: 2026-03-27
 - [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-03-27
 - [ ] BANF-02 MI_310 internal UX decision | [1h] | Status: Triage Needed | Due: 2026-03-27
 - [ ] BANF-03 MI_313 return-to-map decision | [1h] | Status: Triage Needed | Due: 2026-03-27
@@ -25,7 +24,6 @@
 - [ ] IPAM-01 Member object modeling | [12h] | Status: On Track | Due: 2026-04-25
 - [ ] IPAM-02 Membership frontend refinement | [8h] | Status: On Track | Due: 2026-04-25
 - [ ] ENCR-01 Zonos recommendation | [6h] | Status: Triage Needed
-- [ ] NWAC-01 Final documentation + compliance research | [10h] | Status: On Track | Due: 2026-03-27
 - [ ] AMIK-01 ENH-001 scheduling maintenance | [24h] | Status: Triage Needed
 - [ ] ORBF-01 Await client fields + finalize scope | [4h] | Status: Triage Needed
 
@@ -33,7 +31,7 @@
 - None
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Currently focusing on the active MASC staging lane, with `MASC-D02` set to close first tomorrow, `MASC-D03` next, and both `BANF-10` and `MASC-10` queued as bounded response items rather than open-ended implementation work. `MASC-08`, `MASC-11`, and `IDE-01` sit in the float lane if capacity opens after the primary work, while `IFWH-01`, `NWAC-01`, and `MACY-01` remain the main closeout lane after the active MASC work. The portfolio remains behind at 189.5h against a 40h week because MASC remediation, Banff feedback and release work, and several owner-dependent follow-ups are still open across MASC, Banff, `MACY-01`, IDE, NWAC, Encore Cabinets, Orbeon Forms, and `UA Local 179`."
+"Currently focusing on the `IFWH-01` and `NWAC-01` closeout lane, because `MASC-08` and `MASC-11` are blocked on design and client input and `IDE-01` is now complete. `IFWH-01` and `NWAC-01` need to close this week so next week can stay protected for Banff's hard-deadline execution, with `MACY-01` behind that lane. The portfolio remains behind at 189h against a 40h week because MASC remediation, Banff release work, and several owner-dependent follow-ups are still open across MASC, Banff, `MACY-01`, NWAC, Encore Cabinets, Orbeon Forms, and `UA Local 179`."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-03, is the search regression part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
@@ -56,3 +54,6 @@
 18. For MASC-07, what is the target completion date for this staging-feedback remediation pass?
 19. For MASC-07, should the repeated factsheet issues be treated as shared template and systemic fixes wherever possible, or estimated page by page?
 20. For MASC-07, should copy swaps, image swaps, and similar content approvals stay inside engineering scope, or be tracked separately as content-team dependencies?
+21. For MASC-13, should the dark gradient fix cover all overview landing pages that share the hero pattern, or only the pages currently missing it?
+22. For MASC-08, what design decision and client input are still needed before the circular bin volume calculator widget can proceed?
+23. For MASC-11, what design decision and client input are still needed before the Borrowing with MASC calculator block follow-up can proceed?

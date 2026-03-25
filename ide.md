@@ -9,7 +9,7 @@
 - Status: In Progress
 
 ## Current Task
-- [ ] IDE-01 Initiative Hero + brochure button support reply | Estimate: 1h | Due: 2026-03-25
+- [x] IDE-01 Initiative Hero + brochure button support reply | Completed: 2026-03-25
 
 ## Client Request - 2026-03-24
 - Client is trying to add a new page in the `Initiatives` area and needs help with two custom block behaviors.
@@ -30,6 +30,9 @@
 - Inspect or reason through how the `Initiative Hero` image is sourced.
 - Confirm how the brochure PDF button is wired.
 - Send the client a clear support reply with the exact update path for both items.
+
+## Completion Note
+- `IDE-01` was completed on `2026-03-25`.
 
 ## Estimate Note
 - `1h` assumes this is a bounded support and investigation pass, not a code-change request.

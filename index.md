@@ -10,6 +10,7 @@
 - [masc/masc.md](./masc/masc.md)
 - [masc/masc-new-feedback-sort-2026-03-23.md](./masc/masc-new-feedback-sort-2026-03-23.md)
 - [masc/masc-new-feedback-sort-2026-03-23.pdf](./masc/masc-new-feedback-sort-2026-03-23.pdf)
+- [masc/masc-responsiveness-qa-checklist-2026-03-25.md](./masc/masc-responsiveness-qa-checklist-2026-03-25.md)
 
 ## Project Notes
 - [agency-portfolio.md](./agency-portfolio.md)
@@ -26,19 +27,23 @@
 - [orbeon-forms.md](./orbeon-forms.md)
 - [ua-local-179.md](./ua-local-179.md)
 
-## Plans And Print Files
-- [monday-2026-03-23.md](./monday-2026-03-23.md)
-- [monday-2026-03-23.pdf](./monday-2026-03-23.pdf)
-- [tomorrow-2026-03-18.md](./tomorrow-2026-03-18.md)
-- [tomorrow-2026-03-18.pdf](./tomorrow-2026-03-18.pdf)
-- [tomorrow-2026-03-19.md](./tomorrow-2026-03-19.md)
-- [tomorrow-2026-03-19.pdf](./tomorrow-2026-03-19.pdf)
-- [tomorrow-2026-03-20.md](./tomorrow-2026-03-20.md)
-- [tomorrow-2026-03-20.pdf](./tomorrow-2026-03-20.pdf)
+## Daily Plans
+- [daily-plans/](./daily-plans/)
+- [daily-plans/monday-2026-03-23.md](./daily-plans/monday-2026-03-23.md)
+- [daily-plans/monday-2026-03-23.pdf](./daily-plans/monday-2026-03-23.pdf)
+- [daily-plans/tomorrow-2026-03-18.md](./daily-plans/tomorrow-2026-03-18.md)
+- [daily-plans/tomorrow-2026-03-18.pdf](./daily-plans/tomorrow-2026-03-18.pdf)
+- [daily-plans/tomorrow-2026-03-19.md](./daily-plans/tomorrow-2026-03-19.md)
+- [daily-plans/tomorrow-2026-03-19.pdf](./daily-plans/tomorrow-2026-03-19.pdf)
+- [daily-plans/tomorrow-2026-03-20.md](./daily-plans/tomorrow-2026-03-20.md)
+- [daily-plans/tomorrow-2026-03-20.pdf](./daily-plans/tomorrow-2026-03-20.pdf)
 - [production-summary-2026-03-23.md](./production-summary-2026-03-23.md)
 - [production-summary-2026-03-23.pdf](./production-summary-2026-03-23.pdf)
-- [tomorrow-2026-03-24.md](./tomorrow-2026-03-24.md)
-- [tomorrow-2026-03-25.md](./tomorrow-2026-03-25.md)
+- [daily-plans/tomorrow-2026-03-24.md](./daily-plans/tomorrow-2026-03-24.md)
+- [daily-plans/tomorrow-2026-03-25.md](./daily-plans/tomorrow-2026-03-25.md)
+- [daily-plans/tomorrow-2026-03-25.pdf](./daily-plans/tomorrow-2026-03-25.pdf)
+- [daily-plans/tomorrow-2026-03-26.md](./daily-plans/tomorrow-2026-03-26.md)
+- [daily-plans/tomorrow-2026-03-26.pdf](./daily-plans/tomorrow-2026-03-26.pdf)
 
 ## Notes
 - MASC-specific working documents now live under [`./masc/`](./masc/).

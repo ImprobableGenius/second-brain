@@ -90,16 +90,14 @@
 - `Insurance Overview`: align insurance CTA buttons, fix `Seeding Deadlines` links, fit `View Land Parcel Info` on one line, correct the `Rates and Coverage` link target, and fix `Seedling` -> `Seeding`.
 - `Young Farmer Supports Overview`: fix the video link, align the `Borrowing with MASC Video` header with the video, fix the `Seeding Deadlines` resource link, and apply the approved fee-credit destination.
 - Dependency: `MASC-C01` and `MASC-C02`.
-- Status update on `2026-03-24`: in progress after `MASC-D01` completion.
-- Blockers carried to `2026-03-25` team discussion:
-  - `View Land Parcel Info` should likely be reworded instead of being forced onto one line; confirm the preferred wording with the team.
-  - Hero-image alignment should be reviewed with Kali; moving the image further left currently makes the composition look worse rather than cleaner.
+- Status update on `2026-03-24`: completed.
 
 ### MASC-D03 Lending landing pages and IA cleanup `[5h]`
 - `Lending Overview`: restore the approved hero copy and structure, rename `Stocker Loans` -> `Livestock Loans`, update the main nav label, keep `Lending Rates` in the same tab, and align the two footer CTA rows visually.
 - Separate `Borrowing with MASC` from `Lending Overview`.
 - Apply approved image swaps on the lending landing pages once available.
 - Dependency: `MASC-C01` and `MASC-C02`.
+- Status note on `2026-03-25`: this batch now needs a quick sync on the `Lending Overview` point before implementation continues.
 
 ### MASC-D04 Global factsheet template pass `[5h]`
 - Systemically fix repeated factsheet issues where possible:
