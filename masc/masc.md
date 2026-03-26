@@ -9,7 +9,7 @@
 - Current branch: `dev`
 - Remote: `git@github.com:Vincent-Design-Inc/masc-wordpress.git`
 - Load: Medium
-- Working estimate: 77h total for current open tasks
+- Working estimate: 69h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -34,8 +34,8 @@
 - Delivery note on 2026-03-19: the archive-page category coin pattern update was completed and deployed to production.
 - [x] MASC-02 EN feedback cleanup bundle | Completed: 2026-03-24
 - Completion note on 2026-03-24: the cleanup bundle is now closed.
-- [ ] MASC-03 Search regression handoff | Estimate: 5h | Due: TBD
-- Search note on 2026-03-20: raise in the Monday, `2026-03-23` sync that some calculator-driven pages and similar thin-content pages are producing awkward WordPress auto-generated search descriptions because the page body is mostly just the calculator embed or output.
+- [x] MASC-03 Search regression handoff | Completed: 2026-03-26
+- Completion note on 2026-03-26: the search regression handoff is complete, including the search-result summary quality concerns on calculator-driven and thin-content pages.
 - [ ] MASC-04 News and Updates regression + coin review | Estimate: 4h | Due: TBD
 - [x] MASC-05 Responsiveness remediation action plan + Alex sync | Completed: 2026-03-25
 - 2026-03-25 completion note: the sync is done, the responsive tasks were broken out, and the remediation lane was handed off to Alex.
@@ -46,15 +46,16 @@
 - Blocked note on 2026-03-25: `MASC-08` is now blocked pending design input and client input before implementation can continue.
 - [x] MASC-10 Tristin dataset-path response | Completed: 2026-03-25
 - Completion note on 2026-03-25: the sort message was sent to Tristin and the dataset-path response is now resolved.
-- [ ] MASC-11 Borrowing with MASC calculator block follow-up | Estimate: 2h | Due: 2026-03-25
-- Execution note on 2026-03-24: treat `MASC-11` as a separate follow-up from `MASC-08`; this is a second missing calculator-block issue on the `Borrowing with MASC` page and should be handled only if capacity opens after the primary staging lane.
-- Blocked note on 2026-03-25: `MASC-11` is now blocked pending design input and client input before implementation can continue.
+- [x] MASC-11 Borrowing with MASC calculator block follow-up | Completed: 2026-03-26
+- Completion note on 2026-03-26: the Borrowing with MASC calculator block follow-up is now complete.
 - [ ] MASC-12 Overview hero program image size increase | Estimate: 2h | Due: TBD
 - Estimate assumption: `MASC-12` is a contained hero-image sizing and layout pass on the existing overview-page hero pattern, not a broader hero redesign.
 - [ ] MASC-13 Overview nav gradient accessibility fix | Estimate: 3h | Due: TBD
 - Estimate assumption: `MASC-13` is a contained fix to restore the dark gradient treatment under the nav on overview landing pages and improve contrast, not a full WCAG audit of the entire page family.
-- [ ] MASC-15 New XML post-import verification | Estimate: 2h | Due: 2026-03-27
-- Estimate assumption: `MASC-15` is a focused verification pass on the affected pages after the newer XML data is in place, not the import itself and not a broader data-model rewrite.
+- [ ] MASC-16 Source newer dataset files | Estimate: 1h | Due: 2026-03-27
+- Blocker note on 2026-03-26: follow-on import work is blocked because the newer dataset files are not currently available locally and need to be sourced first.
+- [x] MASC-15 New XML post-import verification | Completed: 2026-03-26
+- Completion note on 2026-03-26: the newer XML post-import verification pass is now complete.
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25
 - Completion note on 2026-03-25: the missing plugin fields were added and the same-day expansion task is now closed.
 - [x] MASC-09 Feeder Plus loan maximum rendering review | Completed: 2026-03-24
@@ -172,6 +173,16 @@
 - Completion update on `2026-03-25`:
   - the response was sent to Tristin
   - the item is now closed as resolved
+
+## Newer Dataset Files Note - 2026-03-26
+- New short unblock item: source the newer dataset files needed for follow-on MASC import work.
+- Current PM read:
+  - the post-import verification pass is complete under `MASC-15`
+  - the remaining blocker is access to the newer source files themselves, not verification work
+  - keep this as a bounded file-sourcing task rather than silently reopening the broader XML import lane
+- Tomorrow note:
+  - source the files on `2026-03-27`
+  - once the files are in hand, decide whether any new import execution work needs to be estimated separately
 
 ## Staging Feedback Intake - 2026-03-23
 - Source reviewed: `/Users/aarongilani/Downloads/MASC Staging Link Feedback/Main.html`

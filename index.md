@@ -44,6 +44,7 @@
 - [daily-plans/tomorrow-2026-03-25.pdf](./daily-plans/tomorrow-2026-03-25.pdf)
 - [daily-plans/tomorrow-2026-03-26.md](./daily-plans/tomorrow-2026-03-26.md)
 - [daily-plans/tomorrow-2026-03-26.pdf](./daily-plans/tomorrow-2026-03-26.pdf)
+- [daily-plans/tomorrow-2026-03-27.md](./daily-plans/tomorrow-2026-03-27.md)
 
 ## Notes
 - MASC-specific working documents now live under [`./masc/`](./masc/).
