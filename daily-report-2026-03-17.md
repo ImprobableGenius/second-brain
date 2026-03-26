@@ -1,8 +1,8 @@
 # Daily Report - 2026-03-17
 
 ## 📊 Capacity
-- Weekly burn: 189h / 40h
-- Portfolio load: 473% of weekly capacity
+- Weekly burn: 191h / 40h
+- Portfolio load: 478% of weekly capacity
 - Near-term delivery window: MASC due 2026-03-20, Banff release due 2026-03-31, Banff feedback update due 2026-04-03
 
 ## 🟢 What's Done
@@ -40,6 +40,7 @@
 - Next week closeout: complete `IFWH` accessibility audit and remediation updates by Friday, 2026-03-27.
 - Next week closeout: complete `NWAC` final documentation and compliance research by Friday, 2026-03-27.
 - Priority reset on 2026-03-25: `IFWH-01` and `NWAC-01` now need to close this week so the week of `2026-03-30` can be protected for Banff's hard deadline.
+- New end-of-week MASC priority: `MASC-15` newer XML post-import verification is now scheduled by Friday, 2026-03-27.
 - Next week scheduled item: `MACY-01` is approved to proceed, stays owned by Aaron for now, carries an internal follow-up on Wednesday, 2026-03-25, has an internal target date of Friday, 2026-03-27, and now explicitly includes data backfill plus a short update note for the new post type workflow.
 - New project intake: `IDE-01` is a bounded 1h support reply for tomorrow to help the client update the `Initiative Hero` circular image and the `Download Brochure (PDF)` button on the IDE Canada site.
 - New MASC float item: `MASC-11` is a 2h follow-up to restore the missing calculator block on the `Borrowing with MASC` page that did not get completed today.
@@ -49,6 +50,8 @@
 - MASC queue addition: handoff-ready search regression fix to restore search results and the search bar to acceptable quality, estimated at 5h and currently waiting on scope clarification.
 - Monday sync reminder for `MASC-03`: some calculator-driven pages and similar thin-content pages are producing awkward WordPress auto-generated search descriptions, so the sync should decide whether the right fix is custom excerpts, search-summary overrides, or a theme-level search-result rule.
 - MASC queue addition: handoff-ready News and Updates block regression fix, estimated at 4h, with category coin design needing review by the design department.
+- MASC meeting note on 2026-03-26: repeated breadcrumbs on the News archive page are confirmed, breadcrumb links on inner pages should only link to overview pages, factsheet bullets should be centered, the print template needs another iteration, and `How to File a Claim` plus `How to Report` still require discussion.
+- MASC meeting note on 2026-03-26: launch target is now `2026-04-15`, `Contract Price Option` is the chosen direction for the `Insurance with MASC` page, and Wes will book an `Njoyn` meeting for the Careers page.
 - MASC staging feedback intake from `2026-03-23` has now been processed: `106` rows were reviewed, `344` struck-through items were excluded as complete, and `579` unresolved lines remain, so `MASC-07` has been added as a `55h` net-new remediation backlog estimate beyond the work already tracked in `MASC-02`, `MASC-03`, and `MASC-04`.
 - MASC queue addition: `MASC-08` is a new 4h build item to create or restore the circular bin volume calculator widget and place it on the `Insurance with MASC` page, with a working due date of Wednesday, 2026-03-25 and permission to pull it into today if the current spillover lane stays contained.
 - MASC queue addition: `MASC-09` is a same-day 1h review item to inspect the `Feeder Plus` loan-maximum rendering path, verify the `FP_loan_maximum` source, and confirm why the current shortcode approach appears to be turning the value into a date.

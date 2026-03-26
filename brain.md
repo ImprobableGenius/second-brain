@@ -1,5 +1,5 @@
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 473% of weekly capacity used. Weekly burn: 189h / 40h.
+[Progress Bar: ██████████] 478% of weekly capacity used. Weekly burn: 191h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] MASC-03 Search regression handoff | [5h] | Status: Triage Needed
@@ -7,6 +7,7 @@
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
 - [ ] IFWH-01 Accessibility audit + remediation | [4h] | Status: On Track | Due: 2026-03-27
 - [ ] NWAC-01 Final documentation + compliance research | [10h] | Status: On Track | Due: 2026-03-27
+- [ ] MASC-15 New XML post-import verification | [2h] | Status: On Track | Due: 2026-03-27
 - [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | [4h] | Status: Behind | Due: 2026-03-25
 - [ ] MASC-11 Borrowing with MASC calculator block follow-up | [2h] | Status: Behind | Due: 2026-03-25
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: Triage Needed
@@ -31,7 +32,7 @@
 - None
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Currently focusing on the `IFWH-01` and `NWAC-01` closeout lane, because `MASC-08` and `MASC-11` are blocked on design and client input and `IDE-01` is now complete. `IFWH-01` and `NWAC-01` need to close this week so next week can stay protected for Banff's hard-deadline execution, with `MACY-01` behind that lane. The portfolio remains behind at 189h against a 40h week because MASC remediation, Banff release work, and several owner-dependent follow-ups are still open across MASC, Banff, `MACY-01`, NWAC, Encore Cabinets, Orbeon Forms, and `UA Local 179`."
+"Currently focusing on the end-of-week lane of `IFWH-01`, `NWAC-01`, and `MASC-15`, because `MASC-08` and `MASC-11` are blocked on design and client input and next week needs to stay protected for Banff's hard-deadline execution. The MASC launch target is now April 15, 2026, but the near-term pressure is still this week's closeout and XML post-import verification work. The portfolio remains behind at 191h against a 40h week because MASC remediation, Banff release work, and several owner-dependent follow-ups are still open across MASC, Banff, `MACY-01`, NWAC, Encore Cabinets, Orbeon Forms, and `UA Local 179`."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-03, is the search regression part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?

@@ -9,12 +9,13 @@
 - Current branch: `dev`
 - Remote: `git@github.com:Vincent-Design-Inc/masc-wordpress.git`
 - Load: Medium
-- Working estimate: 75h total for current open tasks
+- Working estimate: 77h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
-- Deadline: 2026-03-20
+- Deadline: 2026-04-15
 - Status: In Progress
+- Launch target: 2026-04-15
 
 ## Current Delivery Tasks
 - CSV due date: 2026-03-27
@@ -52,6 +53,8 @@
 - Estimate assumption: `MASC-12` is a contained hero-image sizing and layout pass on the existing overview-page hero pattern, not a broader hero redesign.
 - [ ] MASC-13 Overview nav gradient accessibility fix | Estimate: 3h | Due: TBD
 - Estimate assumption: `MASC-13` is a contained fix to restore the dark gradient treatment under the nav on overview landing pages and improve contrast, not a full WCAG audit of the entire page family.
+- [ ] MASC-15 New XML post-import verification | Estimate: 2h | Due: 2026-03-27
+- Estimate assumption: `MASC-15` is a focused verification pass on the affected pages after the newer XML data is in place, not the import itself and not a broader data-model rewrite.
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25
 - Completion note on 2026-03-25: the missing plugin fields were added and the same-day expansion task is now closed.
 - [x] MASC-09 Feeder Plus loan maximum rendering review | Completed: 2026-03-24
@@ -99,6 +102,8 @@
 - Blocker update on `2026-03-25`:
   - work is paused pending design input and client input
   - treat this as blocked rather than active same-day execution work
+- Meeting decision on `2026-03-26`:
+  - use `Contract Price Option` on the `Insurance with MASC` page
 
 ## Overview Hero Image Sizing Note - 2026-03-25
 - New follow-up item: increase the size of the overview hero program images.
@@ -201,6 +206,15 @@
 - `2026-03-25` sync note:
   - `MASC-D03` now needs a quick sync on the `Lending Overview` point before implementation continues
   - queue that discussion for `2026-03-26`
+- `2026-03-26` MASC meeting note:
+  - repeated breadcrumbs on the News archive page are confirmed as an issue
+  - breadcrumb links on inner pages should only link to overview pages; all other breadcrumb items should render as static text
+  - factsheet bullet-point treatment needs to be centered
+  - the print template needs another iteration pass
+  - newer XML data import is now prioritized for end of this week
+  - `How to File a Claim` and `How to Report` still need discussion before implementation is finalized
+  - Wes will book a meeting with `Njoyn` for the Careers page
+  - launch target is now `2026-04-15`
 - Immediate next-day plan:
   - move into `MASC-D03`
   - `MASC-10` is now complete

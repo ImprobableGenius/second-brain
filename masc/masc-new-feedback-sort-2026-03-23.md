@@ -107,6 +107,9 @@
   - common title ordering and section spacing
   - recurring `myMASC` / quick-link label cleanup
 - Use this pass to reduce page-by-page duplication before deeper factsheet cleanup.
+- Meeting confirmation on `2026-03-26`:
+  - factsheet bullet points should be centered
+  - breadcrumb links on inner pages should only link to overview pages; all other breadcrumb items should render as static text
 
 ### MASC-D05 Print stylesheet global pass `[5h]`
 - High-priority QA fix: make white text readable on print.
@@ -117,6 +120,7 @@
 - Reduce bullet size / spacing and apply the main-bullet vs sub-bullet rules consistently.
 - Stop buttons or inappropriate interactive elements from leaking into print.
 - Priority note: the white-text and table-shading print issues should be treated as print breakage to complete as soon as possible, not optional print polish.
+- Meeting confirmation on `2026-03-26`: the factsheet print template still needs another iteration pass.
 
 ### MASC-D06 Insurance dynamic-data and deadline logic `[5h]`
 - `AgriInsurance`: fix `Seeding Deadlines` link, `16 Risk Areas`, XML-driven `50/70/80/90` values, and weekend-flex date logic.
@@ -158,6 +162,7 @@
 - `Risk Areas`: fix `15` -> `16`, correct the `Rates & Coverages` quick link, add collapse behavior for previous-year data if kept, clean up thematic crop map description rendering, and remove repeated content-box text.
 - `MMPP` / related pages: fix links, PDF hookups, table presentation, and related reporting-page issues that were explicitly flagged.
 - Dependency: `MASC-C04` for imagery and any product-direction call on accordion behavior.
+- Meeting note on `2026-03-26`: `How to File a Claim` and `How to Report` still need discussion before implementation is finalized.
 
 ### MASC-D11 Lending detail pages, tools, calculators, FSTR, and myMASC `[4.5h]`
 - `Loan Maximum`, `Lending Rates`, `Young Farmer Rebate`, and related lending pages: apply link targets, commas, phrasing, and rate CTA fixes.
@@ -177,6 +182,7 @@
 - `Factsheets` index: fix XML description scraping, alphabetical ordering, missing factsheets, and the `Program` + `Category` filters.
 - `Factsheets` index: treat the `Program` + `Category` filter change as a taxonomy/data task that may require content tagging, source-data normalization, and primary-vs-secondary categorization logic before the UI can be considered complete.
 - Global backlog: new `Insurance Contracts` page, LPI icon swap, `Support for Next Generation` icon/text update, and any remaining contact-link fixes on knowledge pages.
+- Meeting note on `2026-03-26`: the repeated breadcrumbs on the News archive page are confirmed and should stay in scope for this batch.
 
 ## Suggested Order
 1. `MASC-D01`
