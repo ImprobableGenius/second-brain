@@ -8,6 +8,8 @@
 
 ## MASC Folder
 - [masc/masc.md](./masc/masc.md)
+- [masc/masc-architecture.md](./masc/masc-architecture.md)
+- [masc/masc-board.md](./masc/masc-board.md)
 - [masc/masc-new-feedback-sort-2026-03-23.md](./masc/masc-new-feedback-sort-2026-03-23.md)
 - [masc/masc-new-feedback-sort-2026-03-23.pdf](./masc/masc-new-feedback-sort-2026-03-23.pdf)
 - [masc/masc-responsiveness-qa-checklist-2026-03-25.md](./masc/masc-responsiveness-qa-checklist-2026-03-25.md)
