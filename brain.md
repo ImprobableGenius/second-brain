@@ -1,5 +1,5 @@
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 438% of weekly capacity used. Weekly burn: 175h / 40h.
+[Progress Bar: ██████████] 408% of weekly capacity used. Weekly burn: 163h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] IFWH-02 Content alt text completion | [1h] | Status: On Track | Due: 2026-04-01
@@ -7,7 +7,6 @@
 - [ ] MASC-16 Source newer MASC dataset files | [1h] | Status: On Track | Due: 2026-03-27
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
-- [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | [4h] | Status: Behind | Due: 2026-03-25
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: Triage Needed
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: Triage Needed
 - [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-03-27
@@ -17,8 +16,6 @@
 - [ ] UAL-01 Galaxy S7 compatibility check | [3h] | Status: Triage Needed
 - [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-03
 - [ ] BANF-06 Michel feedback remediation bundle | [20h] | Status: On Track | Due: 2026-04-03
-- [ ] BANF-07 Push theme to GitHub | [2h] | Status: On Track | Due: 2026-03-31
-- [ ] BANF-08 Production deployment pipeline | [6h] | Status: On Track | Due: 2026-03-31
 - [ ] IPAM-01 Member object modeling | [12h] | Status: On Track | Due: 2026-04-25
 - [ ] IPAM-02 Membership frontend refinement | [8h] | Status: On Track | Due: 2026-04-25
 - [ ] ENCR-01 Zonos recommendation | [6h] | Status: Triage Needed
@@ -29,7 +26,7 @@
 - None
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Currently focusing on `NWAC-01`, the short `IFWH-02` content closeout, and Banff release work now that IFWH technical remediation is complete. `MASC-08` is still behind because it needs design and client input before implementation can continue. The portfolio remains behind at 175h against a 40h week because MASC remediation, Banff release work, and several owner-dependent follow-ups are still open across MASC, Banff, NWAC, Encore Cabinets, Orbeon Forms, and `UA Local 179`."
+"Banff release execution moved today with `BANF-07` and `BANF-08` closed, and `MASC-08` is now complete as well. Current focus is `NWAC-01`, `IFWH-02`, and the next unblocked MASC and IPAM work."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
@@ -50,4 +47,3 @@
 16. For MASC-07, should the repeated factsheet issues be treated as shared template and systemic fixes wherever possible, or estimated page by page?
 17. For MASC-07, should copy swaps, image swaps, and similar content approvals stay inside engineering scope, or be tracked separately as content-team dependencies?
 18. For MASC-13, should the dark gradient fix cover all overview landing pages that share the hero pattern, or only the pages currently missing it?
-19. For MASC-08, what design decision and client input are still needed before the circular bin volume calculator widget can proceed?

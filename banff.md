@@ -18,7 +18,7 @@
 - Feedback update due: 2026-04-03
 - Tracking override: using `2026-03-31` for release work based on direct instruction, with the Banff feedback update now formally due `2026-04-03`
 - Priority: Medium
-- Current tracked estimate: 38h total
+- Current tracked estimate: 30h total
 - Task code prefix: `BANF`
 - [x] Respond to Michel Technical Lead feedback in Asana | Completed: 2026-03-18
 - [x] BANF-09 Audio cleanup recommendation reply | Completed: 2026-03-20
@@ -28,8 +28,8 @@
 - [ ] BANF-04 MI_320 spacing consistency decision | Estimate: 1h | Due: 2026-03-27 | Scheduling: only if time remains
 - [ ] BANF-05 MI_307 state persistence | Estimate: 6h | Queue week of: 2026-03-23 | Formal due: 2026-04-03 | Internal target: 2026-03-27
 - [ ] BANF-06 Michel feedback remediation bundle | Estimate: 20h | Queue week of: 2026-03-23 | Formal due: 2026-04-03 | Internal target: 2026-03-27
-- [ ] BANF-07 Push theme to GitHub | Estimate: 2h | Due: 2026-03-31
-- [ ] BANF-08 Production deployment pipeline | Estimate: 6h | Due: 2026-03-31
+- [x] BANF-07 Push theme to GitHub | Completed: 2026-04-01
+- [x] BANF-08 Production deployment pipeline | Completed: 2026-04-01
 - [x] BANF-10 WPML URL structure review + Michele response | Completed: 2026-03-25
 - Working date assumption: "this week" = Friday, March 20, 2026; "next week" = Friday, March 27, 2026
 - Scheduling note: the Banff feedback update is formally due Friday, April 3, 2026, but planning should still target completion ahead of that date so the submission is not carried to the edge.

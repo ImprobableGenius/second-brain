@@ -12,6 +12,7 @@
 - [masc/masc-board.md](./masc/masc-board.md)
 - [masc/masc-claims-reporting-internal-brief-2026-03-27.md](./masc/masc-claims-reporting-internal-brief-2026-03-27.md)
 - [masc/masc-claims-reporting-internal-brief-2026-03-27.pdf](./masc/masc-claims-reporting-internal-brief-2026-03-27.pdf)
+- [masc/masc-discussion-points.md](./masc/masc-discussion-points.md)
 - [masc/masc-new-feedback-sort-2026-03-23.md](./masc/masc-new-feedback-sort-2026-03-23.md)
 - [masc/masc-new-feedback-sort-2026-03-23.pdf](./masc/masc-new-feedback-sort-2026-03-23.pdf)
 - [masc/masc-responsiveness-qa-checklist-2026-03-25.md](./masc/masc-responsiveness-qa-checklist-2026-03-25.md)
@@ -51,6 +52,8 @@
 - [daily-plans/tomorrow-2026-03-26.md](./daily-plans/tomorrow-2026-03-26.md)
 - [daily-plans/tomorrow-2026-03-26.pdf](./daily-plans/tomorrow-2026-03-26.pdf)
 - [daily-plans/tomorrow-2026-03-27.md](./daily-plans/tomorrow-2026-03-27.md)
+- [daily-plans/today-2026-04-01.md](./daily-plans/today-2026-04-01.md)
+- [daily-plans/today-2026-04-01.pdf](./daily-plans/today-2026-04-01.pdf)
 
 ## Notes
 - MASC-specific working documents now live under [`./masc/`](./masc/).

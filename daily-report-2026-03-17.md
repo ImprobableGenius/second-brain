@@ -1,8 +1,8 @@
 # Daily Report - 2026-03-17
 
 ## 📊 Capacity
-- Weekly burn: 178h / 40h
-- Portfolio load: 445% of weekly capacity
+- Weekly burn: 163h / 40h
+- Portfolio load: 408% of weekly capacity
 - Near-term delivery window: MASC due 2026-03-20, Banff release due 2026-03-31, Banff feedback update due 2026-04-03
 
 ## 🟢 What's Done
@@ -31,6 +31,8 @@
 - `MASC-03` was completed on 2026-03-26.
 - `MACY-01` was completed on 2026-03-27; the recommendation changes are now closed.
 - `IFWH-01` was completed on 2026-03-31; all technical accessibility remediation is now closed.
+- `BANF-07` and `BANF-08` were completed on 2026-04-01; the Banff GitHub push and production deployment pipeline work are now closed.
+- `MASC-08` was completed on 2026-04-01; the circular bin volume calculator widget and `Insurance with MASC` page update are now closed.
 - The MASC `2:00 PM` sync on 2026-03-26 was completed and the notes were captured into the tracker.
 - `LFMP-01` for the local `leaflet-maps-plugin` was completed on 2026-03-23; the bailout bug is resolved and the functionality is reported as working as expected.
 - `BANF-09` audio-cleanup recommendation reply was completed on 2026-03-20.
@@ -44,6 +46,7 @@
 - `2026-03-30` progress note: met with Alex to check in on the responsiveness sections handoff and made meaningful progress on `IFWH-01`, but the accessibility remediation lane is still open.
 - `IFWH-02` is now the only remaining IFWH follow-up: content-based alt text is pending and targeted for `2026-04-01`.
 - `2026-03-31` MASC response note: about `2h` went into resolving dynamic scripting queries and sending the required follow-up responses after a pile-up of outstanding questions.
+- `2026-03-31` MASC small-fix note: the reported Corn Insurance factsheet claims-table bug was resolved and should be counted in end-of-day stats.
 - New maintenance queue item: `UA Local 179` mobile app compatibility check for Samsung Galaxy S7 devices, estimated at 3h and currently waiting on deadline, priority, and test-environment details.
 - Next week closeout: complete `IFWH` accessibility audit and remediation updates by Friday, 2026-03-27.
 - Next week closeout: complete `NWAC` final documentation and compliance research by Friday, 2026-03-27.
@@ -99,7 +102,7 @@
 - NWAC secure-upload documentation is risky because the active file-encryption hook still contains debug output and hardcoded key material.
 - The new MASC News and Updates regression task depends on design review of the category coin treatment and may widen if that design decision needs to be propagated beyond the `masc-home-news` block.
 - `MASC-08` is expected to be contained if it can reuse the existing calculator-widget pattern, but it may widen if the bin volume tool needs net-new widget rendering or custom styling work to fit the current page layout.
-- `MASC-08` is now blocked on design input and client input.
+- `MASC-08` is now complete.
 - Follow-on MASC import work is now also blocked on access to the newer dataset files until `MASC-16` is completed.
 - `MASC-D01` completion is positive delivery, but `MASC-07` should still stay conservative until the next planning pass rather than being reduced ad hoc midstream.
 - The MASC EN feedback pass has already surfaced a new cleanup bundle plus ownership questions around Jordan, Holly, client-approved global changes, and whether the myMASC sign-in update is page-local or sitewide.
@@ -156,4 +159,4 @@
 - Keep the `MI_330` alt-text reminder visible so content collection closes image metadata gaps before submission.
 
 ## Slack Update
-Monday closeout was progress-heavy rather than delivery-heavy: the main movement was `IFWH-01`, and there was also an internal Alex check-in on the responsiveness handoff. No new scope entered the board, but the key risk remains the same: `IFWH-01` and `NWAC-01` are still open while Banff week is already active.
+Tuesday closeout was healthier: `IFWH-01` is now technically closed, about `2h` went into MASC dynamic scripting follow-up responses, and a small Corn Insurance factsheet bug was resolved the same day. No new scope was added, so the day improved throughput without making the board heavier.

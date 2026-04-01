@@ -2,7 +2,7 @@
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 69h total for current open tasks
+- Working estimate: 65h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -35,9 +35,9 @@
 - 2026-03-25 completion note: the sync is done, the responsive tasks were broken out, and the remediation lane was handed off to Alex.
 - [x] MASC-06 FR logo asset review + update | Completed: 2026-03-23
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | Estimate: 55h | Due: TBD
-- [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | Estimate: 4h | Due: 2026-03-25
+- [x] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | Completed: 2026-04-01
 - Execution note on 2026-03-24: pull `MASC-08` into today only if `MASC-02` and `BANF-10` stay contained; otherwise treat it as the next MASC implementation item for Wednesday, `2026-03-25`.
-- Blocked note on 2026-03-25: `MASC-08` is now blocked pending design input and client input before implementation can continue.
+- Completion note on 2026-04-01: the circular bin volume calculator widget and the `Insurance with MASC` page update are now complete.
 - [x] MASC-09 Feeder Plus loan maximum rendering review | Completed: 2026-03-24
 - Completion note on 2026-03-24: the response relating to `programDetails.xml` and the `FeederPlus` dataset has been completed, so this contained review item is now off the active MASC lane.
 - [x] MASC-10 Tristin dataset-path response | Completed: 2026-03-25
@@ -54,6 +54,7 @@
 - Completion note on 2026-03-26: the newer XML post-import verification pass is now complete.
 - [ ] MASC-16 Source newer dataset files | Estimate: 1h | Due: 2026-03-27
 - Blocker note on 2026-03-26: follow-on import work is blocked because the newer dataset files are not currently available locally and need to be sourced first.
+- Small fix note on `2026-03-31`: a reported Corn Insurance factsheet label bug in the claims table was resolved the same day and should be counted in end-of-day stats.
 - Sprint-batch update on `2026-03-24`: `MASC-D01` is complete and `MASC-D02` is now the next active staging-feedback lane.
 - `2026-03-25` progress note: `MASC-D02` is now complete.
 - Burn-down note on `2026-03-24`: `MASC-02` is now closed. Keep `MASC-07` conservative until the next planning pass instead of reducing the backlog ad hoc midstream.
@@ -206,6 +207,8 @@
 - Completion note on `2026-03-23`: the FR logo asset review and update are now complete.
 
 ## Recent Completed Work
+- A small Corn Insurance factsheet claims-table bug was resolved on `2026-03-31`.
+- `MASC-08` was completed on `2026-04-01`.
 - The FR logo asset review and update, `MASC-06`, were completed on `2026-03-23`.
 - `MASC-05` was completed on `2026-03-25`; the responsiveness tasks were broken out and handed off to Alex.
 - The Monday internal sync for the broader responsiveness lane was completed on `2026-03-23`.

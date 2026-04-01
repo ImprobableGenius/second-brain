@@ -49,6 +49,7 @@
 | 2026-03-26 | 2.0 | 7.0 | 0.0 | 1.0 | 5.0 | 6.9 | 8.2 | 84 | 53 | 14 | `MASC-03`, `MASC-11`, and `MASC-15` drove the day, with the MASC sync clarifying the next remediation lane; the main blocker was `MASC-08` still waiting on design and client input plus missing access to the newer dataset files. |
 | 2026-03-27 | 5.0 | 0.0 | 0.0 | 0.0 | 5.0 | 5.0 | 6.9 | 72 | -28 | 0 | `MACY-01` drove the day as the main closed delivery item; the main constraint was that `IFWH-01`, `NWAC-01`, and the blocked MASC lane remained open going into Monday. |
 | 2026-03-30 | 0.0 | 2.0 | 2.0 | 0.0 | 0.0 | 2.4 | 6.7 | 36 | -52 | 0 | Alex responsiveness check-in and other internal coordination made this a response-heavy day; the main delivery movement was progress on `IFWH-01`, but it did not fully close. |
+| 2026-03-31 | 5.0 | 2.0 | 0.0 | 0.0 | 0.0 | 6.4 | 5.0 | 128 | 167 | 0 | `IFWH-01` technical remediation drove the day as the main closed delivery item, with a `2h` MASC dynamic scripting response block and a small Corn Insurance factsheet fix also handled; no new scope entered the system. |
 
 ## Rolling Notes
 - Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.
