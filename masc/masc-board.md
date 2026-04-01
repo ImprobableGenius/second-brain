@@ -22,6 +22,7 @@
 - Current rollout note on 2026-03-19: the featured thematic crop maps block has been added to the English `MMPP` page and the French-side page; French translations for the block content still need to be supplied by the content team.
 - [x] Review EN feedback and capture follow-on scope | Completed: 2026-03-19
 - [x] Evaluate dynamic script requirements and next steps | Completed: 2026-03-19
+- Response note on `2026-03-31`: about `2h` was spent resolving dynamic scripting queries and sending the required follow-up responses after a pile-up of outstanding questions.
 - [x] Update archive page info cards to showcase coin categories for year, crop, and map type | Completed: 2026-03-19
 - [x] MASC-01 Missing calculator values | Completed: 2026-03-20
 - Delivery note on 2026-03-19: the archive-page category coin pattern update was completed and deployed to production.
@@ -193,6 +194,7 @@
 - Delivery note: the remediation plan should be built collaboratively with Aaron and should include owner assignment and sequencing recommendations, not just notes from the Alex conversation.
 - Prep note: if execution time remains at the end of Friday, `2026-03-20`, use it to sketch inputs for the Monday, `2026-03-23` sync rather than starting another unrelated MASC workstream.
 - Update on `2026-03-25`: the responsiveness sync is complete, the responsive tasks were broken out, and the remediation lane was handed off to Alex.
+- Update on `2026-03-30`: a check-in with Alex was completed to review progress on the handed-off responsiveness sections.
 
 ## FR Review Note
 - Mike has now provided the French version of the MASC logo.

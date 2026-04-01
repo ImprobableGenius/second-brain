@@ -8,10 +8,10 @@
 - Priority: Low
 - Start date: 2026-03-23
 - Deadline: 2026-03-27
-- Status: Scheduled next week
+- Status: Complete
 
 ## Current Task
-- [ ] MACY-01 Recommended Tracking CPT refactor | Estimate: 5h | Due: 2026-03-27 | Owner: Aaron | Internal follow-up: 2026-03-25 | Handoff: plan when possible
+- [x] MACY-01 Recommended Tracking CPT refactor | Completed: 2026-03-27
 
 ## Issue Summary
 - The `Recommended Tracking` page is failing to load and save reliably because the tracking block currently stores too much data directly in page content.
@@ -53,6 +53,10 @@
 - Internal target: complete `MACY-01` by Friday, `2026-03-27`.
 - Internal follow-up: check status and handoff options by Wednesday, `2026-03-25`.
 - Planning assumption: keep Aaron as owner for now and hand off only if a clean plan and capacity become available midweek.
+
+## Completion Note
+- Recommendation changes are complete as of `2026-03-27`.
+- The `Recommended Tracking` CPT refactor, backfill, current-page block support, and short update note are now treated as closed work.
 
 ## Notes
 - Original project shell came from `Workload Metrics - Main.csv`.

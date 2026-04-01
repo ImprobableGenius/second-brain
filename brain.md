@@ -1,8 +1,8 @@
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 458% of weekly capacity used. Weekly burn: 183h / 40h.
+[Progress Bar: ██████████] 438% of weekly capacity used. Weekly burn: 175h / 40h.
 
 # 🚀 ACTIVE PROJECTS
-- [ ] IFWH-01 Accessibility audit + remediation | [4h] | Status: On Track | Due: 2026-03-27
+- [ ] IFWH-02 Content alt text completion | [1h] | Status: On Track | Due: 2026-04-01
 - [ ] NWAC-01 Final documentation + compliance research | [10h] | Status: On Track | Due: 2026-03-27
 - [ ] MASC-16 Source newer MASC dataset files | [1h] | Status: On Track | Due: 2026-03-27
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
@@ -10,7 +10,6 @@
 - [ ] MASC-08 Circular bin volume calculator widget + Insurance with MASC page update | [4h] | Status: Behind | Due: 2026-03-25
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: Triage Needed
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: Triage Needed
-- [ ] MACY-01 Recommended Tracking CPT refactor | [5h] | Status: On Track | Due: 2026-03-27
 - [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-03-27
 - [ ] BANF-02 MI_310 internal UX decision | [1h] | Status: Triage Needed | Due: 2026-03-27
 - [ ] BANF-03 MI_313 return-to-map decision | [1h] | Status: Triage Needed | Due: 2026-03-27
@@ -30,7 +29,7 @@
 - None
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Currently focusing on `IFWH-01`, `NWAC-01`, and a short `MASC-16` unblock so this week's closeout work lands before Banff takes over next week. `MASC-08` is still behind because it needs design and client input before implementation can continue. The portfolio remains behind at 183h against a 40h week because MASC remediation, Banff release work, and several owner-dependent follow-ups are still open across MASC, Banff, `MACY-01`, NWAC, Encore Cabinets, Orbeon Forms, and `UA Local 179`."
+"Currently focusing on `NWAC-01`, the short `IFWH-02` content closeout, and Banff release work now that IFWH technical remediation is complete. `MASC-08` is still behind because it needs design and client input before implementation can continue. The portfolio remains behind at 175h against a 40h week because MASC remediation, Banff release work, and several owner-dependent follow-ups are still open across MASC, Banff, NWAC, Encore Cabinets, Orbeon Forms, and `UA Local 179`."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?

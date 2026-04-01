@@ -1,8 +1,8 @@
 # Daily Report - 2026-03-17
 
 ## 📊 Capacity
-- Weekly burn: 183h / 40h
-- Portfolio load: 458% of weekly capacity
+- Weekly burn: 178h / 40h
+- Portfolio load: 445% of weekly capacity
 - Near-term delivery window: MASC due 2026-03-20, Banff release due 2026-03-31, Banff feedback update due 2026-04-03
 
 ## 🟢 What's Done
@@ -29,6 +29,8 @@
 - `MASC-15` was completed on 2026-03-26.
 - `MASC-11` was completed on 2026-03-26.
 - `MASC-03` was completed on 2026-03-26.
+- `MACY-01` was completed on 2026-03-27; the recommendation changes are now closed.
+- `IFWH-01` was completed on 2026-03-31; all technical accessibility remediation is now closed.
 - The MASC `2:00 PM` sync on 2026-03-26 was completed and the notes were captured into the tracker.
 - `LFMP-01` for the local `leaflet-maps-plugin` was completed on 2026-03-23; the bailout bug is resolved and the functionality is reported as working as expected.
 - `BANF-09` audio-cleanup recommendation reply was completed on 2026-03-20.
@@ -39,11 +41,13 @@
 - Banff response handling for the current Michel Technical Lead feedback is complete as of 2026-03-18, with all `37` comments acknowledged in Asana.
 
 ## 🟡 What's In Progress
+- `2026-03-30` progress note: met with Alex to check in on the responsiveness sections handoff and made meaningful progress on `IFWH-01`, but the accessibility remediation lane is still open.
+- `IFWH-02` is now the only remaining IFWH follow-up: content-based alt text is pending and targeted for `2026-04-01`.
+- `2026-03-31` MASC response note: about `2h` went into resolving dynamic scripting queries and sending the required follow-up responses after a pile-up of outstanding questions.
 - New maintenance queue item: `UA Local 179` mobile app compatibility check for Samsung Galaxy S7 devices, estimated at 3h and currently waiting on deadline, priority, and test-environment details.
 - Next week closeout: complete `IFWH` accessibility audit and remediation updates by Friday, 2026-03-27.
 - Next week closeout: complete `NWAC` final documentation and compliance research by Friday, 2026-03-27.
 - Priority reset on 2026-03-25: `IFWH-01` and `NWAC-01` now need to close this week so the week of `2026-03-30` can be protected for Banff's hard deadline.
-- Next week scheduled item: `MACY-01` is approved to proceed, stays owned by Aaron for now, carries an internal follow-up on Wednesday, 2026-03-25, has an internal target date of Friday, 2026-03-27, and now explicitly includes data backfill plus a short update note for the new post type workflow.
 - New project intake: `IDE-01` is a bounded 1h support reply for tomorrow to help the client update the `Initiative Hero` circular image and the `Download Brochure (PDF)` button on the IDE Canada site.
 - New MASC float item: `MASC-12` is a 2h visual update to increase the size of the overview hero program images without turning it into a broader hero redesign.
 - New MASC float item: `MASC-13` is a 3h accessibility-related fix to restore the dark gradient treatment under the nav on overview landing pages where it appears to be missing.
@@ -80,7 +84,6 @@
 - Orbeon Forms is waiting on client field definitions.
 - The Orbeon historical survey export is complete, but the CSV is still waiting on sharing information before handoff.
 - The Orbeon GitLab repo is stale and would need to move to GitHub, but that remains a separate maintenance item from the completed survey-data export.
-- `MACY-01` is approved to proceed and scheduled for next week, but the confirmed backfill and short write-up raise the internal planning estimate beyond the original client-facing 3h and it may still be handed off midweek if a clean plan and available owner appear.
 - NWAC documentation is now confirmed as a client handoff, but compliance framing decisions still need to be pinned down so the final package does not stall.
 - `UA Local 179` has been added as a new maintenance item, but it still needs a target date, relative priority, and confirmation of whether the Samsung Galaxy S7 check will use a physical device or an emulator.
 - Banff remediation still includes asset dependencies around SVG logo files; `MI_311` and `MI_312` specifically need to be flagged to the PO and content collection team because the DMC logo should be SVG-only and sponsor logos should be acquired or created as SVGs to avoid blurry rendering at some sizes, zoom levels, and high-DPI screens.
@@ -108,7 +111,7 @@
 
 ## Queue Snapshot
 - This week: MASC
-- Next active work: IFWH closeout, NWAC closeout, MACY-01, Banff technical remediation, Banff release prep, IPAM
+- Next active work: IFWH closeout, NWAC closeout, Banff technical remediation, Banff release prep, IPAM
 - Protection note: after the current MASC due-today lane, protect the rest of this week for `IFWH-01` and `NWAC-01` so next week can be reserved for Banff.
 - New maintenance intake: UA Local 179 Galaxy S7 compatibility check
 - Current MASC next steps: route Jordan-owned plugin items and content-owned fixes to the right owners and get French translations for the featured block content on the French `MMPP` page.
@@ -126,7 +129,6 @@
 - Capacity queue: Encore Cabinets, AMIK
 - Next week follow-up: if no AMIK response is received by Monday, 2026-03-30, send a check-in and confirm whether `ENH-001` stays parked until capacity opens
 - Waiting on client: Orbeon Forms
-- Next week follow-up: check `MACY-01` status and handoff options by Wednesday, 2026-03-25
 - Documentation queue: NWAC
 
 ## Rest Of Week - 2026-03-18 To 2026-03-20
@@ -141,7 +143,6 @@
 - End of day 2026-03-20: `MASC-02` remained open and now carries into Monday, 2026-03-23.
 - Completed on Monday, 2026-03-23: `MASC-06` was closed and the internal sync ran as planned before returning to the remaining MASC lane.
 - Next week, work `IFWH` ahead of `Banff` because the IFWH closeout date lands first on 2026-03-27.
-- During the week of 2026-03-23, keep `MACY-01` on Aaron's list as the owner, follow up internally by Wednesday, 2026-03-25, and aim to close the work by Friday, 2026-03-27 unless a clean handoff becomes available first.
 - Completed on 2026-03-25: `MASC-05` was closed, and the responsive tasks were broken out and handed off to Alex.
 - Merge current MASC work to the production site on 2026-03-18.
 - Use the remaining execution time this week on routing the new MASC cleanup bundle, plugin-owned items, and content-owned follow-ups after the archive-page work.
@@ -155,4 +156,4 @@
 - Keep the `MI_330` alt-text reminder visible so content collection closes image metadata gaps before submission.
 
 ## Slack Update
-Today's closeout was steadier than yesterday: `MASC-03`, `MASC-11`, and `MASC-15` all closed, and the `2:00 PM` MASC sync clarified the next remediation lane and launch timing. Tomorrow stays protected for `IFWH-01` and `NWAC-01`, with only a short `MASC-16` unblock to source the newer dataset files; the main structural risk is still capacity, with the board now at `183h / 40h`.
+Monday closeout was progress-heavy rather than delivery-heavy: the main movement was `IFWH-01`, and there was also an internal Alex check-in on the responsiveness handoff. No new scope entered the board, but the key risk remains the same: `IFWH-01` and `NWAC-01` are still open while Banff week is already active.
