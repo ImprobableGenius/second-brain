@@ -1,3 +1,7 @@
+---
+title: "IDE Project Context"
+---
+
 # IDE Project Context
 
 ## Project Snapshot

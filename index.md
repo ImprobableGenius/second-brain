@@ -1,3 +1,7 @@
+---
+title: "Workspace Index"
+---
+
 # Workspace Index
 
 ## Core Tracking
@@ -54,6 +58,8 @@
 - [daily-plans/tomorrow-2026-03-27.md](./daily-plans/tomorrow-2026-03-27.md)
 - [daily-plans/today-2026-04-01.md](./daily-plans/today-2026-04-01.md)
 - [daily-plans/today-2026-04-01.pdf](./daily-plans/today-2026-04-01.pdf)
+- [daily-plans/today-2026-04-02.md](./daily-plans/today-2026-04-02.md)
+- [daily-plans/today-2026-04-02.pdf](./daily-plans/today-2026-04-02.pdf)
 
 ## Notes
 - MASC-specific working documents now live under [`./masc/`](./masc/).

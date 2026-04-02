@@ -1,3 +1,7 @@
+---
+title: "NWAC Project Context"
+---
+
 # NWAC Project Context
 
 ## Snapshot
@@ -12,10 +16,10 @@
 - Start date: TBD
 - Deadline: 2026-03-27
 - Audience: client handoff
-- Status: Next Week Closeout
+- Status: Deprioritized
 
 ## Current Task
-- [ ] NWAC-01 Final documentation + compliance research | Estimate: 10h | Status: On Track | Due: 2026-03-27 | Flag: High Uncertainty
+- [ ] NWAC-01 Final documentation + compliance research | Estimate: 10h | Status: Triage Needed | Due: 2026-03-27 | Flag: High Uncertainty
 
 ## Platform Notes
 - Custom WordPress theme based on Genesis Block Theme with project-specific edits in `functions.php`.
@@ -46,6 +50,7 @@
 - This project is now targeted for closure during the week of `2026-03-23`, with completion due by Friday, `2026-03-27`.
 - Planning assumption: if audience or compliance-framing decisions remain unresolved, the documentation should still be pushed to a closeout-ready draft rather than left unscheduled.
 - Protection note on `2026-03-25`: `NWAC-01` must be pushed through this week so the week of `2026-03-30` can be protected for Banff execution.
+- Priority reset on `2026-04-02`: `NWAC-01` is deprioritized for now behind the active MASC and IPAM lanes and should be treated as parked carryover until capacity opens.
 
 ## Source Links
 - [PIPEDA fair information principles](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/)

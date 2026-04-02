@@ -1,3 +1,7 @@
+---
+title: "Encore Cabinets Project Context"
+---
+
 # Encore Cabinets Project Context
 
 ## Snapshot

@@ -1,3 +1,7 @@
+---
+title: "MASC Architecture"
+---
+
 # MASC Architecture
 
 ## Technical Snapshot

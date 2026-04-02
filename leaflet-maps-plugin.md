@@ -1,3 +1,7 @@
+---
+title: "Leaflet Maps Plugin Context"
+---
+
 # Leaflet Maps Plugin Context
 
 ## Project Snapshot

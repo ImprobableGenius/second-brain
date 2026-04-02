@@ -1,14 +1,19 @@
+---
+title: "MASC Board"
+---
+
 # MASC Board
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 65h total for current open tasks
+- Working estimate: 64h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
 - Deadline: 2026-04-15
 - Status: In Progress
 - Launch target: 2026-04-15
+- Priority reset on `2026-04-02`: MASC is now the main execution lane through the end of this week after Banff was re-triaged to the week of `2026-04-06`.
 
 ## Current Delivery Tasks
 - CSV due date: 2026-03-27
@@ -52,8 +57,8 @@
 - Completion note on 2026-03-25: the missing plugin fields were added and the same-day expansion task is now closed.
 - [x] MASC-15 New XML post-import verification | Completed: 2026-03-26
 - Completion note on 2026-03-26: the newer XML post-import verification pass is now complete.
-- [ ] MASC-16 Source newer dataset files | Estimate: 1h | Due: 2026-03-27
-- Blocker note on 2026-03-26: follow-on import work is blocked because the newer dataset files are not currently available locally and need to be sourced first.
+- [x] MASC-16 Source newer dataset files | Completed: 2026-04-02
+- Completion note on 2026-04-02: the newer datasets are now updated and a confirmation email was sent to Mike.
 - Small fix note on `2026-03-31`: a reported Corn Insurance factsheet label bug in the claims table was resolved the same day and should be counted in end-of-day stats.
 - Sprint-batch update on `2026-03-24`: `MASC-D01` is complete and `MASC-D02` is now the next active staging-feedback lane.
 - `2026-03-25` progress note: `MASC-D02` is now complete.
@@ -167,6 +172,15 @@
 - Tomorrow note:
   - source the files on `2026-03-27`
   - once the files are in hand, decide whether any new import execution work needs to be estimated separately
+- End-of-week note on `2026-04-02`:
+  - prioritize `MASC-16` first
+  - then move into `MASC-13`
+  - then `MASC-12`
+  - only pull `MASC-04` forward if the scope and design-review path are clear enough to avoid reopening ambiguity
+- Completion update on `2026-04-02`:
+  - the dataset files are now updated
+  - confirmation was sent to Mike
+  - this unblock item is now closed
 
 ## Later Sync Flag - factsheets taxonomy and categorization
 - The requested factsheets filter change from the current single filter to `Program` + `Category` is flagged as significant tagging and categorization work.

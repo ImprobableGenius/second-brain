@@ -1,23 +1,25 @@
+---
+title: "📊 Capacity Status"
+---
+
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 408% of weekly capacity used. Weekly burn: 163h / 40h.
+[Progress Bar: ██████████] 403% of weekly capacity used. Weekly burn: 161h / 40h.
 
 # 🚀 ACTIVE PROJECTS
-- [ ] IFWH-02 Content alt text completion | [1h] | Status: On Track | Due: 2026-04-01
-- [ ] NWAC-01 Final documentation + compliance research | [10h] | Status: On Track | Due: 2026-03-27
-- [ ] MASC-16 Source newer MASC dataset files | [1h] | Status: On Track | Due: 2026-03-27
+- [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
+- [ ] IPAM-01 Member object modeling | [12h] | Status: On Track | Due: 2026-04-15
+- [ ] MASC-12 Overview hero program image size increase | [2h] | Status: On Track
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
-- [ ] MASC-12 Overview hero program image size increase | [2h] | Status: Triage Needed
-- [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: Triage Needed
-- [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-03-27
-- [ ] BANF-02 MI_310 internal UX decision | [1h] | Status: Triage Needed | Due: 2026-03-27
-- [ ] BANF-03 MI_313 return-to-map decision | [1h] | Status: Triage Needed | Due: 2026-03-27
-- [ ] BANF-04 MI_320 spacing consistency decision | [1h] | Status: Triage Needed | Due: 2026-03-27
+- [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-04-08
+- [ ] BANF-02 MI_310 internal UX decision | [1h] | Status: Triage Needed | Due: 2026-04-08
+- [ ] BANF-03 MI_313 return-to-map decision | [1h] | Status: Triage Needed | Due: 2026-04-08
+- [ ] BANF-04 MI_320 spacing consistency decision | [1h] | Status: Triage Needed | Due: 2026-04-08
 - [ ] UAL-01 Galaxy S7 compatibility check | [3h] | Status: Triage Needed
-- [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-03
-- [ ] BANF-06 Michel feedback remediation bundle | [20h] | Status: On Track | Due: 2026-04-03
-- [ ] IPAM-01 Member object modeling | [12h] | Status: On Track | Due: 2026-04-25
+- [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-20
+- [ ] BANF-06 Michel feedback remediation bundle | [20h] | Status: On Track | Due: 2026-04-20
 - [ ] IPAM-02 Membership frontend refinement | [8h] | Status: On Track | Due: 2026-04-25
+- [ ] NWAC-01 Final documentation + compliance research | [10h] | Status: Triage Needed | Due: 2026-03-27
 - [ ] ENCR-01 Zonos recommendation | [6h] | Status: Triage Needed
 - [ ] AMIK-01 ENH-001 scheduling maintenance | [24h] | Status: Triage Needed
 - [ ] ORBF-01 Await client fields + finalize scope | [4h] | Status: Triage Needed
@@ -26,7 +28,7 @@
 - None
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Banff release execution moved today with `BANF-07` and `BANF-08` closed, and `MASC-08` is now complete as well. Current focus is `NWAC-01`, `IFWH-02`, and the next unblocked MASC and IPAM work."
+"MASC remains the main priority through the end of this week, and IPAM stays elevated because its target is mid-April. `MASC-16` is now complete, so current focus moves to `MASC-13`, `IPAM-01`, and `MASC-12`, with `NWAC-01` still deprioritized and Banff queued for the week of 2026-04-06."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?

@@ -1,3 +1,7 @@
+---
+title: "IPAM Project Context"
+---
+
 # IPAM Project Context
 
 ## Project Snapshot
@@ -12,8 +16,9 @@
 - Working estimate: 20h total remaining
 - Task code prefix: `IPAM`
 - Start date: 2026-03-16
-- Deadline: 2026-04-25
+- Deadline: 2026-04-15
 - Status: In Progress
+- Priority note on `2026-04-02`: IPAM has been bumped up in the active priority chain because the working target is now mid-April rather than late April.
 
 ## Stack
 - PHP 8.2+

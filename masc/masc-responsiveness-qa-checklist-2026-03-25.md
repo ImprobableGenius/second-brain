@@ -1,3 +1,7 @@
+---
+title: "MASC Responsiveness QA Checklist - 2026-03-25"
+---
+
 # MASC Responsiveness QA Checklist - 2026-03-25
 
 ## Purpose

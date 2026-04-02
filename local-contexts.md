@@ -1,3 +1,7 @@
+---
+title: "Local Contexts Project Context"
+---
+
 # Local Contexts Project Context
 
 ## Snapshot

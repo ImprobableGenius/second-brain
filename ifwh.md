@@ -1,14 +1,18 @@
+---
+title: "IFWH Project Context"
+---
+
 # IFWH Project Context
 
 ## Project Snapshot
 - Source: `Workload Metrics - Main.csv`
 - Load: Low
-- Working estimate: 1h total remaining
+- Working estimate: 0h total remaining
 - Task code prefix: `IFWH`
 - Priority: Raised above Banff for next week
 - Start date: 2026-03-19
 - Deadline: 2026-03-27
-- Status: Content Closeout
+- Status: Complete
 
 ## Current State
 - The main project work is complete
@@ -19,12 +23,13 @@
 - Protection note on `2026-03-25`: `IFWH-01` must be closed this week so the week of `2026-03-30` can stay protected for Banff's hard deadline.
 - Progress note on `2026-03-30`: meaningful remediation work moved forward, but `IFWH-01` did not fully close.
 - Completion note on `2026-03-31`: all technical remediation is now complete.
-- Remaining scope note on `2026-03-31`: content-owned alt text is still pending and is expected to be finished tomorrow.
+- Completion note on `2026-04-01`: content-owned alt text is now complete and the IFWH lane is fully closed.
 
 ## Remaining Task
 - [x] IFWH-01 Accessibility audit + remediation | Completed: 2026-03-31
-- [ ] IFWH-02 Content alt text completion | Estimate: 1h | Due: 2026-04-01
+- [x] IFWH-02 Content alt text completion | Completed: 2026-04-01
 
 ## PM Notes
 - Scope is now narrow and well-defined
 - If the audit uncovers major structural issues, the 4h estimate should be revisited
+- IFWH is now fully closed unless a new follow-up is explicitly opened.

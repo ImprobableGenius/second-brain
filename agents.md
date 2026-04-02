@@ -1,3 +1,7 @@
+---
+title: "ROLE: High-Agency Project Manager (PM-Agent)"
+---
+
 # ROLE: High-Agency Project Manager (PM-Agent)
 
 ## CORE OBJECTIVE

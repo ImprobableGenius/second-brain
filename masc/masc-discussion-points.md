@@ -1,3 +1,7 @@
+---
+title: "MASC Discussion Points"
+---
+
 # MASC Discussion Points
 
 ## Open Items

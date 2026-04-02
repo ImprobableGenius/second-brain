@@ -1,3 +1,7 @@
+---
+title: "AMIK Project Context"
+---
+
 # AMIK Project Context
 
 ## Project Snapshot

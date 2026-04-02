@@ -1,9 +1,13 @@
+---
+title: "Daily Report - 2026-03-17"
+---
+
 # Daily Report - 2026-03-17
 
 ## 📊 Capacity
-- Weekly burn: 163h / 40h
-- Portfolio load: 408% of weekly capacity
-- Near-term delivery window: MASC due 2026-03-20, Banff release due 2026-03-31, Banff feedback update due 2026-04-03
+- Weekly burn: 161h / 40h
+- Portfolio load: 403% of weekly capacity
+- Near-term delivery window: Banff feedback update due 2026-04-20, IPAM due 2026-04-25
 
 ## 🟢 What's Done
 - Normalized the project tracker into a single estimated queue and rewrote `brain.md` into the PM-agent reporting format.
@@ -31,8 +35,14 @@
 - `MASC-03` was completed on 2026-03-26.
 - `MACY-01` was completed on 2026-03-27; the recommendation changes are now closed.
 - `IFWH-01` was completed on 2026-03-31; all technical accessibility remediation is now closed.
+- `IFWH-02` was completed on 2026-04-01; the IFWH content alt-text follow-up is now closed and the project is fully complete.
 - `BANF-07` and `BANF-08` were completed on 2026-04-01; the Banff GitHub push and production deployment pipeline work are now closed.
 - `MASC-08` was completed on 2026-04-01; the circular bin volume calculator widget and `Insurance with MASC` page update are now closed.
+- Banff was re-triaged on 2026-04-02: the official feedback-update due date is now `2026-04-20`, so the active Banff remediation lane is pushed to early next week.
+- `MASC-16` was completed on 2026-04-02; the newer datasets were updated and a confirmation email was sent to Mike.
+- Priority reset on 2026-04-02: MASC is now the main execution lane through the end of this week, with the contained order `MASC-16`, `MASC-13`, `MASC-12`, then `MASC-04` only if scope is clear.
+- Priority reset on 2026-04-02: IPAM has also been bumped up in the chain because the working target is now mid-April, so it should get execution time ahead of lower-value spillover once the contained MASC lane is moving.
+- Priority reset on 2026-04-02: `NWAC-01` is deprioritized for now and should be treated as parked carryover behind the active MASC and IPAM lanes until capacity opens.
 - The MASC `2:00 PM` sync on 2026-03-26 was completed and the notes were captured into the tracker.
 - `LFMP-01` for the local `leaflet-maps-plugin` was completed on 2026-03-23; the bailout bug is resolved and the functionality is reported as working as expected.
 - `BANF-09` audio-cleanup recommendation reply was completed on 2026-03-20.
@@ -44,7 +54,6 @@
 
 ## 🟡 What's In Progress
 - `2026-03-30` progress note: met with Alex to check in on the responsiveness sections handoff and made meaningful progress on `IFWH-01`, but the accessibility remediation lane is still open.
-- `IFWH-02` is now the only remaining IFWH follow-up: content-based alt text is pending and targeted for `2026-04-01`.
 - `2026-03-31` MASC response note: about `2h` went into resolving dynamic scripting queries and sending the required follow-up responses after a pile-up of outstanding questions.
 - `2026-03-31` MASC small-fix note: the reported Corn Insurance factsheet claims-table bug was resolved and should be counted in end-of-day stats.
 - New maintenance queue item: `UA Local 179` mobile app compatibility check for Samsung Galaxy S7 devices, estimated at 3h and currently waiting on deadline, priority, and test-environment details.
@@ -54,7 +63,6 @@
 - New project intake: `IDE-01` is a bounded 1h support reply for tomorrow to help the client update the `Initiative Hero` circular image and the `Download Brochure (PDF)` button on the IDE Canada site.
 - New MASC float item: `MASC-12` is a 2h visual update to increase the size of the overview hero program images without turning it into a broader hero redesign.
 - New MASC float item: `MASC-13` is a 3h accessibility-related fix to restore the dark gradient treatment under the nav on overview landing pages where it appears to be missing.
-- New short MASC unblock item: `MASC-16` is a 1h task to source the newer dataset files needed for follow-on import work after today's verification pass confirmed the files are not currently available locally.
 - MASC EN feedback triage surfaced a cleanup bundle covering page-header whitespace reduction, table-border cleanup, a targeted program-link fix, borrowing-amount formatting, and a direct `my.masc.mb.ca` sign-in URL update; the whitespace and table-border items are now complete.
 - MASC queue addition: handoff-ready News and Updates block regression fix, estimated at 4h, with category coin design needing review by the design department.
 - MASC meeting note on 2026-03-26: repeated breadcrumbs on the News archive page are confirmed, breadcrumb links on inner pages should only link to overview pages, factsheet bullets should be centered, the print template needs another iteration, and `How to File a Claim` plus `How to Report` still require discussion.
@@ -159,4 +167,4 @@
 - Keep the `MI_330` alt-text reminder visible so content collection closes image metadata gaps before submission.
 
 ## Slack Update
-Tuesday closeout was healthier: `IFWH-01` is now technically closed, about `2h` went into MASC dynamic scripting follow-up responses, and a small Corn Insurance factsheet bug was resolved the same day. No new scope was added, so the day improved throughput without making the board heavier.
+Wednesday closeout was one of the stronger recent delivery days: `BANF-07`, `BANF-08`, `MASC-08`, and `IFWH-02` all closed, so Banff release pressure dropped, IFWH is now fully complete, and the board got lighter without any new scope being added.

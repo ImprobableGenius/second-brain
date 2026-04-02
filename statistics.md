@@ -1,3 +1,7 @@
+---
+title: "Productivity Statistics"
+---
+
 # Productivity Statistics
 
 ## Purpose
@@ -50,6 +54,7 @@
 | 2026-03-27 | 5.0 | 0.0 | 0.0 | 0.0 | 5.0 | 5.0 | 6.9 | 72 | -28 | 0 | `MACY-01` drove the day as the main closed delivery item; the main constraint was that `IFWH-01`, `NWAC-01`, and the blocked MASC lane remained open going into Monday. |
 | 2026-03-30 | 0.0 | 2.0 | 2.0 | 0.0 | 0.0 | 2.4 | 6.7 | 36 | -52 | 0 | Alex responsiveness check-in and other internal coordination made this a response-heavy day; the main delivery movement was progress on `IFWH-01`, but it did not fully close. |
 | 2026-03-31 | 5.0 | 2.0 | 0.0 | 0.0 | 0.0 | 6.4 | 5.0 | 128 | 167 | 0 | `IFWH-01` technical remediation drove the day as the main closed delivery item, with a `2h` MASC dynamic scripting response block and a small Corn Insurance factsheet fix also handled; no new scope entered the system. |
+| 2026-04-01 | 13.0 | 0.0 | 0.0 | 0.0 | 0.0 | 13.0 | 5.0 | 260 | 103 | 0 | `BANF-07`, `BANF-08`, `MASC-08`, and `IFWH-02` all closed, making this a strong delivery day with no new scope added and no blocker carry counted into the output. |
 
 ## Rolling Notes
 - Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.
