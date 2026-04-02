@@ -5,8 +5,8 @@ title: "Daily Report - 2026-03-17"
 # Daily Report - 2026-03-17
 
 ## 📊 Capacity
-- Weekly burn: 161h / 40h
-- Portfolio load: 403% of weekly capacity
+- Weekly burn: 193h / 40h
+- Portfolio load: 483% of weekly capacity
 - Near-term delivery window: Banff feedback update due 2026-04-20, IPAM due 2026-04-25
 
 ## 🟢 What's Done
@@ -43,6 +43,7 @@ title: "Daily Report - 2026-03-17"
 - Priority reset on 2026-04-02: MASC is now the main execution lane through the end of this week, with the contained order `MASC-16`, `MASC-13`, `MASC-12`, then `MASC-04` only if scope is clear.
 - Priority reset on 2026-04-02: IPAM has also been bumped up in the chain because the working target is now mid-April, so it should get execution time ahead of lower-value spillover once the contained MASC lane is moving.
 - Priority reset on 2026-04-02: `NWAC-01` is deprioritized for now and should be treated as parked carryover behind the active MASC and IPAM lanes until capacity opens.
+- Intake processed on 2026-04-02: the raw MASC feedback rows from the board were converted into `MASC-17` through `MASC-20`, covering the global print pass, lending/rendering polish, calculator defects, and News/Knowledge Centre remediation.
 - The MASC `2:00 PM` sync on 2026-03-26 was completed and the notes were captured into the tracker.
 - `LFMP-01` for the local `leaflet-maps-plugin` was completed on 2026-03-23; the bailout bug is resolved and the functionality is reported as working as expected.
 - `BANF-09` audio-cleanup recommendation reply was completed on 2026-03-20.

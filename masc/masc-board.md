@@ -6,7 +6,7 @@ title: "MASC Board"
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 64h total for current open tasks
+- Working estimate: 96h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -53,6 +53,10 @@ title: "MASC Board"
 - Estimate assumption: `MASC-12` is a contained hero-image sizing and layout pass on the existing overview-page hero pattern, not a broader hero redesign.
 - [ ] MASC-13 Overview nav gradient accessibility fix | Estimate: 3h | Due: TBD
 - Estimate assumption: `MASC-13` is a contained fix to restore the dark gradient treatment under the nav on overview landing pages and improve contrast, not a full WCAG audit of the entire page family.
+- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | Estimate: 10h | Due: TBD
+- [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 6h | Due: TBD | Flag: High Uncertainty
+- [ ] MASC-19 Calculator defects + feedback pass | Estimate: 8h | Due: TBD | Flag: High Uncertainty
+- [ ] MASC-20 News + Knowledge Centre remediation bundle | Estimate: 8h | Due: TBD | Flag: High Uncertainty
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25
 - Completion note on 2026-03-25: the missing plugin fields were added and the same-day expansion task is now closed.
 - [x] MASC-15 New XML post-import verification | Completed: 2026-03-26
@@ -181,6 +185,52 @@ title: "MASC Board"
   - the dataset files are now updated
   - confirmation was sent to Mike
   - this unblock item is now closed
+
+## Processed Intake - 2026-04-02
+- `MASC-17` Factsheet print stylesheet + table QA bundle
+  - bundle files: [[masc/MASC-17A Print typography and spacing bundle|MASC-17A Print typography and spacing bundle]], [[masc/MASC-17B Print tables and controls bundle|MASC-17B Print tables and controls bundle]]
+  - indent numbered bullets
+  - secondary print-page title sizing
+  - print tables and formula tables formatted more like the web view
+  - remove table shading except light-grey header cells
+  - hide the `How to File a Report` button in print
+  - Seeding Deadlines column-width adjustment
+  - reduce bullet size and vertical spacing
+  - normalize page header and footer spacing in print
+  - add spacing between the first and second section headings in print
+  - stakeholders: Aarish, Kali
+- `MASC-18` Lending detail + rendering polish bundle
+  - bundle file: [[masc/MASC-18 Lending detail and rendering polish bundle|MASC-18 Lending detail and rendering polish bundle]]
+  - woman's-face photo reorientation
+  - loan maximum comma formatting and `View Lending Rates` link
+  - Young Farmer Rebate numeric and wording normalization
+  - move the header or paragraph upward to align with the video top edge
+  - broken Stocker Loans table link
+  - `Support for Young Farmers` text to `Support for Next Generation`
+  - stakeholders: Aarish, Kali
+  - note: some items appear backend-dataset-driven and may need rendering-layer or data-layer changes
+- `MASC-19` Calculator defects + feedback pass
+  - bundle file: [[masc/MASC-19 Calculator defects and feedback bundle|MASC-19 Calculator defects and feedback bundle]]
+  - review and action `Mike - Calculators - Feedback1.docx`
+  - `FSTR` calculator defect
+  - AgriInsurance Premium and Coverage Calculator 70% alignment issue
+  - calculator-priority or prominence question
+  - Forage Insurance Calculator hyperlink for Forage Regions
+  - stakeholders: Aarish, Jordan
+- `MASC-20` News + Knowledge Centre remediation bundle
+  - bundle files: [[masc/MASC-20A News archive remediation bundle|MASC-20A News archive remediation bundle]], [[masc/MASC-20B Knowledge Centre and video filter bundle|MASC-20B Knowledge Centre and video filter bundle]]
+  - delete News items without photos if they are erroneous duplicates
+  - review whether `Category` should be removed on News or expanded as a new filter
+  - fix `News > News` breadcrumb duplication
+  - stop individual News items from opening in a new tab
+  - add `Category` options for `Strategic Plan` and `Annual Reports` if that path is confirmed
+  - rename `View Annual Report` to `View Strategic Plan` on the strategic-plan item
+  - resolve title-only Knowledge Centre pages
+  - fix Seeding Deadlines quick-link destinations
+  - resolve page-count inconsistency and thumbnail border issue in videos
+  - rename `Media` filter to `Content Type`
+  - apply italics to `my` in `myMASC` inside category filters
+  - discussion flag: applied-filter colour coding is still design-dependent
 
 ## Later Sync Flag - factsheets taxonomy and categorization
 - The requested factsheets filter change from the current single filter to `Program` + `Category` is flagged as significant tagging and categorization work.

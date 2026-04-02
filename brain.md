@@ -3,13 +3,17 @@ title: "📊 Capacity Status"
 ---
 
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 403% of weekly capacity used. Weekly burn: 161h / 40h.
+[Progress Bar: ██████████] 483% of weekly capacity used. Weekly burn: 193h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
 - [ ] IPAM-01 Member object modeling | [12h] | Status: On Track | Due: 2026-04-15
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: On Track
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
+- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | [10h] | Status: On Track
+- [ ] MASC-18 Lending detail + rendering polish bundle | [6h] | Status: Triage Needed
+- [ ] MASC-19 Calculator defects + feedback pass | [8h] | Status: Triage Needed
+- [ ] MASC-20 News + Knowledge Centre remediation bundle | [8h] | Status: Triage Needed
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
 - [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-04-08
 - [ ] BANF-02 MI_310 internal UX decision | [1h] | Status: Triage Needed | Due: 2026-04-08
@@ -27,8 +31,9 @@ title: "📊 Capacity Status"
 # 📥 MESSY INTAKE
 - None
 
+
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"MASC remains the main priority through the end of this week, and IPAM stays elevated because its target is mid-April. `MASC-16` is now complete, so current focus moves to `MASC-13`, `IPAM-01`, and `MASC-12`, with `NWAC-01` still deprioritized and Banff queued for the week of 2026-04-06."
+"MASC intake has been processed into four estimated delivery bundles, so the board is now schedulable instead of carrying raw feedback rows. Current focus stays on `MASC-13`, `IPAM-01`, and `MASC-12`, with Banff queued for the week of 2026-04-06 and `NWAC-01` still deprioritized."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
@@ -49,3 +54,8 @@ title: "📊 Capacity Status"
 16. For MASC-07, should the repeated factsheet issues be treated as shared template and systemic fixes wherever possible, or estimated page by page?
 17. For MASC-07, should copy swaps, image swaps, and similar content approvals stay inside engineering scope, or be tracked separately as content-team dependencies?
 18. For MASC-13, should the dark gradient fix cover all overview landing pages that share the hero pattern, or only the pages currently missing it?
+19. For MASC-18, should the lending-value formatting items be handled in the theme rendering layer, or do they need dataset-level changes first?
+20. For MASC-19, who owns the FSTR calculator defects and the `Mike - Calculators - Feedback1.docx` follow-up: Aarish, Jordan, or both?
+21. For MASC-20, should the News experience drop the current `Category` control, or add a new `Category` filter for `Strategic Plan` and `Annual Reports`?
+22. For MASC-20, should the title-only Knowledge Centre pages be unpublished or redirected, or do they need to be completed with content?
+23. For MASC-17, should the print-style changes be treated as a global factsheet print pass across the full library?
