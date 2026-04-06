@@ -62,8 +62,6 @@ title: "Workspace Index"
 - [daily-plans/tomorrow-2026-03-19.pdf](./daily-plans/tomorrow-2026-03-19.pdf)
 - [daily-plans/tomorrow-2026-03-20.md](./daily-plans/tomorrow-2026-03-20.md)
 - [daily-plans/tomorrow-2026-03-20.pdf](./daily-plans/tomorrow-2026-03-20.pdf)
-- [production-summary-2026-03-23.md](./production-summary-2026-03-23.md)
-- [production-summary-2026-03-23.pdf](./production-summary-2026-03-23.pdf)
 - [daily-plans/tomorrow-2026-03-24.md](./daily-plans/tomorrow-2026-03-24.md)
 - [daily-plans/tomorrow-2026-03-25.md](./daily-plans/tomorrow-2026-03-25.md)
 - [daily-plans/tomorrow-2026-03-25.pdf](./daily-plans/tomorrow-2026-03-25.pdf)
@@ -74,6 +72,15 @@ title: "Workspace Index"
 - [daily-plans/today-2026-04-01.pdf](./daily-plans/today-2026-04-01.pdf)
 - [daily-plans/today-2026-04-02.md](./daily-plans/today-2026-04-02.md)
 - [daily-plans/today-2026-04-02.pdf](./daily-plans/today-2026-04-02.pdf)
+- [daily-plans/today-2026-04-06.md](./daily-plans/today-2026-04-06.md)
+- [daily-plans/today-2026-04-06.pdf](./daily-plans/today-2026-04-06.pdf)
+
+## Production Summaries
+- [production-summaries/](./production-summaries/)
+- [production-summaries/production-summary-2026-03-23.md](./production-summaries/production-summary-2026-03-23.md)
+- [production-summaries/production-summary-2026-03-23.pdf](./production-summaries/production-summary-2026-03-23.pdf)
+- [production-summaries/production-summary-2026-04-06.md](./production-summaries/production-summary-2026-04-06.md)
+- [production-summaries/production-summary-2026-04-06.pdf](./production-summaries/production-summary-2026-04-06.pdf)
 
 ## Notes
 - MASC-specific working documents now live under [`./masc/`](./masc/).
