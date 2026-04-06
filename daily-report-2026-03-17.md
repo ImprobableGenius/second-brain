@@ -166,6 +166,7 @@ title: "Daily Report - 2026-03-17"
 - Capture any Banff blockers, especially the `MI_311` DMC SVG asset dependency and the `MI_312` sponsor SVG asset need, so next week's remediation queue stays accurate.
 - Keep the `MI_324` language-toggle dependency visible so the next submission does not reach implementation without approved translated content from PO/content.
 - Keep the `MI_330` alt-text reminder visible so content collection closes image metadata gaps before submission.
+- Logged on 2026-04-06: IPAM branch activity on `feat/landing` included the landing route, preliminary landing-page build, multi-step membership flow, validation, draft/session persistence, application models and migration work, and related tests.
 
 ## Slack Update
 Thursday closeout was intake-heavy rather than delivery-heavy: `MASC-16` closed, but most of the day went into processing the raw MASC intake into scoped bundles, checklist notes, and printable bundle docs. The main pressure was scope growth, since that cleanup converted into `32h` of newly tracked MASC work even though the board itself is now cleaner and more schedulable.
