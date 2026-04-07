@@ -48,6 +48,7 @@ title: "Workspace Index"
 - [macy.md](./macy.md)
 - [nwac.md](./nwac.md)
 - [orbeon-forms.md](./orbeon-forms.md)
+- [perimeter.md](./perimeter.md)
 - [ua-local-179.md](./ua-local-179.md)
 
 ## Daily Plans

@@ -3,11 +3,18 @@ title: "📊 Capacity Status"
 ---
 
 # 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 483% of weekly capacity used. Weekly burn: 193h / 40h.
+[Progress Bar: ██████████] 543% of weekly capacity used. Weekly burn: 217h / 40h.
 
 # 🚀 ACTIVE PROJECTS
+- [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-20
+- [ ] BANF-06 Michel feedback remediation bundle | [20h] | Status: On Track | Due: 2026-04-20
+- [ ] IPAM-01 DEV-02 Core database schema + member objects | [4h] | Status: Behind | Due: 2026-03-06
+- [ ] IPAM-02 DEV-03 V1 applicant form + frontend refinement | [6h] | Status: Behind | Due: 2026-03-13
+- [ ] IPAM-03 DEV-04 Document upload implementation | [8h] | Status: Behind | Due: 2026-03-20
+- [ ] IPAM-04 DEV-06 Complete admin review tools | [8h] | Status: Behind | Due: 2026-04-03
+- [ ] IPAM-05 DEV-07 Export and payment marker | [6h] | Status: On Track | Due: 2026-04-10
+- [ ] IPAM-06 DEV-08 Complete staging site | [10h] | Status: On Track | Due: 2026-04-15
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
-- [ ] IPAM-01 Member object modeling | [12h] | Status: On Track | Due: 2026-04-15
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: On Track
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
 - [ ] MASC-17 Factsheet print stylesheet + table QA bundle | [10h] | Status: On Track
@@ -20,9 +27,7 @@ title: "📊 Capacity Status"
 - [ ] BANF-03 MI_313 return-to-map decision | [1h] | Status: Triage Needed | Due: 2026-04-08
 - [ ] BANF-04 MI_320 spacing consistency decision | [1h] | Status: Triage Needed | Due: 2026-04-08
 - [ ] UAL-01 Galaxy S7 compatibility check | [3h] | Status: Triage Needed
-- [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-20
-- [ ] BANF-06 Michel feedback remediation bundle | [20h] | Status: On Track | Due: 2026-04-20
-- [ ] IPAM-02 Membership frontend refinement | [8h] | Status: On Track | Due: 2026-04-25
+- [ ] PERM-01 Flight widget debug + PR finalization | [2h] | Status: Triage Needed
 - [ ] NWAC-01 Final documentation + compliance research | [10h] | Status: Triage Needed | Due: 2026-03-27
 - [ ] ENCR-01 Zonos recommendation | [6h] | Status: Triage Needed
 - [ ] AMIK-01 ENH-001 scheduling maintenance | [24h] | Status: Triage Needed
@@ -33,7 +38,7 @@ title: "📊 Capacity Status"
 
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"MASC intake has been processed into four estimated delivery bundles, so the board is now schedulable instead of carrying raw feedback rows. Current focus stays on `MASC-13`, `IPAM-01`, and `MASC-12`, with Banff queued for the week of 2026-04-06 and `NWAC-01` still deprioritized."
+"Banff and IPAM are now the real deadline lanes. IPAM has been expanded from two placeholder tasks into the full delivery chain through schema, applicant flow, uploads, admin tools, export/payment, and staging, and the April 15 target is now clearly at risk unless MASC stays contained."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
@@ -59,3 +64,7 @@ title: "📊 Capacity Status"
 21. For MASC-20, should the News experience drop the current `Category` control, or add a new `Category` filter for `Strategic Plan` and `Annual Reports`?
 22. For MASC-20, should the title-only Knowledge Centre pages be unpublished or redirected, or do they need to be completed with content?
 23. For MASC-17, should the print-style changes be treated as a global factsheet print pass across the full library?
+24. For PERM-01, should the remaining work include only the flight-widget fix and PR cleanup, or should the untracked `Newsletter.js` and `resources/vendor/` changes also be treated as part of the same lane?
+25. For IPAM-04, does “complete admin review tools” include attachment review, approval actions, and member-creation workflow, or only read/update/filter capability in Nova?
+26. For IPAM-05, does “export and payment marker” mean CSV/export plus a payment-received flag, or a broader payment workflow?
+27. For IPAM-06, does “complete staging site” mean deployment and smoke QA only, or does it also include a client-ready UAT pass and fix buffer?

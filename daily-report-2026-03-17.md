@@ -167,6 +167,8 @@ title: "Daily Report - 2026-03-17"
 - Keep the `MI_324` language-toggle dependency visible so the next submission does not reach implementation without approved translated content from PO/content.
 - Keep the `MI_330` alt-text reminder visible so content collection closes image metadata gaps before submission.
 - Logged on 2026-04-06: IPAM branch activity on `feat/landing` included the landing route, preliminary landing-page build, multi-step membership flow, validation, draft/session persistence, application models and migration work, and related tests.
+- Logged on 2026-04-06: Perimeter colleague-support work was tied specifically to debugging the flight widget concern on branch `feat/zoom-fix`. Working actual for reporting is `3h` of support/response time, with a separate `2h` remaining estimate to finalize the widget fix and clean the PR.
+- Logged on 2026-04-07: IPAM board scope was expanded to match the milestone chain in the completion plan screenshot. Working remaining estimate is now `42h` across schema, applicant flow, uploads, admin review, export/payment, and staging.
 
 ## Slack Update
-Thursday closeout was intake-heavy rather than delivery-heavy: `MASC-16` closed, but most of the day went into processing the raw MASC intake into scoped bundles, checklist notes, and printable bundle docs. The main pressure was scope growth, since that cleanup converted into `32h` of newly tracked MASC work even though the board itself is now cleaner and more schedulable.
+Monday closeout was steady but not closure-heavy: `IPAM` made real progress on the landing and membership-wizard lane, and `PERM-01` captured a meaningful colleague-support block on the Perimeter flight widget issue. The day stayed controlled, with only `2h` of new scope added, but no active task was fully closed.
