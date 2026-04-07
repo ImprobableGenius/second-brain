@@ -2,8 +2,6 @@
 title: "MASC Bundle Creation Definitions"
 ---
 
-# MASC Bundle Creation Definitions
-
 ## Purpose
 - Define how MASC work bundles should be broken into checklist notes.
 - Keep bundle scopes small enough to schedule and complete cleanly.

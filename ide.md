@@ -2,8 +2,6 @@
 title: "IDE Project Context"
 ---
 
-# IDE Project Context
-
 - Last updated: `2026-04-07`
 
 ## Project Snapshot

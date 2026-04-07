@@ -2,8 +2,6 @@
 title: "MASC Index"
 ---
 
-# MASC Index
-
 ## Main Files
 - [MASC Bundle Creation Definitions.md](./MASC%20Bundle%20Creation%20Definitions.md)
 - [MASC-17A Print typography and spacing bundle.md](./MASC-17A%20Print%20typography%20and%20spacing%20bundle.md)

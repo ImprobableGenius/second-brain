@@ -2,8 +2,6 @@
 title: "IPAM Project Context"
 ---
 
-# IPAM Project Context
-
 - Last updated: `2026-04-07`
 
 ## Project Snapshot

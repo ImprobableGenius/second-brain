@@ -2,13 +2,11 @@
 title: "MASC Board"
 ---
 
-# MASC Board
-
 - Last updated: `2026-04-07`
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 96h total for current open tasks
+- Working estimate: 98h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -59,6 +57,7 @@ title: "MASC Board"
 - [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 6h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-19 Calculator defects + feedback pass | Estimate: 8h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-20 News + Knowledge Centre remediation bundle | Estimate: 8h | Due: TBD | Flag: High Uncertainty
+- [ ] MASC-21 programDetails.xml dataset email follow-up | Estimate: 2h | Due: TBD | Flag: High Uncertainty
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25
 - Completion note on 2026-03-25: the missing plugin fields were added and the same-day expansion task is now closed.
 - [x] MASC-15 New XML post-import verification | Completed: 2026-03-26
@@ -187,6 +186,18 @@ title: "MASC Board"
   - the dataset files are now updated
   - confirmation was sent to Mike
   - this unblock item is now closed
+
+## programDetails.xml Email Follow-up Note - 2026-04-07
+- New intake item: another MASC request came in today relating to the `programDetails.xml` dataset.
+- Current PM read:
+  - this is likely a contained follow-up in the same family as prior dataset-path and dataset-update requests
+  - the exact program or field impact is not yet captured in the board
+  - do not silently fold it into the broader MASC backlog until the email is clarified
+- Working estimate:
+  - `2h` because the request is still definition-light and may turn out to be either a short response or a real dataset correction
+- Current unblock:
+  - confirm whether the email requires a response only or an actual data update
+  - confirm which program or fields in `programDetails.xml` are affected
 
 ## Processed Intake - 2026-04-02
 - `MASC-17` Factsheet print stylesheet + table QA bundle

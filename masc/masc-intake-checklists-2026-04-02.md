@@ -2,8 +2,6 @@
 title: "MASC Intake Checklists - 2026-04-02"
 ---
 
-# MASC Intake Checklists - 2026-04-02
-
 ## Purpose
 - Convert the processed MASC intake into working checklists by bundle.
 - Preserve the row-level items from the former `# 📥 MESSY INTAKE` table.

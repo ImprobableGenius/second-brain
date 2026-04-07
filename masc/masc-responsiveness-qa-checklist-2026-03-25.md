@@ -2,8 +2,6 @@
 title: "MASC Responsiveness QA Checklist - 2026-03-25"
 ---
 
-# MASC Responsiveness QA Checklist - 2026-03-25
-
 ## Purpose
 - Create a practical responsive QA walkthrough for the MASC theme based on the actual theme structure.
 - Cover every major page family, reusable block, partial, and registered pattern.

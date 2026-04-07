@@ -2,8 +2,6 @@
 title: "Local Contexts Project Context"
 ---
 
-# Local Contexts Project Context
-
 - Last updated: `2026-04-07`
 
 ## Snapshot

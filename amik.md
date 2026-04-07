@@ -2,8 +2,6 @@
 title: "AMIK Project Context"
 ---
 
-# AMIK Project Context
-
 - Last updated: `2026-04-07`
 
 ## Project Snapshot

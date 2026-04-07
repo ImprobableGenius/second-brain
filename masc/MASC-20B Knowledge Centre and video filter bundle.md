@@ -2,8 +2,6 @@
 title: "MASC-20B Knowledge Centre and video filter bundle"
 ---
 
-# MASC-20B Knowledge Centre and video filter bundle
-
 ## Purpose
 - Handle Knowledge Centre, video-library, and filter cleanup items from intake.
 

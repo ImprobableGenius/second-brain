@@ -2,8 +2,6 @@
 title: "MASC-17A Print typography and spacing bundle"
 ---
 
-# MASC-17A Print typography and spacing bundle
-
 ## Purpose
 - Handle the print-typography and spacing fixes from the processed MASC intake.
 

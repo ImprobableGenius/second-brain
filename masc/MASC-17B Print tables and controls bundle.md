@@ -2,8 +2,6 @@
 title: "MASC-17B Print tables and controls bundle"
 ---
 
-# MASC-17B Print tables and controls bundle
-
 ## Purpose
 - Handle the print-table and print-control fixes from the processed MASC intake.
 

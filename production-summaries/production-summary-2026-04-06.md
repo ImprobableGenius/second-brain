@@ -2,8 +2,6 @@
 title: "Production Meeting Summary - Week Of 2026-04-06"
 ---
 
-# Production Meeting Summary - Week Of 2026-04-06
-
 ## Main Focus
 - `Banff` is back in the active execution lane this week.
 - The immediate Banff build focus is `BANF-05` and `BANF-06`, with the intent to finish early rather than drift toward the formal deadline of `2026-04-20`.

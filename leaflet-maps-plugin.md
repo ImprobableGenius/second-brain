@@ -2,8 +2,6 @@
 title: "Leaflet Maps Plugin Context"
 ---
 
-# Leaflet Maps Plugin Context
-
 - Last updated: `2026-04-07`
 
 ## Project Snapshot

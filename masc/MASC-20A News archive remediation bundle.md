@@ -2,8 +2,6 @@
 title: "MASC-20A News archive remediation bundle"
 ---
 
-# MASC-20A News archive remediation bundle
-
 ## Purpose
 - Handle the News archive and News item cleanup items from intake.
 

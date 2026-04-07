@@ -2,8 +2,6 @@
 title: "Encore Cabinets Project Context"
 ---
 
-# Encore Cabinets Project Context
-
 - Last updated: `2026-04-07`
 
 ## Snapshot

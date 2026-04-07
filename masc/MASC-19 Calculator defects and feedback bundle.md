@@ -2,8 +2,6 @@
 title: "MASC-19 Calculator defects and feedback bundle"
 ---
 
-# MASC-19 Calculator defects and feedback bundle
-
 ## Purpose
 - Handle the calculator defect pass and the calculator-specific technical feedback items from intake.
 

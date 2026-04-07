@@ -2,8 +2,6 @@
 title: "MASC New Feedback Sort - 2026-03-23"
 ---
 
-# MASC New Feedback Sort - 2026-03-23
-
 ## Rules Used
 - Source scope: only the `NEW EDITS`, `NEW NOTE`, and `NOT FIXED` items pasted in Aaron's message on `2026-03-23`.
 - Classification rule:

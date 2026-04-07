@@ -2,8 +2,6 @@
 title: "MASC Architecture"
 ---
 
-# MASC Architecture
-
 ## Technical Snapshot
 - Source: `Workload Metrics - Main.csv`
 - Project type: Local WordPress site with a custom theme

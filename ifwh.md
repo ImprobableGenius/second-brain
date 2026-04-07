@@ -2,8 +2,6 @@
 title: "IFWH Project Context"
 ---
 
-# IFWH Project Context
-
 - Last updated: `2026-04-07`
 
 ## Project Snapshot

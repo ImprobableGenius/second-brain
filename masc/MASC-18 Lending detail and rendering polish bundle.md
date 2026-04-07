@@ -2,8 +2,6 @@
 title: "MASC-18 Lending detail and rendering polish bundle"
 ---
 
-# MASC-18 Lending detail and rendering polish bundle
-
 ## Purpose
 - Handle the lending-page visual, formatting, and link-polish items that were grouped from intake.
 

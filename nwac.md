@@ -2,8 +2,6 @@
 title: "NWAC Project Context"
 ---
 
-# NWAC Project Context
-
 - Last updated: `2026-04-07`
 
 ## Snapshot

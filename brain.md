@@ -2,8 +2,8 @@
 title: "📊 Capacity Status"
 ---
 
-# 📊 CAPACITY STATUS
-[Progress Bar: ██████████] 543% of weekly capacity used. Weekly burn: 217h / 40h.
+- Last updated: `2026-04-07`
+[Progress Bar: ██████████] 548% of weekly capacity used. Weekly burn: 219h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-20
@@ -21,6 +21,7 @@ title: "📊 Capacity Status"
 - [ ] MASC-18 Lending detail + rendering polish bundle | [6h] | Status: Triage Needed
 - [ ] MASC-19 Calculator defects + feedback pass | [8h] | Status: Triage Needed
 - [ ] MASC-20 News + Knowledge Centre remediation bundle | [8h] | Status: Triage Needed
+- [ ] MASC-21 programDetails.xml dataset email follow-up | [2h] | Status: Triage Needed
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
 - [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-04-08
 - [ ] BANF-02 MI_310 internal UX decision | [1h] | Status: Triage Needed | Due: 2026-04-08
@@ -38,7 +39,7 @@ title: "📊 Capacity Status"
 
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Banff and IPAM are now the real deadline lanes. IPAM has been expanded from two placeholder tasks into the full delivery chain through schema, applicant flow, uploads, admin tools, export/payment, and staging, and the April 15 target is now clearly at risk unless MASC stays contained."
+"Banff and IPAM are now the real deadline lanes. IPAM has been expanded into the full delivery chain through schema, applicant flow, uploads, admin tools, export/payment, and staging, and a new contained `MASC-21` dataset follow-up has been logged from today’s email without reopening the broader MASC backlog."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
@@ -68,3 +69,4 @@ title: "📊 Capacity Status"
 25. For IPAM-04, does “complete admin review tools” include attachment review, approval actions, and member-creation workflow, or only read/update/filter capability in Nova?
 26. For IPAM-05, does “export and payment marker” mean CSV/export plus a payment-received flag, or a broader payment workflow?
 27. For IPAM-06, does “complete staging site” mean deployment and smoke QA only, or does it also include a client-ready UAT pass and fix buffer?
+28. For MASC-21, does today’s email require only a response on `programDetails.xml`, or an actual dataset update, and which program/fields are affected?

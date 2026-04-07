@@ -2,13 +2,12 @@
 title: "Workspace Index"
 ---
 
-# Workspace Index
-
 ## Core Tracking
 - [brain.md](./brain.md)
 - [daily-report-2026-03-17.md](./daily-report-2026-03-17.md)
 - [statistics.md](./statistics.md)
 - [statistics-dashboard.md](./statistics-dashboard.md)
+- [statistics-dashboard.pdf](./statistics-dashboard.pdf)
 - [agents.md](./agents.md)
 
 ## MASC Folder
@@ -76,6 +75,8 @@ title: "Workspace Index"
 - [daily-plans/today-2026-04-02.pdf](./daily-plans/today-2026-04-02.pdf)
 - [daily-plans/today-2026-04-06.md](./daily-plans/today-2026-04-06.md)
 - [daily-plans/today-2026-04-06.pdf](./daily-plans/today-2026-04-06.pdf)
+- [daily-plans/today-2026-04-07.md](./daily-plans/today-2026-04-07.md)
+- [daily-plans/today-2026-04-07.pdf](./daily-plans/today-2026-04-07.pdf)
 
 ## Production Summaries
 - [production-summaries/](./production-summaries/)

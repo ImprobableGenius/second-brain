@@ -2,8 +2,6 @@
 title: "Productivity Statistics"
 ---
 
-# Productivity Statistics
-
 ## Purpose
 - Track day-on-day productivity using the same estimate-based task system already used in the portfolio.
 - Keep the score adaptive by comparing each day against a rolling baseline instead of a fixed target.

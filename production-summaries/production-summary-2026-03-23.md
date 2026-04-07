@@ -2,8 +2,6 @@
 title: "Production Meeting Summary - Week Of 2026-03-23"
 ---
 
-# Production Meeting Summary - Week Of 2026-03-23
-
 ## Main Focus
 - `MASC` remains the main production lane this week.
 - Monday starts with `MASC-06`, then the `MASC-05` sync, then spillover on `MASC-02`.

@@ -2,7 +2,6 @@
 title: "MASC Internal Brief"
 ---
 
-# MASC Internal Brief
 ## How to File a Claim / How to Report
 
 **Purpose**
