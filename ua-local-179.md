@@ -4,6 +4,8 @@ title: "UA Local 179"
 
 # UA Local 179
 
+- Last updated: `2026-04-07`
+
 ## Project Overview
 - Project type: Maintenance
 - Platform: Mobile app

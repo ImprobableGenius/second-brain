@@ -4,6 +4,8 @@ title: "NWAC Project Context"
 
 # NWAC Project Context
 
+- Last updated: `2026-04-07`
+
 ## Snapshot
 - Project type: WordPress custom Gravity Forms site
 - Local repo: `/Users/aarongilani/Local Sites/nwac/app/public/wp-content/themes/NWAC`

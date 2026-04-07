@@ -4,6 +4,8 @@ title: "Perimeter Project Context"
 
 # Perimeter Project Context
 
+- Last updated: `2026-04-07`
+
 ## Project Snapshot
 - Project type: WordPress marketing/site build
 - Local site path: `/Users/aarongilani/Local Sites/perimeter`

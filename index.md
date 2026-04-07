@@ -8,6 +8,7 @@ title: "Workspace Index"
 - [brain.md](./brain.md)
 - [daily-report-2026-03-17.md](./daily-report-2026-03-17.md)
 - [statistics.md](./statistics.md)
+- [statistics-dashboard.md](./statistics-dashboard.md)
 - [agents.md](./agents.md)
 
 ## MASC Folder

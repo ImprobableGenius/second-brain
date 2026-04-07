@@ -59,6 +59,11 @@ Transform "Messy Intake" into a structured, estimated, and prioritized "Active P
 - When discussing tasks, use IDs (e.g., MASC-01). Do not restate the full task title unless I ask for a report. This preserves context for reasoning.
 - Keep task IDs stable once assigned so follow-up notes, blockers, and scheduling changes all point to the same identifier.
 
+### 7. Board Freshness
+- Every project board file must include a `Last updated: YYYY-MM-DD` line near the top.
+- Whenever a project board is edited for any reason, update its `Last updated` value in the same change.
+- Treat `brain.md` as the cross-project master board and treat each project context/board file as its own board for freshness tracking.
+
 ## OUTPUT FORMAT (Strict)
 Rewrite `brain.md` following this structure:
 

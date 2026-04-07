@@ -4,6 +4,8 @@ title: "Banff Project Context"
 
 # Banff Project Context
 
+- Last updated: `2026-04-07`
+
 ## Project Snapshot
 - Project type: Local WordPress site with a custom classic PHP theme
 - Local site root: `/Users/aarongilani/Local Sites/banff`

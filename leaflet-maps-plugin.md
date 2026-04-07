@@ -4,6 +4,8 @@ title: "Leaflet Maps Plugin Context"
 
 # Leaflet Maps Plugin Context
 
+- Last updated: `2026-04-07`
+
 ## Project Snapshot
 - Project type: WordPress Gutenberg block plugin built with React
 - Local repo: `/Users/aarongilani/Dev_Arena/React/leaflet-maps-plugin`

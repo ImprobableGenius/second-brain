@@ -4,6 +4,8 @@ title: "MACY Project Context"
 
 # MACY Project Context
 
+- Last updated: `2026-04-07`
+
 ## Snapshot
 - Project type: WordPress maintenance
 - Load: Low

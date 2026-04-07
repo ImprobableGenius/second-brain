@@ -4,6 +4,8 @@ title: "Encore Cabinets Project Context"
 
 # Encore Cabinets Project Context
 
+- Last updated: `2026-04-07`
+
 ## Snapshot
 - Project type: WooCommerce ecommerce storefront
 - Local repo: `/Users/aarongilani/Local Sites/elite/app/public/wp-content/themes/elite`

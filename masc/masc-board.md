@@ -4,6 +4,8 @@ title: "MASC Board"
 
 # MASC Board
 
+- Last updated: `2026-04-07`
+
 ## Project Snapshot
 - Load: Medium
 - Working estimate: 96h total for current open tasks
