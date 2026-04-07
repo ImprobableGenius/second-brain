@@ -167,7 +167,9 @@ title: "Daily Report - 2026-03-17"
 - Logged on 2026-04-06: IPAM branch activity on `feat/landing` included the landing route, preliminary landing-page build, multi-step membership flow, validation, draft/session persistence, application models and migration work, and related tests.
 - Logged on 2026-04-06: Perimeter colleague-support work was tied specifically to debugging the flight widget concern on branch `feat/zoom-fix`. Working actual for reporting is `3h` of support/response time, with a separate `2h` remaining estimate to finalize the widget fix and clean the PR.
 - Logged on 2026-04-07: IPAM board scope was expanded to match the milestone chain in the completion plan screenshot. Working remaining estimate is now `42h` across schema, applicant flow, uploads, admin review, export/payment, and staging.
+- Logged on 2026-04-07: IPAM branch reconciliation shows the upload lane moved beyond foundation work into real wizard integration: a fourth step, route and middleware updates, upload-step validation, and controller/test changes are now in play, with some of that follow-through still local and uncommitted.
 - Logged on 2026-04-07: a new contained MASC intake item was added for another `programDetails.xml` dataset follow-up request received by email. Working estimate is `2h` until the specific fields and expected action are confirmed.
+- Logged on 2026-04-07: `MASC-17A` is complete. Remaining `MASC-17` scope is now the `MASC-17B` print tables and controls bundle.
 
 ## Slack Update
-Monday closeout was steady but not closure-heavy: `IPAM` made real progress on the landing and membership-wizard lane, and `PERM-01` captured a meaningful colleague-support block on the Perimeter flight widget issue. The day stayed controlled, with only `2h` of new scope added, but no active task was fully closed.
+Tuesday closeout was solid: `MASC-17A` closed and reduced the remaining MASC print lane, while `IPAM` made meaningful progress on the upload and step-4 integration flow. Only `2h` of new scope entered the system through `MASC-21`, so the day stayed controlled even though the IPAM upload/admin milestone did not fully close.

@@ -38,7 +38,7 @@ title: "IPAM Project Context"
 - Membership application records that can be reviewed, filtered, and updated
 
 ## Current State
-- The public membership experience is now a landing page plus a three-step application wizard with a thank-you screen
+- The public membership experience is now a landing page plus a multi-step application wizard that is being expanded to include a dedicated document-upload step
 - The app already has:
   - landing route and membership application routes
   - membership application controller and step-specific request validation
@@ -47,7 +47,7 @@ title: "IPAM Project Context"
   - preliminary `Member`, `Upload`, and `UploadAttachment` models
   - migrations for applications and dependent children
   - Nova resources and filters for admin review
-  - dedicated views for landing, step 1, step 2, step 3, and thank-you states
+  - dedicated views for landing, step 1, step 2, step 3, step 4, and thank-you states
   - an upload component, upload JS module, storage-driver setup, and preliminary upload tests
   - Pest feature coverage for the membership application wizard and landing route
 - The project is actively being developed on `feat/file-upload`
@@ -66,11 +66,11 @@ title: "IPAM Project Context"
 ## Current Code Reality
 - Public routes now include both the landing page and a multi-step membership application flow in `routes/web.php`
 - `MembershipApplicationController` now handles the wizard flow, request processing, and final submission
-- Validation is no longer just a single request object; it now includes:
+- Validation is no longer just a single request object; the flow now includes:
   - `StoreMembershipApplicationRequest`
   - `StoreMembershipApplicationStep1Request`
   - `StoreMembershipApplicationStep2Request`
-  - `StoreMembershipApplicationStep3Request`
+  - upload-step validation moving into `StoreMembershipApplicationUploadRequest`
 - Draft progress is handled through:
   - `MembershipApplicationDraftService`
   - `MergeMembershipApplicationDraftIntoRequest` middleware
@@ -93,7 +93,8 @@ title: "IPAM Project Context"
 - The frontend now includes:
   - a dedicated landing page
   - a shared application layout
-  - separate step templates for the three-step wizard
+  - separate step templates for the application wizard
+  - a dedicated step 4 for document upload in the branch diff against `main`
   - a thank-you screen after submission
 - Test coverage now goes beyond starter examples:
   - `tests/Feature/MembershipApplicationWizardTest.php`
@@ -110,8 +111,13 @@ title: "IPAM Project Context"
 
 ## Current Repo State
 - Current branch is `feat/file-upload`, tracking `origin/feat/file-upload`
-- There are no tracked local modifications at the moment
-- The current repo state is clean apart from untracked implementation files:
+- Current tracked local modifications:
+  - `app/Http/Controllers/MembershipApplicationController.php`
+  - `app/Http/Requests/StoreMembershipApplicationRequest.php`
+  - `resources/views/membership-application/landing.blade.php`
+  - `tests/Feature/MembershipApplicationWizardTest.php`
+- Current untracked implementation files/directories:
+  - `app/Http/Controllers/MembershipApplicationUploadController.php`
   - `app/Nova/Filters/`
   - `app/Nova/MembershipApplication.php`
   - `app/Nova/MembershipApplicationChild.php`
@@ -120,7 +126,7 @@ title: "IPAM Project Context"
   - `database/seeders/MembershipApplicationSeeder.php`
   - `project_details/`
   - `resources/views/partials/`
-- This means the current branch activity is largely committed, with a remaining untracked admin/data-model layer still to be formalized in git
+- This means the branch is beyond pure committed progress and is now in active local integration work for the upload step and admin/data-model follow-through
 - Current active branch work is concentrated around the document-upload milestone rather than the earlier landing-only branch
 
 ## Progress Log
@@ -186,6 +192,21 @@ title: "IPAM Project Context"
   - `62cfb94` file upload component
   - `824f495` install aws s3 storage drivers
   - `99d35a1` init spaces storage connection
+- Later same-day branch progress now also includes:
+  - moving the wizard from three steps to four
+  - wiring document upload into the real application flow
+  - route and middleware updates for the extra upload step
+  - consistent upload-document descriptions
+  - controller/request/test updates still sitting in the local worktree
+- Additional same-day commits after the initial upload foundation:
+  - `4af606b` update step 3 to include the document upload view
+  - `e2e944f` move step 3 to step 4
+  - `cf7cdb5` add extra step validation to member application middleware
+  - `12874bf` update web routes to include the extra document upload step
+  - `6119890` support file to keep consistent descriptions for upladed files
+  - `aea3435` add another step to layout and update the stepper loop
+  - `46c3285` remove step 3 request handler and add store membership application upload handler
+  - `b12f1b2` update membership application rules to include the document upload step
 
 ## PM Risks
 - Domain model may still be incomplete or too close to the paper form rather than the final admin workflow
@@ -201,13 +222,14 @@ title: "IPAM Project Context"
 
 ## Useful Starting Points
 - Public flow: `routes/web.php`, `app/Http/Controllers/MembershipApplicationController.php`
-- Validation: `app/Http/Requests/StoreMembershipApplicationRequest.php`, `app/Http/Requests/StoreMembershipApplicationStep1Request.php`, `app/Http/Requests/StoreMembershipApplicationStep2Request.php`, `app/Http/Requests/StoreMembershipApplicationStep3Request.php`
+- Validation: `app/Http/Requests/StoreMembershipApplicationRequest.php`, `app/Http/Requests/StoreMembershipApplicationStep1Request.php`, `app/Http/Requests/StoreMembershipApplicationStep2Request.php`, `app/Http/Requests/StoreMembershipApplicationUploadRequest.php`
 - Draft persistence: `app/Services/MembershipApplicationDraftService.php`, `app/Http/Middleware/MergeMembershipApplicationDraftIntoRequest.php`
 - Domain models: `app/Models/MembershipApplication.php`, `app/Models/MembershipApplicationChild.php`, `app/Models/Member.php`, `app/Models/Upload.php`, `app/Models/UploadAttachment.php`
 - Database shape: `database/migrations/*membership_application*`
 - Upload path: `resources/views/components/file-upload.blade.php`, `resources/js/file-upload.js`, `app/Models/Concerns/HasUploadAttachments.php`
+- Upload controller path: `app/Http/Controllers/MembershipApplicationUploadController.php`
 - Admin workflow: `app/Nova/MembershipApplication.php`, `app/Nova/MembershipApplicationChild.php`
-- Frontend behavior: `resources/views/membership-application/landing.blade.php`, `resources/views/membership-application/layout.blade.php`, `resources/views/membership-application/step-1.blade.php`, `resources/views/membership-application/step-2.blade.php`, `resources/views/membership-application/step-3.blade.php`, `resources/views/membership-application/thank-you.blade.php`, `resources/js/app.js`
+- Frontend behavior: `resources/views/membership-application/landing.blade.php`, `resources/views/membership-application/layout.blade.php`, `resources/views/membership-application/step-1.blade.php`, `resources/views/membership-application/step-2.blade.php`, `resources/views/membership-application/step-3.blade.php`, `resources/views/membership-application/step-4.blade.php`, `resources/views/membership-application/thank-you.blade.php`, `resources/js/app.js`
 
 ## PM Notes
 - IPAM is an active build, not a maintenance project

@@ -55,6 +55,7 @@ title: "Productivity Statistics"
 | 2026-04-01 | 13.0 | 0.0 | 0.0 | 0.0 | 0.0 | 13.0 | 5.0 | 260 | 103 | 0 | `BANF-07`, `BANF-08`, `MASC-08`, and `IFWH-02` all closed, making this a strong delivery day with no new scope added and no blocker carry counted into the output. |
 | 2026-04-02 | 1.0 | 6.0 | 0.0 | 32.0 | 0.0 | 5.2 | 6.4 | 81 | -60 | 615 | `MASC-16` was the only closed delivery item, while most of the day went into MASC PM/documentation work: processing intake, building bundle checklists, and reorganizing the board; the main pressure was `32h` of new MASC scope entering the system. |
 | 2026-04-06 | 0.0 | 3.0 | 6.0 | 2.0 | 0.0 | 5.1 | 5.2 | 98 | -2 | 39 | `IPAM` landing and membership-wizard work made solid progress, while `PERM-01` colleague support on the flight widget consumed a meaningful response block; the main limiter was that none of the active lanes formally closed. |
+| 2026-04-07 | 5.0 | 0.0 | 4.0 | 2.0 | 0.0 | 7.0 | 5.2 | 135 | 37 | 29 | `MASC-17A` closed and reduced the MASC print lane, while `IPAM-03` advanced materially through upload-step integration; the main limiter was that the IPAM upload/admin lane still did not convert into a closed milestone by end of day. |
 
 ## Rolling Notes
 - Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.

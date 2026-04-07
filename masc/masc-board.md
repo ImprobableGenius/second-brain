@@ -6,7 +6,7 @@ title: "MASC Board"
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 98h total for current open tasks
+- Working estimate: 93h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -53,7 +53,8 @@ title: "MASC Board"
 - Estimate assumption: `MASC-12` is a contained hero-image sizing and layout pass on the existing overview-page hero pattern, not a broader hero redesign.
 - [ ] MASC-13 Overview nav gradient accessibility fix | Estimate: 3h | Due: TBD
 - Estimate assumption: `MASC-13` is a contained fix to restore the dark gradient treatment under the nav on overview landing pages and improve contrast, not a full WCAG audit of the entire page family.
-- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | Estimate: 10h | Due: TBD
+- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | Estimate: 5h remaining | Due: TBD
+- Bundle completion note on `2026-04-07`: `MASC-17A` is complete. Remaining `MASC-17` scope is now the `MASC-17B` print tables and controls bundle.
 - [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 6h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-19 Calculator defects + feedback pass | Estimate: 8h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-20 News + Knowledge Centre remediation bundle | Estimate: 8h | Due: TBD | Flag: High Uncertainty

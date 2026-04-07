@@ -3,7 +3,7 @@ title: "📊 Capacity Status"
 ---
 
 - Last updated: `2026-04-07`
-[Progress Bar: ██████████] 548% of weekly capacity used. Weekly burn: 219h / 40h.
+[Progress Bar: ██████████] 535% of weekly capacity used. Weekly burn: 214h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-20
@@ -17,7 +17,7 @@ title: "📊 Capacity Status"
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: On Track
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
-- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | [10h] | Status: On Track
+- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | [5h] | Status: On Track
 - [ ] MASC-18 Lending detail + rendering polish bundle | [6h] | Status: Triage Needed
 - [ ] MASC-19 Calculator defects + feedback pass | [8h] | Status: Triage Needed
 - [ ] MASC-20 News + Knowledge Centre remediation bundle | [8h] | Status: Triage Needed
