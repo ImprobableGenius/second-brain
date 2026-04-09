@@ -170,6 +170,10 @@ title: "Daily Report - 2026-03-17"
 - Logged on 2026-04-07: IPAM branch reconciliation shows the upload lane moved beyond foundation work into real wizard integration: a fourth step, route and middleware updates, upload-step validation, and controller/test changes are now in play, with some of that follow-through still local and uncommitted.
 - Logged on 2026-04-07: a new contained MASC intake item was added for another `programDetails.xml` dataset follow-up request received by email. Working estimate is `2h` until the specific fields and expected action are confirmed.
 - Logged on 2026-04-07: `MASC-17A` is complete. Remaining `MASC-17` scope is now the `MASC-17B` print tables and controls bundle.
+- Logged on 2026-04-08: a same-day MASC task was added to build a bulk quick-links update path. Working estimate is `4h`, with risk that it may expand if the request turns into a reusable admin mechanism rather than a one-time update flow.
+- Logged on 2026-04-08: `MASC-17` is now fully complete after the print tables and controls remainder was reconciled closed.
+- Logged on 2026-04-08: `MASC-22` is complete. The bulk quick-links update mechanism is now off the active MASC lane.
+- Logged on 2026-04-08: `MASC-21` is complete. The `programDetails.xml` dataset email follow-up is now off the active MASC lane.
 
 ## Slack Update
-Tuesday closeout was solid: `MASC-17A` closed and reduced the remaining MASC print lane, while `IPAM` made meaningful progress on the upload and step-4 integration flow. Only `2h` of new scope entered the system through `MASC-21`, so the day stayed controlled even though the IPAM upload/admin milestone did not fully close.
+Wednesday closeout was strong on MASC delivery: `MASC-17`, `MASC-22`, and `MASC-21` all closed, so the day materially reduced the open MASC lane without opening much new scope. The tradeoff was that `Banff` and `IPAM` did not move much while MASC took the execution focus.

@@ -2,8 +2,8 @@
 title: "📊 Capacity Status"
 ---
 
-- Last updated: `2026-04-07`
-[Progress Bar: ██████████] 535% of weekly capacity used. Weekly burn: 214h / 40h.
+- Last updated: `2026-04-08`
+[Progress Bar: ██████████] 518% of weekly capacity used. Weekly burn: 207h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] BANF-05 MI_307 state persistence | [6h] | Status: On Track | Due: 2026-04-20
@@ -17,11 +17,9 @@ title: "📊 Capacity Status"
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: On Track
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
-- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | [5h] | Status: On Track
 - [ ] MASC-18 Lending detail + rendering polish bundle | [6h] | Status: Triage Needed
 - [ ] MASC-19 Calculator defects + feedback pass | [8h] | Status: Triage Needed
 - [ ] MASC-20 News + Knowledge Centre remediation bundle | [8h] | Status: Triage Needed
-- [ ] MASC-21 programDetails.xml dataset email follow-up | [2h] | Status: Triage Needed
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
 - [ ] BANF-01 MI_308 internal wording decision | [1h] | Status: Triage Needed | Due: 2026-04-08
 - [ ] BANF-02 MI_310 internal UX decision | [1h] | Status: Triage Needed | Due: 2026-04-08
@@ -39,7 +37,7 @@ title: "📊 Capacity Status"
 
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"Banff and IPAM are now the real deadline lanes. IPAM has been expanded into the full delivery chain through schema, applicant flow, uploads, admin tools, export/payment, and staging, and a new contained `MASC-21` dataset follow-up has been logged from today’s email without reopening the broader MASC backlog."
+"Banff and IPAM remain the real deadline lanes, while MASC is back to the contained remediation queue after closing the quick-links update path."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
@@ -64,9 +62,7 @@ title: "📊 Capacity Status"
 20. For MASC-19, who owns the FSTR calculator defects and the `Mike - Calculators - Feedback1.docx` follow-up: Aarish, Jordan, or both?
 21. For MASC-20, should the News experience drop the current `Category` control, or add a new `Category` filter for `Strategic Plan` and `Annual Reports`?
 22. For MASC-20, should the title-only Knowledge Centre pages be unpublished or redirected, or do they need to be completed with content?
-23. For MASC-17, should the print-style changes be treated as a global factsheet print pass across the full library?
-24. For PERM-01, should the remaining work include only the flight-widget fix and PR cleanup, or should the untracked `Newsletter.js` and `resources/vendor/` changes also be treated as part of the same lane?
-25. For IPAM-04, does “complete admin review tools” include attachment review, approval actions, and member-creation workflow, or only read/update/filter capability in Nova?
-26. For IPAM-05, does “export and payment marker” mean CSV/export plus a payment-received flag, or a broader payment workflow?
-27. For IPAM-06, does “complete staging site” mean deployment and smoke QA only, or does it also include a client-ready UAT pass and fix buffer?
-28. For MASC-21, does today’s email require only a response on `programDetails.xml`, or an actual dataset update, and which program/fields are affected?
+23. For PERM-01, should the remaining work include only the flight-widget fix and PR cleanup, or should the untracked `Newsletter.js` and `resources/vendor/` changes also be treated as part of the same lane?
+24. For IPAM-04, does “complete admin review tools” include attachment review, approval actions, and member-creation workflow, or only read/update/filter capability in Nova?
+25. For IPAM-05, does “export and payment marker” mean CSV/export plus a payment-received flag, or a broader payment workflow?
+26. For IPAM-06, does “complete staging site” mean deployment and smoke QA only, or does it also include a client-ready UAT pass and fix buffer?

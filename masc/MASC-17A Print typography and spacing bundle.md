@@ -2,7 +2,7 @@
 title: "MASC-17A Print typography and spacing bundle"
 ---
 
-- Last updated: `2026-04-07`
+- Last updated: `2026-04-08`
 - Status: Complete
 - Completed: `2026-04-07`
 
@@ -34,7 +34,8 @@ title: "MASC-17A Print typography and spacing bundle"
 
 ## Completion Note
 - `MASC-17A` was marked complete on `2026-04-07`.
-- Remaining umbrella scope for `MASC-17` now sits in [[masc/MASC-17B Print tables and controls bundle|MASC-17B Print tables and controls bundle]].
+- The remaining umbrella scope moved into [[masc/MASC-17B Print tables and controls bundle|MASC-17B]] at that point.
+- `MASC-17` was then fully closed on `2026-04-08` once `MASC-17B` was completed.
 
 ## Related Links
 - [[masc/masc-board|MASC Board]]

@@ -2,11 +2,11 @@
 title: "MASC Board"
 ---
 
-- Last updated: `2026-04-07`
+- Last updated: `2026-04-08`
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 93h total for current open tasks
+- Working estimate: 86h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -53,12 +53,16 @@ title: "MASC Board"
 - Estimate assumption: `MASC-12` is a contained hero-image sizing and layout pass on the existing overview-page hero pattern, not a broader hero redesign.
 - [ ] MASC-13 Overview nav gradient accessibility fix | Estimate: 3h | Due: TBD
 - Estimate assumption: `MASC-13` is a contained fix to restore the dark gradient treatment under the nav on overview landing pages and improve contrast, not a full WCAG audit of the entire page family.
-- [ ] MASC-17 Factsheet print stylesheet + table QA bundle | Estimate: 5h remaining | Due: TBD
-- Bundle completion note on `2026-04-07`: `MASC-17A` is complete. Remaining `MASC-17` scope is now the `MASC-17B` print tables and controls bundle.
+- [x] MASC-17 Factsheet print stylesheet + table QA bundle | Completed: 2026-04-08
+- Bundle completion note on `2026-04-07`: `MASC-17A` is complete.
+- Bundle completion note on `2026-04-08`: `MASC-17B` is complete, so the full `MASC-17` factsheet print pass is now closed.
+- [x] MASC-22 Bulk quick-links update mechanism | Completed: 2026-04-08
+- Completion note on `2026-04-08`: the quick-links bulk update path is now complete.
 - [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 6h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-19 Calculator defects + feedback pass | Estimate: 8h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-20 News + Knowledge Centre remediation bundle | Estimate: 8h | Due: TBD | Flag: High Uncertainty
-- [ ] MASC-21 programDetails.xml dataset email follow-up | Estimate: 2h | Due: TBD | Flag: High Uncertainty
+- [x] MASC-21 programDetails.xml dataset email follow-up | Completed: 2026-04-08
+- Completion note on `2026-04-08`: the programDetails.xml follow-up is now complete.
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25
 - Completion note on 2026-03-25: the missing plugin fields were added and the same-day expansion task is now closed.
 - [x] MASC-15 New XML post-import verification | Completed: 2026-03-26
@@ -196,9 +200,22 @@ title: "MASC Board"
   - do not silently fold it into the broader MASC backlog until the email is clarified
 - Working estimate:
   - `2h` because the request is still definition-light and may turn out to be either a short response or a real dataset correction
-- Current unblock:
-  - confirm whether the email requires a response only or an actual data update
-  - confirm which program or fields in `programDetails.xml` are affected
+- Completion update on `2026-04-08`:
+  - the follow-up is now complete
+  - no further unblock is needed for `MASC-21`
+
+## Bulk Quick Links Update Note - 2026-04-08
+- New same-day intake item: build out a way to bulk update quick links for MASC.
+- Current PM read:
+  - this sounds more like an internal mechanism or repeatable content-management path than a one-off page edit
+  - it may be a data-structure, admin-UI, or theme-rendering problem depending on how quick links are currently sourced
+- Working estimate:
+  - `4h` as a contained same-day build block
+- Estimate risk:
+  - add `2h` to `4h` if this becomes a reusable global admin mechanism instead of a one-time bulk update path
+- Completion update on `2026-04-08`:
+  - the bulk quick-links update mechanism is complete
+  - no further unblock is needed for `MASC-22`
 
 ## Processed Intake - 2026-04-02
 - `MASC-17` Factsheet print stylesheet + table QA bundle

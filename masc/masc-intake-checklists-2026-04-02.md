@@ -15,24 +15,29 @@ title: "MASC Intake Checklists - 2026-04-02"
 
 ## MASC-17 Factsheet print stylesheet + table QA bundle
 
+- Status: Complete
+- Completed: `2026-04-08`
+
 ### Related Links
 - [[masc/masc-board#Processed Intake - 2026-04-02|Processed Intake]]
 - [[masc/masc-board#Later Sync Flag - factsheets taxonomy and categorization|Factsheets taxonomy note]]
 - [[masc/masc-board#Overview Nav Gradient Accessibility Note - 2026-03-25|Overview nav accessibility note]]
+- [[masc/MASC-17A Print typography and spacing bundle|MASC-17A]]
+- [[masc/MASC-17B Print tables and controls bundle|MASC-17B]]
 
 ### Checklist
-- [ ] Indent the numbered bullets. `(Owner: Aarish Gilani)`
-- [ ] Increase the secondary page title size on the print stylesheet so it reads clearly as a title. `(Owner: Aarish Gilani)`
-- [ ] Format print-sheet tables more like the webpage so they take up less space. `(Owner: Aarish Gilani)`
-- [ ] Remove shading from print-sheet tables. `(Owner: Aarish Gilani)`
-- [ ] Hide the `How to File a Report` button from the printed version of the factsheet. `(Owner: Aarish Gilani)`
-- [ ] Adjust `Seeding Deadlines` column widths. `(Owner: Aarish Gilani)`
-- [ ] Remove table cell shading globally for printer-friendliness, keeping only light-grey header cells. `(Owners: Kali MacDonald, Aarish Gilani)`
-- [ ] Format formula tables more like the webpage, including pages like `Pasture Days Insurance`. `(Owners: Kali MacDonald, Aarish Gilani)`
-- [ ] Reduce bullet size and reduce the gap between bullet and text. `(Owners: Kali MacDonald, Aarish Gilani)`
-- [ ] Reduce the vertical spacing between bullet points. `(Owners: Kali MacDonald, Aarish Gilani)`
-- [ ] Make page-header spacing consistent across pages and add more footer spacing in print. `(Owners: Kali MacDonald, Aarish Gilani)`
-- [ ] Add spacing between the first and second section headings, including cases like `Purpose` to `Eligibility`, and apply globally if possible. `(Owners: Kali MacDonald, Aarish Gilani)`
+- [x] Indent the numbered bullets. `(Owner: Aarish Gilani)`
+- [x] Increase the secondary page title size on the print stylesheet so it reads clearly as a title. `(Owner: Aarish Gilani)`
+- [x] Format print-sheet tables more like the webpage so they take up less space. `(Owner: Aarish Gilani)`
+- [x] Remove shading from print-sheet tables. `(Owner: Aarish Gilani)`
+- [x] Hide the `How to File a Report` button from the printed version of the factsheet. `(Owner: Aarish Gilani)`
+- [x] Adjust `Seeding Deadlines` column widths. `(Owner: Aarish Gilani)`
+- [x] Remove table cell shading globally for printer-friendliness, keeping only light-grey header cells. `(Owners: Kali MacDonald, Aarish Gilani)`
+- [x] Format formula tables more like the webpage, including pages like `Pasture Days Insurance`. `(Owners: Kali MacDonald, Aarish Gilani)`
+- [x] Reduce bullet size and reduce the gap between bullet and text. `(Owners: Kali MacDonald, Aarish Gilani)`
+- [x] Reduce the vertical spacing between bullet points. `(Owners: Kali MacDonald, Aarish Gilani)`
+- [x] Make page-header spacing consistent across pages and add more footer spacing in print. `(Owners: Kali MacDonald, Aarish Gilani)`
+- [x] Add spacing between the first and second section headings, including cases like `Purpose` to `Eligibility`, and apply globally if possible. `(Owners: Kali MacDonald, Aarish Gilani)`
 
 ## MASC-18 Lending detail + rendering polish bundle
 
