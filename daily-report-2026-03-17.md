@@ -174,6 +174,7 @@ title: "Daily Report - 2026-03-17"
 - Logged on 2026-04-08: `MASC-17` is now fully complete after the print tables and controls remainder was reconciled closed.
 - Logged on 2026-04-08: `MASC-22` is complete. The bulk quick-links update mechanism is now off the active MASC lane.
 - Logged on 2026-04-08: `MASC-21` is complete. The `programDetails.xml` dataset email follow-up is now off the active MASC lane.
+- Logged on 2026-04-09: additional `MASC-20` cleanup is now complete, including deletion of bad News items without photos, News item new-tab cleanup, and the current video pagination / thumbnail fixes.
 
 ## Slack Update
 Wednesday closeout was strong on MASC delivery: `MASC-17`, `MASC-22`, and `MASC-21` all closed, so the day materially reduced the open MASC lane without opening much new scope. The tradeoff was that `Banff` and `IPAM` did not move much while MASC took the execution focus.

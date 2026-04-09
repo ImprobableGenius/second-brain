@@ -85,19 +85,19 @@ title: "MASC Intake Checklists - 2026-04-02"
 - [[masc/masc-discussion-points|MASC Discussion Points]]
 
 ### Checklist
-- [ ] Delete News items without a photo if they are old XML items or erroneous duplicates. `(Owner: Aarish Gilani)`
-- [ ] Discussion: confirm whether `Category` should be removed because the Search News bar is enough. `(Owner: Aarish Gilani)`
-- [ ] Fix duplicated `News > News` breadcrumbs on News items. `(Owner: Aarish Gilani)`
-- [ ] Stop individual News items from opening in a new tab. `(Owner: Aarish Gilani)`
-- [ ] Discussion: confirm whether to add a `Category` filter with `Strategic Plan` and `Annual Reports`. `(Owner: Aarish Gilani)`
-- [ ] Change the `View Annual Report` button on the strategic plan item to `View Strategic Plan`. `(Owner: Aarish Gilani)`
-- [ ] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/explaining-polycrop-establishment-insurance/`. `(Owner: Aarish Gilani)`
-- [ ] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/agristability-and-mymasc/`. `(Owner: Aarish Gilani)`
+- [x] Delete News items without a photo if they are old XML items or erroneous duplicates. `(Owner: Aarish Gilani)`
+- [x] Discussion: confirm whether `Category` should be removed because the Search News bar is enough. `(Owner: Aarish Gilani)`
+- [x] Fix duplicated `News > News` breadcrumbs on News items. `(Owner: Aarish Gilani)`
+- [x] Stop individual News items from opening in a new tab. `(Owner: Aarish Gilani)`
+- [x] Discussion: confirm whether to add a `Category` filter with `Strategic Plan` and `Annual Reports`. `(Owner: Aarish Gilani)`
+- [x] Change the `View Annual Report` button on the strategic plan item to `View Strategic Plan`. `(Owner: Aarish Gilani)`
+- [x] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/explaining-polycrop-establishment-insurance/`. `(Owner: Aarish Gilani)`
+- [x] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/agristability-and-mymasc/`. `(Owner: Aarish Gilani)`
 - [ ] Fix cases where `Seeding deadline` in quick links points to `Program Deadlines`. `(Owner: Aarish Gilani)`
-- [ ] Fix the video-pagination issue where Page 2 only has `11` videos instead of `12`. `(Owner: Aarish Gilani)`
-- [ ] Remove the red boundary on the `Report Your Forage Harvest Production` video thumbnail play button. `(Owner: Aarish Gilani)`
-- [ ] Rename the `Media` filter to `Content Type`. `(Owner: Aarish Gilani)`
-- [ ] Apply italics to `my` in `myMASC` inside the Category filter dropdown, selected state, and content filters. `(Owner: Aarish Gilani)`
+- [x] Fix the video-pagination issue where Page 2 only has `11` videos instead of `12`. `(Owner: Aarish Gilani)`
+- [x] Remove the red boundary on the `Report Your Forage Harvest Production` video thumbnail play button. `(Owner: Aarish Gilani)`
+- [x] Rename the `Media` filter to `Content Type`. `(Owner: Aarish Gilani)`
+- [x] Apply italics to `my` in `myMASC` inside the Category filter dropdown, selected state, and content filters. `(Owner: Aarish Gilani)`
 - [ ] Discussion: confirm whether applied filters should be colour-coded to match content-piece treatments. `(Owner: Aarish Gilani)`
 
 ## Notes

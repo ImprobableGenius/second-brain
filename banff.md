@@ -2,7 +2,7 @@
 title: "Banff Project Context"
 ---
 
-- Last updated: `2026-04-07`
+- Last updated: `2026-04-09`
 
 ## Project Snapshot
 - Project type: Local WordPress site with a custom classic PHP theme
@@ -39,6 +39,7 @@ title: "Banff Project Context"
 - Scheduling note: the Banff feedback update is formally due Monday, April 20, 2026, and the active Banff execution lane should now start early in the week of 2026-04-06 so the work still finishes well ahead of that date.
 - Internal PM note: Banff PM-only review work should now sit at the end of next week and be treated as time-permitting internal triage rather than a same-day or early-week commitment.
 - Protection note on `2026-04-02`: Banff has been re-triaged to early next week because the official due date is now `2026-04-20`; use the rest of this week to reduce `NWAC-01` and other carryover work first.
+- Deprioritization note on `2026-04-09`: Banff is intentionally secondary through Friday, `2026-04-10`, while MASC is protected as the main lane and IPAM remains the tighter deadline-risk build track.
 - Reminder: schedule an internal Banff meeting by end of next week, targeting Friday, `2026-03-27`.
 - Deployment target: production
 - Deployment trigger: GitHub Action on merge to `main`

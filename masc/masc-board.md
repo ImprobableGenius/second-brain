@@ -2,11 +2,11 @@
 title: "MASC Board"
 ---
 
-- Last updated: `2026-04-08`
+- Last updated: `2026-04-09`
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 86h total for current open tasks
+- Working estimate: 81h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -14,6 +14,7 @@ title: "MASC Board"
 - Status: In Progress
 - Launch target: 2026-04-15
 - Priority reset on `2026-04-02`: MASC is now the main execution lane through the end of this week after Banff was re-triaged to the week of `2026-04-06`.
+- Priority reset on `2026-04-09`: MASC is again the protected lane through Friday, `2026-04-10`, with Banff intentionally deprioritized behind MASC and IPAM.
 
 ## Current Delivery Tasks
 - CSV due date: 2026-03-27
@@ -60,7 +61,8 @@ title: "MASC Board"
 - Completion note on `2026-04-08`: the quick-links bulk update path is now complete.
 - [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 6h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-19 Calculator defects + feedback pass | Estimate: 8h | Due: TBD | Flag: High Uncertainty
-- [ ] MASC-20 News + Knowledge Centre remediation bundle | Estimate: 8h | Due: TBD | Flag: High Uncertainty
+- [ ] MASC-20 News + Knowledge Centre remediation bundle | Estimate: 2h remaining | Due: TBD
+- Branch reconciliation note on `2026-04-09`: the repo now clearly covers the News category-removal decision, the Reports and Publications category filter, the `View Strategic Plan` button text, the `Content Type` label, the dynamic `myMASC` italics treatment, the redirect strategy for title-only Knowledge Centre singles, deletion of bad News items without photos, News item new-tab cleanup, and the current video pagination / thumbnail fixes. Remaining `MASC-20` scope is now the Seeding Deadlines quick-link correction and the design-dependent filter-colour follow-up.
 - [x] MASC-21 programDetails.xml dataset email follow-up | Completed: 2026-04-08
 - Completion note on `2026-04-08`: the programDetails.xml follow-up is now complete.
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25

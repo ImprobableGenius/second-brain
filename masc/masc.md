@@ -20,6 +20,7 @@ title: "MASC Index"
 - [masc-board.md](./masc-board.md)
 - [masc-claims-reporting-internal-brief-2026-03-27.md](./masc-claims-reporting-internal-brief-2026-03-27.md)
 - [masc-claims-reporting-internal-brief-2026-03-27.pdf](./masc-claims-reporting-internal-brief-2026-03-27.pdf)
+- [masc-fr-feedback-aarish-bundles-2026-04-09.md](./masc-fr-feedback-aarish-bundles-2026-04-09.md)
 - [masc-discussion-points.md](./masc-discussion-points.md)
 - [masc-intake-checklists-2026-04-02.md](./masc-intake-checklists-2026-04-02.md)
 - [masc-new-feedback-sort-2026-03-23.md](./masc-new-feedback-sort-2026-03-23.md)
@@ -33,5 +34,6 @@ title: "MASC Index"
 - `masc-board.md` holds the delivery board, task history, planning assumptions, blockers, sync notes, and work-progress tracking.
 - `masc-claims-reporting-internal-brief-2026-03-27.md` is the one-page internal meeting brief for the `How to File a Claim` / `How to Report` discussion.
 - `masc-claims-reporting-internal-brief-2026-03-27.pdf` is the print-ready version of the same brief.
+- `masc-fr-feedback-aarish-bundles-2026-04-09.md` is the French `Feedback 1` extraction note containing only the rows that explicitly name `Aarish Gilani`, grouped into working bundles.
 - `masc-discussion-points.md` is the running list of MASC items that need internal discussion before implementation or client response.
 - `masc-intake-checklists-2026-04-02.md` is the checklist view of the processed MASC intake bundles `MASC-17` through `MASC-20`.

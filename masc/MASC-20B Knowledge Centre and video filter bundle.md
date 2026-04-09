@@ -10,22 +10,27 @@ title: "MASC-20B Knowledge Centre and video filter bundle"
 - Target size: `5h`
 
 ## Checklist
-- [ ] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/explaining-polycrop-establishment-insurance/`.
-- [ ] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/agristability-and-mymasc/`.
+- [x] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/explaining-polycrop-establishment-insurance/`.
+- [x] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/agristability-and-mymasc/`.
 - [ ] Fix cases where `Seeding deadline` in quick links points to `Program Deadlines`.
-- [ ] Fix the video-pagination issue where Page 2 only has `11` videos instead of `12`.
-- [ ] Remove the red boundary on the `Report Your Forage Harvest Production` video thumbnail play button.
-- [ ] Rename the `Media` filter to `Content Type`.
-- [ ] Apply italics to `my` in `myMASC` inside the Category filter dropdown, selected state, and content filters.
+- [x] Fix the video-pagination issue where Page 2 only has `11` videos instead of `12`.
+- [x] Remove the red boundary on the `Report Your Forage Harvest Production` video thumbnail play button.
+- [x] Rename the `Media` filter to `Content Type`.
+- [x] Apply italics to `my` in `myMASC` inside the Category filter dropdown, selected state, and content filters.
 - [ ] Confirm whether applied filters should be colour-coded to match content-piece treatments.
 
 ## Discussion
-- [ ] Decide whether the title-only pages should be unpublished, redirected, or completed with content.
+- [x] Decide whether the title-only pages should be unpublished, redirected, or completed with content.
 - [ ] Decide whether applied-filter colour coding belongs in the approved design.
 
 ## Dependencies
 - The title-only pages may need content or redirect decisions rather than a simple dev fix.
 - Filter colour coding is design-dependent.
+
+## Branch Reconciliation Note
+- `7b5baa9` redirects singular Knowledge Centre items to the archive, which resolves the title-only page path by redirect rather than filling those pages with content.
+- `b5a3f62` renames the `Media` filter to `Content Type`.
+- `0e8474d` handles the dynamic italicizing of `myMASC` in the filter and related UI output.
 
 ## Definition of Done
 - Title-only pages have a clear resolution path.

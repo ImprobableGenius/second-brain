@@ -29,6 +29,7 @@ title: "Workspace Index"
 - [masc/masc-board.md](./masc/masc-board.md)
 - [masc/masc-claims-reporting-internal-brief-2026-03-27.md](./masc/masc-claims-reporting-internal-brief-2026-03-27.md)
 - [masc/masc-claims-reporting-internal-brief-2026-03-27.pdf](./masc/masc-claims-reporting-internal-brief-2026-03-27.pdf)
+- [masc/masc-fr-feedback-aarish-bundles-2026-04-09.md](./masc/masc-fr-feedback-aarish-bundles-2026-04-09.md)
 - [masc/masc-discussion-points.md](./masc/masc-discussion-points.md)
 - [masc/masc-intake-checklists-2026-04-02.md](./masc/masc-intake-checklists-2026-04-02.md)
 - [masc/masc-new-feedback-sort-2026-03-23.md](./masc/masc-new-feedback-sort-2026-03-23.md)
