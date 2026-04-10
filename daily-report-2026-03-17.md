@@ -177,4 +177,4 @@ title: "Daily Report - 2026-03-17"
 - Logged on 2026-04-09: additional `MASC-20` cleanup is now complete, including deletion of bad News items without photos, News item new-tab cleanup, and the current video pagination / thumbnail fixes.
 
 ## Slack Update
-Wednesday closeout was strong on MASC delivery: `MASC-17`, `MASC-22`, and `MASC-21` all closed, so the day materially reduced the open MASC lane without opening much new scope. The tradeoff was that `Banff` and `IPAM` did not move much while MASC took the execution focus.
+Thursday closeout was a steady MASC cleanup day: `MASC-20A` and related News / Knowledge Centre fixes materially reduced the open MASC lane, while IPAM reconciliation and French-feedback bundling were handled as PM/admin work. The tradeoff was that Banff still stayed deprioritized and IPAM did not convert into a closed milestone yet.

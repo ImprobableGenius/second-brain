@@ -57,6 +57,7 @@ title: "Productivity Statistics"
 | 2026-04-06 | 0.0 | 3.0 | 6.0 | 2.0 | 0.0 | 5.1 | 5.2 | 98 | -2 | 39 | `IPAM` landing and membership-wizard work made solid progress, while `PERM-01` colleague support on the flight widget consumed a meaningful response block; the main limiter was that none of the active lanes formally closed. |
 | 2026-04-07 | 5.0 | 0.0 | 4.0 | 2.0 | 0.0 | 7.0 | 5.2 | 135 | 37 | 29 | `MASC-17A` closed and reduced the MASC print lane, while `IPAM-03` advanced materially through upload-step integration; the main limiter was that the IPAM upload/admin lane still did not convert into a closed milestone by end of day. |
 | 2026-04-08 | 9.0 | 2.0 | 0.0 | 4.0 | 0.0 | 10.4 | 6.4 | 163 | 49 | 38 | `MASC-17`, `MASC-22`, and the `programDetails.xml` follow-up drove the day, making it a strong MASC burn-down day; the main constraint was that Banff and IPAM did not materially move while MASC consumed the execution lane. |
+| 2026-04-09 | 6.0 | 3.0 | 0.0 | 0.0 | 0.0 | 8.1 | 7.0 | 116 | -22 | 0 | `MASC-20A` and related News / Knowledge Centre cleanup drove real MASC burn-down, while the main non-delivery load was PM reconciliation across IPAM and French-feedback bundling; no new scope was added. |
 
 ## Rolling Notes
 - Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.
