@@ -12,7 +12,7 @@ title: "MASC-20B Knowledge Centre and video filter bundle"
 ## Checklist
 - [x] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/explaining-polycrop-establishment-insurance/`.
 - [x] Resolve the title-only page at `https://mascag.wpenginepowered.com/knowledge-centre/agristability-and-mymasc/`.
-- [ ] Fix cases where `Seeding deadline` in quick links points to `Program Deadlines`.
+- [x] Fix cases where `Seeding deadline` in quick links points to `Program Deadlines`.
 - [x] Fix the video-pagination issue where Page 2 only has `11` videos instead of `12`.
 - [x] Remove the red boundary on the `Report Your Forage Harvest Production` video thumbnail play button.
 - [x] Rename the `Media` filter to `Content Type`.
@@ -31,6 +31,7 @@ title: "MASC-20B Knowledge Centre and video filter bundle"
 - `7b5baa9` redirects singular Knowledge Centre items to the archive, which resolves the title-only page path by redirect rather than filling those pages with content.
 - `b5a3f62` renames the `Media` filter to `Content Type`.
 - `0e8474d` handles the dynamic italicizing of `myMASC` in the filter and related UI output.
+- `2026-04-10` update: the `Seeding deadline` quick-link correction is now complete, so the remaining bundle closeout is limited to confirming the current filter-colour treatment is acceptable and rolling the branch through the end-of-day production deployment path.
 
 ## Definition of Done
 - Title-only pages have a clear resolution path.

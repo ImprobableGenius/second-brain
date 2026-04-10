@@ -3,8 +3,8 @@ title: "Daily Report - 2026-03-17"
 ---
 
 ## 📊 Capacity
-- Weekly burn: 202h / 40h
-- Portfolio load: 505% of weekly capacity
+- Weekly burn: 203h / 40h
+- Portfolio load: 508% of weekly capacity
 - Near-term delivery window: IPAM staging target due 2026-04-15, Banff feedback update due 2026-04-20
 
 ## Archive Note
@@ -33,19 +33,19 @@ title: "Daily Report - 2026-03-17"
 - `2026-03-31` MASC response note: about `2h` went into resolving dynamic scripting queries and sending the required follow-up responses after a pile-up of outstanding questions.
 - `2026-03-31` MASC small-fix note: the reported Corn Insurance factsheet claims-table bug was resolved and should be counted in end-of-day stats.
 - New maintenance queue item: `UA Local 179` mobile app compatibility check for Samsung Galaxy S7 devices, estimated at 3h and currently waiting on deadline, priority, and test-environment details.
-- Open MASC lane: `MASC-13`, `MASC-12`, `MASC-04`, `MASC-18`, `MASC-19`, and the remaining `MASC-20` quick-link and filter-colour follow-through.
+- Open MASC lane: `MASC-13`, `MASC-12`, `MASC-04`, `MASC-18`, `MASC-19`, and the `MASC-20` deployment closeout.
 - Current IPAM lane: the board now reflects the full milestone chain through admin review, export/payment marking, and staging, with the upload lane materially advanced but not fully closed.
 - `PERM-01` remains a small open support lane after the flight-widget debugging help on `feat/zoom-fix`; about `2h` is still estimated to finish the PR cleanly.
 - The French-side MASC feedback has now been split into Aarish-specific bundles in `masc-fr-feedback-aarish-bundles-2026-04-09.md` for cleaner triage.
-- `2026-04-10` MASC branch check: the `MASC-20` filter colour-coding work is already present on `fix/lending-details-rendering-polish`; the remaining contained MASC step is the Seeding Deadlines quick-link correction plus an end-of-day deployment review once the dirty worktree is cleaned up.
-- A new `MASC-23` scripting audit review bundle has been created from the `Scripting Audit` tab in `MASC Content Tracker.xlsx`, limited to the Aarish-assigned rows.
+- `2026-04-10` MASC branch check: the `MASC-20` filter colour-coding work is already present on `fix/lending-details-rendering-polish`, and the Seeding Deadlines quick-link correction is now complete; the bundle is effectively down to an end-of-day deployment review once the dirty worktree is cleaned up.
+- `MASC-23` scripting audit is now in progress, with most of the marked row-level reviews complete and the remaining tail concentrated in rows `76` and `79` plus implementation-direction follow-up.
 
 ## 🔴 Blockers / Risks
 - Total tracked work is now `202h / 40h`, so the system is still far over weekly capacity.
 - `MASC-07` is still the largest unresolved backlog item at `55h`, so “finish MASC” is only realistic if it means the contained active lane rather than the full backlog.
 - `MASC-18` and `MASC-19` are still high-uncertainty bundles because they may widen into dataset-level fixes, calculator logic work, or broader systemic remediation.
 - `MASC-13` remains an accessibility risk because the missing overview gradient likely weakens contrast on the affected hero pattern.
-- `MASC-20` is smaller now, but the remaining quick-link correction and filter-colour decision still need a clean finish.
+- `MASC-20` is nearly closed, but the deployment closeout still needs a clean finish before it can come fully off the board.
 - IPAM remains a deadline risk because admin review tools, export/payment marking, and staging completion are still open ahead of the `2026-04-15` target.
 - Banff is intentionally deprioritized right now, but the SVG-asset, translation-content, and alt-text dependencies are still waiting when that lane becomes active again.
 - NWAC still carries compliance-framing risk, especially around how strongly the handoff should assert controls versus open gaps.
@@ -54,7 +54,7 @@ title: "Daily Report - 2026-03-17"
 - Orbeon still depends on client-side field definitions and approved CSV handoff details.
 
 ## Queue Snapshot
-- Primary lane: contained MASC burn-down through `MASC-13`, `MASC-12`, `MASC-04`, `MASC-18`, `MASC-19`, and the remaining `MASC-20` follow-through.
+- Primary lane: finish the remaining `MASC-23` scripting audit tail first, then close out `MASC-20`, with `MASC-13` and `MASC-12` treated as lower-priority design/polish follow-through behind the launch-blocking MASC work.
 - Secondary lane: IPAM milestone closeout across `IPAM-03` through `IPAM-06`.
 - Deferred but active queue: `BANF-01` to `BANF-06`, `NWAC-01`, `UAL-01`, `PERM-01`, `ENCR-01`, `AMIK-01`, and `ORBF-01`.
 - Older queue-planning notes and the prior risk snapshot are now archived in [work-history.md](./work-history.md).
