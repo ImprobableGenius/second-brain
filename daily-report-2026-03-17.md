@@ -37,6 +37,8 @@ title: "Daily Report - 2026-03-17"
 - Current IPAM lane: the board now reflects the full milestone chain through admin review, export/payment marking, and staging, with the upload lane materially advanced but not fully closed.
 - `PERM-01` remains a small open support lane after the flight-widget debugging help on `feat/zoom-fix`; about `2h` is still estimated to finish the PR cleanly.
 - The French-side MASC feedback has now been split into Aarish-specific bundles in `masc-fr-feedback-aarish-bundles-2026-04-09.md` for cleaner triage.
+- `2026-04-10` MASC branch check: the `MASC-20` filter colour-coding work is already present on `fix/lending-details-rendering-polish`; the remaining contained MASC step is the Seeding Deadlines quick-link correction plus an end-of-day deployment review once the dirty worktree is cleaned up.
+- A new `MASC-23` scripting audit review bundle has been created from the `Scripting Audit` tab in `MASC Content Tracker.xlsx`, limited to the Aarish-assigned rows.
 
 ## 🔴 Blockers / Risks
 - Total tracked work is now `202h / 40h`, so the system is still far over weekly capacity.

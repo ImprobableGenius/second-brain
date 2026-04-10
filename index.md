@@ -26,6 +26,8 @@ title: "Workspace Index"
 - [masc/MASC-20A News archive remediation bundle.pdf](./masc/MASC-20A%20News%20archive%20remediation%20bundle.pdf)
 - [masc/MASC-20B Knowledge Centre and video filter bundle.md](./masc/MASC-20B%20Knowledge%20Centre%20and%20video%20filter%20bundle.md)
 - [masc/MASC-20B Knowledge Centre and video filter bundle.pdf](./masc/MASC-20B%20Knowledge%20Centre%20and%20video%20filter%20bundle.pdf)
+- [masc/MASC-23 Scripting audit review bundle.md](./masc/MASC-23%20Scripting%20audit%20review%20bundle.md)
+- [masc/MASC-23 Scripting audit review bundle.pdf](./masc/MASC-23%20Scripting%20audit%20review%20bundle.pdf)
 - [masc/masc-architecture.md](./masc/masc-architecture.md)
 - [masc/masc-board.md](./masc/masc-board.md)
 - [masc/masc-claims-reporting-internal-brief-2026-03-27.md](./masc/masc-claims-reporting-internal-brief-2026-03-27.md)
@@ -37,6 +39,11 @@ title: "Workspace Index"
 - [masc/masc-new-feedback-sort-2026-03-23.pdf](./masc/masc-new-feedback-sort-2026-03-23.pdf)
 - [masc/masc-responsiveness-qa-checklist-2026-03-25.md](./masc/masc-responsiveness-qa-checklist-2026-03-25.md)
 
+## IPAM Folder
+- [ipam/ipam.md](./ipam/ipam.md)
+- [ipam/ipam-architecture.md](./ipam/ipam-architecture.md)
+- [ipam/ipam-board.md](./ipam/ipam-board.md)
+
 ## Project Notes
 - [agency-portfolio.md](./agency-portfolio.md)
 - [amik.md](./amik.md)
@@ -44,7 +51,6 @@ title: "Workspace Index"
 - [encore-cabinets.md](./encore-cabinets.md)
 - [ide.md](./ide.md)
 - [ifwh.md](./ifwh.md)
-- [ipam.md](./ipam.md)
 - [leaflet-maps-plugin.md](./leaflet-maps-plugin.md)
 - [local-contexts.md](./local-contexts.md)
 - [macy.md](./macy.md)
@@ -80,6 +86,8 @@ title: "Workspace Index"
 - [daily-plans/today-2026-04-07.md](./daily-plans/today-2026-04-07.md)
 - [daily-plans/today-2026-04-07.pdf](./daily-plans/today-2026-04-07.pdf)
 - [daily-plans/today-2026-04-09.md](./daily-plans/today-2026-04-09.md)
+- [daily-plans/today-2026-04-10.md](./daily-plans/today-2026-04-10.md)
+- [daily-plans/today-2026-04-10.pdf](./daily-plans/today-2026-04-10.pdf)
 
 ## Production Summaries
 - [production-summaries/](./production-summaries/)

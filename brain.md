@@ -2,8 +2,8 @@
 title: "📊 Capacity Status"
 ---
 
-- Last updated: `2026-04-09`
-[Progress Bar: ██████████] 505% of weekly capacity used. Weekly burn: 202h / 40h.
+- Last updated: `2026-04-10`
+[Progress Bar: ██████████] 515% of weekly capacity used. Weekly burn: 206h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
@@ -11,7 +11,8 @@ title: "📊 Capacity Status"
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
 - [ ] MASC-18 Lending detail + rendering polish bundle | [6h] | Status: Triage Needed
 - [ ] MASC-19 Calculator defects + feedback pass | [8h] | Status: Triage Needed
-- [ ] MASC-20 News + Knowledge Centre remediation bundle | [2h] | Status: On Track
+- [ ] MASC-20 News + Knowledge Centre remediation bundle | [1h] | Status: On Track
+- [ ] MASC-23 Scripting audit review bundle | [5h] | Status: Triage Needed
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
 - [ ] IPAM-01 DEV-02 Core database schema + member objects | [4h] | Status: Behind | Due: 2026-03-06
 - [ ] IPAM-02 DEV-03 V1 applicant form + frontend refinement | [6h] | Status: Behind | Due: 2026-03-13
@@ -37,7 +38,7 @@ title: "📊 Capacity Status"
 
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"MASC is the protected lane through Friday, April 10, 2026. IPAM stays second because of the April 15 deadline. Banff is intentionally deprioritized into a secondary queue for now."
+"MASC is still the protected lane through Friday, April 10, 2026. `MASC-20` is down to the quick-link cleanup plus deployment review, and a new `MASC-23` scripting audit bundle has been created from the Aarish-assigned spreadsheet rows. IPAM stays second because of the April 15 deadline."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
