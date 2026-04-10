@@ -5,6 +5,7 @@ title: "Workspace Index"
 ## Core Tracking
 - [brain.md](./brain.md)
 - [daily-report-2026-03-17.md](./daily-report-2026-03-17.md)
+- [work-history.md](./work-history.md)
 - [statistics.md](./statistics.md)
 - [statistics-dashboard.md](./statistics-dashboard.md)
 - [statistics-dashboard.pdf](./statistics-dashboard.pdf)
