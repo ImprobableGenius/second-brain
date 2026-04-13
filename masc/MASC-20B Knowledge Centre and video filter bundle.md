@@ -17,11 +17,11 @@ title: "MASC-20B Knowledge Centre and video filter bundle"
 - [x] Remove the red boundary on the `Report Your Forage Harvest Production` video thumbnail play button.
 - [x] Rename the `Media` filter to `Content Type`.
 - [x] Apply italics to `my` in `myMASC` inside the Category filter dropdown, selected state, and content filters.
-- [ ] Confirm whether applied filters should be colour-coded to match content-piece treatments.
+- [x] Confirm whether applied filters should be colour-coded to match content-piece treatments.
 
 ## Discussion
 - [x] Decide whether the title-only pages should be unpublished, redirected, or completed with content.
-- [ ] Decide whether applied-filter colour coding belongs in the approved design.
+- [x] Decide whether applied-filter colour coding belongs in the approved design.
 
 ## Dependencies
 - The title-only pages may need content or redirect decisions rather than a simple dev fix.
@@ -32,6 +32,11 @@ title: "MASC-20B Knowledge Centre and video filter bundle"
 - `b5a3f62` renames the `Media` filter to `Content Type`.
 - `0e8474d` handles the dynamic italicizing of `myMASC` in the filter and related UI output.
 - `2026-04-10` update: the `Seeding deadline` quick-link correction is now complete, so the remaining bundle closeout is limited to confirming the current filter-colour treatment is acceptable and rolling the branch through the end-of-day production deployment path.
+- `e761b4a` and `3a08e1a` implement the selected-filter colour treatment and spacing cleanup on the Knowledge Centre UI, which resolves the last implementation-side item that had still been open in this bundle.
+
+## Completion Note - 2026-04-10
+- The implementation bundle is now complete.
+- The Friday repo review confirms that the filter colour treatment, spacing cleanup, and remaining quick-link correction all landed on or before the same day the branch was merged back to `dev`.
 
 ## Definition of Done
 - Title-only pages have a clear resolution path.

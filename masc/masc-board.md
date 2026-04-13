@@ -2,11 +2,11 @@
 title: "MASC Board"
 ---
 
-- Last updated: `2026-04-10`
+- Last updated: `2026-04-13`
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 82h total for current open tasks
+- Working estimate: 80h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -61,12 +61,13 @@ title: "MASC Board"
 - Completion note on `2026-04-08`: the quick-links bulk update path is now complete.
 - [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 6h | Due: TBD | Flag: High Uncertainty
 - [ ] MASC-19 Calculator defects + feedback pass | Estimate: 8h | Due: TBD | Flag: High Uncertainty
-- [ ] MASC-20 News + Knowledge Centre remediation bundle | Estimate: 1h remaining | Due: TBD | Status: Closure-ready pending EOD deployment
+- [x] MASC-20 News + Knowledge Centre remediation bundle | Completed: 2026-04-10
 - Branch reconciliation note on `2026-04-09`: the repo now clearly covers the News category-removal decision, the Reports and Publications category filter, the `View Strategic Plan` button text, the `Content Type` label, the dynamic `myMASC` italics treatment, the redirect strategy for title-only Knowledge Centre singles, deletion of bad News items without photos, News item new-tab cleanup, and the current video pagination / thumbnail fixes.
-- Branch check on `2026-04-10`: the filter colour-coding work is also present on `fix/lending-details-rendering-polish`, including selected-filter colour classes in `styles/facets/results.css` and checkbox pill styling in `styles/facets/checkboxes.css`. The Seeding Deadlines quick-link correction is now complete, so `MASC-20` is closure-ready pending a clean end-of-day production deployment review. The branch is not clean enough to treat as deployment-ready without reviewing the unrelated local modifications first.
+- Branch check on `2026-04-10`: the filter colour-coding work is present on `fix/lending-details-rendering-polish`, including selected-filter colour classes in `styles/facets/results.css` and checkbox pill styling in `styles/facets/checkboxes.css`. The Seeding Deadlines quick-link correction is complete, and the Friday commit set plus merge back to `dev` is enough to treat `MASC-20` as complete at the implementation-board level.
 - [ ] MASC-23 Scripting audit review bundle | Estimate: 2h remaining | Due: TBD | Status: In Progress
 - Intake note on `2026-04-10`: created from the `Scripting Audit` tab in `MASC Content Tracker.xlsx`, limited to the rows explicitly assigned to Aarish. The current list covers rows `51`, `59`, `60`, `67`, `69`, `70`, `75`, `76`, `77`, `78`, `79`, `81`, `83`, `86`, and `87`, all marked as needing both English and French calculator or script review.
 - Progress note on `2026-04-10`: the marked checklist now shows most of the row-level review complete. Rows `51`, `59`, `60`, `67`, `69`, `70`, `75`, `77`, `78`, `81`, `83`, `86`, and `87` have been audited. The remaining open tail is concentrated in rows `76` and `79`, plus the follow-up decision on whether the hard-coded findings roll straight into implementation work.
+- Friday repo reconciliation on `2026-04-13`: additional Aarish-authored commits from `2026-04-10` were not previously reflected in the board. `7dc9747` added WPML permalink handling for non-language-specific URLs, and `5bdddc1` plus `f68a05b` tightened header and page-hero ACF field inheritance behavior. These are meaningful Friday implementation progress notes, but they do not cleanly close `MASC-12` or `MASC-13` on their own.
 - [x] MASC-21 programDetails.xml dataset email follow-up | Completed: 2026-04-08
 - Completion note on `2026-04-08`: the programDetails.xml follow-up is now complete.
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25

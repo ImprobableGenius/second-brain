@@ -88,6 +88,7 @@ title: "Workspace Index"
 - [daily-plans/today-2026-04-09.md](./daily-plans/today-2026-04-09.md)
 - [daily-plans/today-2026-04-10.md](./daily-plans/today-2026-04-10.md)
 - [daily-plans/today-2026-04-10.pdf](./daily-plans/today-2026-04-10.pdf)
+- [daily-plans/today-2026-04-13.md](./daily-plans/today-2026-04-13.md)
 
 ## Production Summaries
 - [production-summaries/](./production-summaries/)

@@ -2,12 +2,11 @@
 title: "📊 Capacity Status"
 ---
 
-- Last updated: `2026-04-10`
-[Progress Bar: ██████████] 508% of weekly capacity used. Weekly burn: 203h / 40h.
+- Last updated: `2026-04-13`
+[Progress Bar: ██████████] 505% of weekly capacity used. Weekly burn: 202h / 40h.
 
 # 🚀 ACTIVE PROJECTS
 - [ ] MASC-23 Scripting audit review bundle | [2h] | Status: On Track
-- [ ] MASC-20 News + Knowledge Centre remediation bundle | [1h] | Status: Closure-ready pending EOD deployment
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: On Track
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
@@ -38,7 +37,7 @@ title: "📊 Capacity Status"
 
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"MASC is still the protected lane through Friday, April 10, 2026. `MASC-20` is now closure-ready pending end-of-day deployment, and `MASC-23` has been materially burned down with only a small audit tail left. IPAM stays second because of the April 15 deadline."
+"MASC remains the protected lane. `MASC-20` is now complete after Friday's repo-backed merge and quick-link work, and `MASC-23` has only a small audit tail left. IPAM stays second because of the April 15 deadline."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?

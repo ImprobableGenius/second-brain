@@ -3,8 +3,8 @@ title: "Daily Report - 2026-03-17"
 ---
 
 ## 📊 Capacity
-- Weekly burn: 203h / 40h
-- Portfolio load: 508% of weekly capacity
+- Weekly burn: 202h / 40h
+- Portfolio load: 505% of weekly capacity
 - Near-term delivery window: IPAM staging target due 2026-04-15, Banff feedback update due 2026-04-20
 
 ## Archive Note
@@ -27,25 +27,28 @@ title: "Daily Report - 2026-03-17"
 - `MASC-22` was completed on 2026-04-08; the bulk quick-links update mechanism is now closed.
 - `MASC-21` was completed on 2026-04-08; the `programDetails.xml` dataset follow-up is now closed.
 - Additional `MASC-20` cleanup landed on 2026-04-09, including deletion of bad News items without photos, News item new-tab cleanup, and the current video pagination / thumbnail fixes.
+- `MASC-20` was completed on 2026-04-10; Friday's repo-backed filter-colour, spacing, and quick-link work plus the merge back to `dev` were enough to close the News / Knowledge Centre remediation bundle.
 
 ## 🟡 What's In Progress
 - `2026-03-30` progress note: met with Alex to check in on the responsiveness sections handoff and made meaningful progress on `IFWH-01`, but the accessibility remediation lane is still open.
 - `2026-03-31` MASC response note: about `2h` went into resolving dynamic scripting queries and sending the required follow-up responses after a pile-up of outstanding questions.
 - `2026-03-31` MASC small-fix note: the reported Corn Insurance factsheet claims-table bug was resolved and should be counted in end-of-day stats.
 - New maintenance queue item: `UA Local 179` mobile app compatibility check for Samsung Galaxy S7 devices, estimated at 3h and currently waiting on deadline, priority, and test-environment details.
-- Open MASC lane: `MASC-13`, `MASC-12`, `MASC-04`, `MASC-18`, `MASC-19`, and the `MASC-20` deployment closeout.
+- Open MASC lane: `MASC-23`, `MASC-13`, `MASC-12`, `MASC-04`, `MASC-18`, and `MASC-19`.
 - Current IPAM lane: the board now reflects the full milestone chain through admin review, export/payment marking, and staging, with the upload lane materially advanced but not fully closed.
 - `PERM-01` remains a small open support lane after the flight-widget debugging help on `feat/zoom-fix`; about `2h` is still estimated to finish the PR cleanly.
 - The French-side MASC feedback has now been split into Aarish-specific bundles in `masc-fr-feedback-aarish-bundles-2026-04-09.md` for cleaner triage.
-- `2026-04-10` MASC branch check: the `MASC-20` filter colour-coding work is already present on `fix/lending-details-rendering-polish`, and the Seeding Deadlines quick-link correction is now complete; the bundle is effectively down to an end-of-day deployment review once the dirty worktree is cleaned up.
+- `2026-04-10` MASC branch check: the `MASC-20` filter colour-coding work is present on `fix/lending-details-rendering-polish`, and the Seeding Deadlines quick-link correction was completed the same day; the later Friday repo reconciliation was enough to treat the bundle as complete at the board level.
 - `MASC-23` scripting audit is now in progress, with most of the marked row-level reviews complete and the remaining tail concentrated in rows `76` and `79` plus implementation-direction follow-up.
+- Friday repo reconciliation on `2026-04-13`: the board had undercounted the Friday commit set. In addition to the `MASC-20` filter/quick-link work, Aarish also landed `7dc9747`, `5bdddc1`, and `f68a05b`, covering WPML permalink handling and header/page-hero field-resolution fixes.
+- Friday, `2026-04-10`, was a mixed MASC day: `MASC-23` materially burned down and the later repo reconciliation confirmed `MASC-20` should count as closed from the Friday commit set.
 
 ## 🔴 Blockers / Risks
 - Total tracked work is now `202h / 40h`, so the system is still far over weekly capacity.
 - `MASC-07` is still the largest unresolved backlog item at `55h`, so “finish MASC” is only realistic if it means the contained active lane rather than the full backlog.
 - `MASC-18` and `MASC-19` are still high-uncertainty bundles because they may widen into dataset-level fixes, calculator logic work, or broader systemic remediation.
 - `MASC-13` remains an accessibility risk because the missing overview gradient likely weakens contrast on the affected hero pattern.
-- `MASC-20` is nearly closed, but the deployment closeout still needs a clean finish before it can come fully off the board.
+- `MASC-20` is now off the board, but the Friday hero/header/WPML commits did not fully close the remaining visual MASC tasks.
 - IPAM remains a deadline risk because admin review tools, export/payment marking, and staging completion are still open ahead of the `2026-04-15` target.
 - Banff is intentionally deprioritized right now, but the SVG-asset, translation-content, and alt-text dependencies are still waiting when that lane becomes active again.
 - NWAC still carries compliance-framing risk, especially around how strongly the handoff should assert controls versus open gaps.
@@ -54,10 +57,10 @@ title: "Daily Report - 2026-03-17"
 - Orbeon still depends on client-side field definitions and approved CSV handoff details.
 
 ## Queue Snapshot
-- Primary lane: finish the remaining `MASC-23` scripting audit tail first, then close out `MASC-20`, with `MASC-13` and `MASC-12` treated as lower-priority design/polish follow-through behind the launch-blocking MASC work.
+- Primary lane: finish the remaining `MASC-23` scripting audit tail first, then move into `MASC-13` and `MASC-12`, with the broader MASC design/polish items still behind the launch-blocking audit work.
 - Secondary lane: IPAM milestone closeout across `IPAM-03` through `IPAM-06`.
 - Deferred but active queue: `BANF-01` to `BANF-06`, `NWAC-01`, `UAL-01`, `PERM-01`, `ENCR-01`, `AMIK-01`, and `ORBF-01`.
 - Older queue-planning notes and the prior risk snapshot are now archived in [work-history.md](./work-history.md).
 
 ## Slack Update
-Thursday closeout was a steady MASC cleanup day: `MASC-20A` and related News / Knowledge Centre fixes materially reduced the open MASC lane, while IPAM reconciliation and French-feedback bundling were handled as PM/admin work. The tradeoff was that Banff still stayed deprioritized and IPAM did not convert into a closed milestone yet.
+Friday closeout was better than initially logged: `MASC-20` can now be treated as complete based on the repo-backed filter, quick-link, and merge work, and `MASC-23` scripting audit work materially reduced the remaining review tail. The tradeoff is that the other Friday commits around WPML and hero/header field handling improved launch stability but did not fully close the remaining visual MASC tasks.
