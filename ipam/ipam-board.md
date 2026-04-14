@@ -2,7 +2,7 @@
 title: "IPAM Board"
 ---
 
-- Last updated: `2026-04-10`
+- Last updated: `2026-04-14`
 
 ## Project Snapshot
 - Load: High
@@ -10,10 +10,11 @@ title: "IPAM Board"
 - Task code prefix: `IPAM`
 - Priority: High
 - Start date: 2026-03-16
-- Deadline: 2026-04-15
+- Deadline: Client demo ready by `2026-04-15`; production-ready work deferred to week of `2026-04-20`
 - Status: In Progress
 - Current branch: `feat/file-upload`
 - Priority note on `2026-04-02`: IPAM has been bumped up in the active priority chain because the working target is now mid-April rather than late April.
+- Scheduling note on `2026-04-14`: the current build is considered ready for client demo. Remaining open IPAM work should now be treated as production-readiness scope and pushed to the week of `2026-04-20` instead of consuming the current day.
 
 ## Current Delivery Tasks
 - [ ] IPAM-01 DEV-02 Core database schema + member objects | Remaining estimate: 4h | Status: Behind | Original target: 2026-03-06
@@ -25,8 +26,10 @@ title: "IPAM Board"
 - Scope note: this now reflects the full milestone chain visible in the current completion plan rather than only the earlier modeling/frontend placeholder tasks.
 - Estimate assumption: DEV-02 and DEV-03 are materially built already, DEV-04 is actively underway, and DEV-06 through DEV-08 still require significant completion work.
 - Estimate risk: add 8h to 12h if admin review expands into approved-member lifecycle automation, if document upload requires production-grade storage/policy hardening, or if staging includes a full UAT/fix cycle rather than a simple deployment-ready handoff.
+- Execution note on `2026-04-14`: all remaining open tasks are now treated as next-week production-ready scope rather than blockers to the current client demo state.
 
 ## PM Read On Remaining Work
+- The current application state is acceptable for a client demo, but it is not yet ready to be treated as production-ready.
 - The backend/domain work is still the bigger unknown, but the application workflow itself is now materially built rather than just scaffolded.
 - DEV-02 and DEV-03 are no longer greenfield; they are cleanup, integration, and stabilization work.
 - DEV-04 is in active implementation now and is the clearest signal of current branch momentum.

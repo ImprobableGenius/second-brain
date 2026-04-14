@@ -2,15 +2,15 @@
 title: "📊 Capacity Status"
 ---
 
-- Last updated: `2026-04-13`
-[Progress Bar: ██████████] 505% of weekly capacity used. Weekly burn: 202h / 40h.
+- Last updated: `2026-04-14`
+[Progress Bar: ██████████] 510% of weekly capacity used. Weekly burn: 204h / 40h.
 
 # 🚀 ACTIVE PROJECTS
-- [ ] MASC-23 Scripting audit review bundle | [2h] | Status: On Track
+- [ ] MASC-24 Plugin calculation enhancements bundle | [5h] | Status: On Track
 - [ ] MASC-13 Overview nav gradient accessibility fix | [3h] | Status: On Track
 - [ ] MASC-12 Overview hero program image size increase | [2h] | Status: On Track
 - [ ] MASC-04 News and Updates regression + coin review | [4h] | Status: Triage Needed
-- [ ] MASC-18 Lending detail + rendering polish bundle | [6h] | Status: Triage Needed
+- [ ] MASC-18 Lending detail + rendering polish bundle | [5h] | Status: On Track
 - [ ] MASC-19 Calculator defects + feedback pass | [8h] | Status: Triage Needed
 - [ ] MASC-07 Staging feedback remediation backlog beyond current tracked MASC scope | [55h] | Status: Triage Needed
 - [ ] IPAM-01 DEV-02 Core database schema + member objects | [4h] | Status: Behind | Due: 2026-03-06
@@ -37,7 +37,7 @@ title: "📊 Capacity Status"
 
 
 # 📝 EXECUTIVE SUMMARY (Copy for Slack)
-"MASC remains the protected lane. `MASC-20` is now complete after Friday's repo-backed merge and quick-link work, and `MASC-23` has only a small audit tail left. IPAM stays second because of the April 15 deadline."
+"MASC remains the protected lane. `MASC-24` is now the main contained blocker, while IPAM is considered client-demo ready and pushed to the week of April 20, 2026 for production-readiness work."
 
 # ❓ UNBLOCK ME (Action required by Developer)
 1. For MASC-04, is the News and Updates regression item part of the current March 20, 2026 sprint or should it be handed off after the current MASC work closes?
@@ -58,8 +58,8 @@ title: "📊 Capacity Status"
 16. For MASC-07, should the repeated factsheet issues be treated as shared template and systemic fixes wherever possible, or estimated page by page?
 17. For MASC-07, should copy swaps, image swaps, and similar content approvals stay inside engineering scope, or be tracked separately as content-team dependencies?
 18. For MASC-13, should the dark gradient fix cover all overview landing pages that share the hero pattern, or only the pages currently missing it?
-19. For MASC-18, should the lending-value formatting items be handled in the theme rendering layer, or do they need dataset-level changes first?
-20. For MASC-19, who owns the FSTR calculator defects and the `Mike - Calculators - Feedback1.docx` follow-up: Aarish, Jordan, or both?
+19. For MASC-19, who owns the FSTR calculator defects and the `Mike - Calculators - Feedback1.docx` follow-up: Aarish, Jordan, or both?
+20. For MASC-24, should the plugin support be implemented narrowly for rows `79`, `86`, and `87`, or generalized for future scripting-audit rows too?
 21. For PERM-01, should the remaining work include only the flight-widget fix and PR cleanup, or should the untracked `Newsletter.js` and `resources/vendor/` changes also be treated as part of the same lane?
 22. For IPAM-04, does “complete admin review tools” include attachment review, approval actions, and member-creation workflow, or only read/update/filter capability in Nova?
 23. For IPAM-05, does “export and payment marker” mean CSV/export plus a payment-received flag, or a broader payment workflow?

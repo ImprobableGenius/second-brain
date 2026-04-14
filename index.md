@@ -28,6 +28,8 @@ title: "Workspace Index"
 - [masc/MASC-20B Knowledge Centre and video filter bundle.pdf](./masc/MASC-20B%20Knowledge%20Centre%20and%20video%20filter%20bundle.pdf)
 - [masc/MASC-23 Scripting audit review bundle.md](./masc/MASC-23%20Scripting%20audit%20review%20bundle.md)
 - [masc/MASC-23 Scripting audit review bundle.pdf](./masc/MASC-23%20Scripting%20audit%20review%20bundle.pdf)
+- [masc/MASC-24 Plugin calculation enhancements bundle.md](./masc/MASC-24%20Plugin%20calculation%20enhancements%20bundle.md)
+- [masc/MASC-24 Plugin calculation enhancements bundle.pdf](./masc/MASC-24%20Plugin%20calculation%20enhancements%20bundle.pdf)
 - [masc/masc-architecture.md](./masc/masc-architecture.md)
 - [masc/masc-board.md](./masc/masc-board.md)
 - [masc/masc-claims-reporting-internal-brief-2026-03-27.md](./masc/masc-claims-reporting-internal-brief-2026-03-27.md)
@@ -89,6 +91,8 @@ title: "Workspace Index"
 - [daily-plans/today-2026-04-10.md](./daily-plans/today-2026-04-10.md)
 - [daily-plans/today-2026-04-10.pdf](./daily-plans/today-2026-04-10.pdf)
 - [daily-plans/today-2026-04-13.md](./daily-plans/today-2026-04-13.md)
+- [daily-plans/today-2026-04-14.md](./daily-plans/today-2026-04-14.md)
+- [daily-plans/today-2026-04-14.pdf](./daily-plans/today-2026-04-14.pdf)
 
 ## Production Summaries
 - [production-summaries/](./production-summaries/)

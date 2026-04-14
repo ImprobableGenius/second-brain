@@ -59,6 +59,7 @@ title: "Productivity Statistics"
 | 2026-04-08 | 9.0 | 2.0 | 0.0 | 4.0 | 0.0 | 10.4 | 6.4 | 163 | 49 | 38 | `MASC-17`, `MASC-22`, and the `programDetails.xml` follow-up drove the day, making it a strong MASC burn-down day; the main constraint was that Banff and IPAM did not materially move while MASC consumed the execution lane. |
 | 2026-04-09 | 6.0 | 3.0 | 0.0 | 0.0 | 0.0 | 8.1 | 7.0 | 116 | -22 | 0 | `MASC-20A` and related News / Knowledge Centre cleanup drove real MASC burn-down, while the main non-delivery load was PM reconciliation across IPAM and French-feedback bundling; no new scope was added. |
 | 2026-04-10 | 1.0 | 1.0 | 6.0 | 0.0 | 0.0 | 4.7 | 7.0 | 67 | -42 | 0 | Friday's repo reconciliation shows the day was undercounted: `MASC-20` can be treated as closed from the filter, quick-link, and merge work, while `MASC-23` audit progress plus WPML and hero/header fixes made it a stronger implementation day than first logged. |
+| 2026-04-13 | 5.0 | 2.0 | 1.0 | 5.0 | 0.0 | 6.9 | 7.0 | 99 | 47 | 72 | `MASC-23` closed as an audit bundle and the launched `main` work reduced uncertainty in the lending-formatting lane; the main pressure was that the audit exposed real plugin scope, which was split into the new `MASC-24` implementation task instead of being hidden inside the audit. |
 
 ## Rolling Notes
 - Start conservative. The first 5 logged workdays will be noisy because the baseline window is still small.

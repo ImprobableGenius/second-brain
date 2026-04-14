@@ -18,6 +18,8 @@ title: "MASC Index"
 - [MASC-20B Knowledge Centre and video filter bundle.pdf](./MASC-20B%20Knowledge%20Centre%20and%20video%20filter%20bundle.pdf)
 - [MASC-23 Scripting audit review bundle.md](./MASC-23%20Scripting%20audit%20review%20bundle.md)
 - [MASC-23 Scripting audit review bundle.pdf](./MASC-23%20Scripting%20audit%20review%20bundle.pdf)
+- [MASC-24 Plugin calculation enhancements bundle.md](./MASC-24%20Plugin%20calculation%20enhancements%20bundle.md)
+- [MASC-24 Plugin calculation enhancements bundle.pdf](./MASC-24%20Plugin%20calculation%20enhancements%20bundle.pdf)
 - [masc-architecture.md](./masc-architecture.md)
 - [masc-board.md](./masc-board.md)
 - [masc-claims-reporting-internal-brief-2026-03-27.md](./masc-claims-reporting-internal-brief-2026-03-27.md)
@@ -32,6 +34,7 @@ title: "MASC Index"
 - `MASC Bundle Creation Definitions.md` defines how future MASC bundles should be scoped, linked, and exported.
 - The `MASC-17A` through `MASC-20B` notes are the current bundle-specific checklist files, each scoped to about `5h to 6h`.
 - `MASC-23 Scripting audit review bundle.md` is the workbook-driven scripting audit bundle built from the `Scripting Audit` tab rows explicitly assigned to Aarish.
+- `MASC-24 Plugin calculation enhancements bundle.md` captures the follow-on plugin feature work identified by `MASC-23`, specifically four-variable calculations and rounding before further calculations.
 - Each bundle note now has a matching print-ready PDF generated with `pandoc`.
 - `masc-architecture.md` holds the technical project context, repo structure, content model, tooling, QA signals, and implementation architecture.
 - `masc-board.md` holds the delivery board, task history, planning assumptions, blockers, sync notes, and work-progress tracking.

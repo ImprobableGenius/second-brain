@@ -6,7 +6,7 @@ title: "MASC Board"
 
 ## Project Snapshot
 - Load: Medium
-- Working estimate: 80h total for current open tasks
+- Working estimate: 82h total for current open tasks
 - Task code prefix: `MASC`
 - Priority: High
 - Start date: 2026-03-16
@@ -59,15 +59,18 @@ title: "MASC Board"
 - Bundle completion note on `2026-04-08`: `MASC-17B` is complete, so the full `MASC-17` factsheet print pass is now closed.
 - [x] MASC-22 Bulk quick-links update mechanism | Completed: 2026-04-08
 - Completion note on `2026-04-08`: the quick-links bulk update path is now complete.
-- [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 6h | Due: TBD | Flag: High Uncertainty
+- [ ] MASC-18 Lending detail + rendering polish bundle | Estimate: 5h | Due: TBD | Status: In Progress
 - [ ] MASC-19 Calculator defects + feedback pass | Estimate: 8h | Due: TBD | Flag: High Uncertainty
 - [x] MASC-20 News + Knowledge Centre remediation bundle | Completed: 2026-04-10
 - Branch reconciliation note on `2026-04-09`: the repo now clearly covers the News category-removal decision, the Reports and Publications category filter, the `View Strategic Plan` button text, the `Content Type` label, the dynamic `myMASC` italics treatment, the redirect strategy for title-only Knowledge Centre singles, deletion of bad News items without photos, News item new-tab cleanup, and the current video pagination / thumbnail fixes.
 - Branch check on `2026-04-10`: the filter colour-coding work is present on `fix/lending-details-rendering-polish`, including selected-filter colour classes in `styles/facets/results.css` and checkbox pill styling in `styles/facets/checkboxes.css`. The Seeding Deadlines quick-link correction is complete, and the Friday commit set plus merge back to `dev` is enough to treat `MASC-20` as complete at the implementation-board level.
-- [ ] MASC-23 Scripting audit review bundle | Estimate: 2h remaining | Due: TBD | Status: In Progress
+- [x] MASC-23 Scripting audit review bundle | Completed: 2026-04-13
 - Intake note on `2026-04-10`: created from the `Scripting Audit` tab in `MASC Content Tracker.xlsx`, limited to the rows explicitly assigned to Aarish. The current list covers rows `51`, `59`, `60`, `67`, `69`, `70`, `75`, `76`, `77`, `78`, `79`, `81`, `83`, `86`, and `87`, all marked as needing both English and French calculator or script review.
-- Progress note on `2026-04-10`: the marked checklist now shows most of the row-level review complete. Rows `51`, `59`, `60`, `67`, `69`, `70`, `75`, `77`, `78`, `81`, `83`, `86`, and `87` have been audited. The remaining open tail is concentrated in rows `76` and `79`, plus the follow-up decision on whether the hard-coded findings roll straight into implementation work.
+- Completion note on `2026-04-13`: rows `59`, `60`, `76`, and `79` are now accounted for in the audit outcome, and rows `79`, `86`, and `87` have been split into a new plugin-feature implementation lane instead of staying tangled inside the audit.
+- [ ] MASC-24 Plugin calculation enhancements bundle | Estimate: 5h | Due: TBD | Status: On Track
+- Task note on `2026-04-13`: this bundle was created after `MASC-23` identified two shared plugin needs for rows `79`, `86`, and `87`: four-variable calculations and rounding before further calculations.
 - Friday repo reconciliation on `2026-04-13`: additional Aarish-authored commits from `2026-04-10` were not previously reflected in the board. `7dc9747` added WPML permalink handling for non-language-specific URLs, and `5bdddc1` plus `f68a05b` tightened header and page-hero ACF field inheritance behavior. These are meaningful Friday implementation progress notes, but they do not cleanly close `MASC-12` or `MASC-13` on their own.
+- Launch update on `2026-04-13`: the newer `main` branch now includes `4340265` / `a8b019b` for French translation-audit tooling and breadcrumb support, `b0a598d` for the sitewide currency-formatting module, and `34f0048` for alphabetical factsheet archive sorting. These launches materially improve the MASC launch state, but only the lending-formatting lane had a clean enough task mapping to reduce remaining estimate directly.
 - [x] MASC-21 programDetails.xml dataset email follow-up | Completed: 2026-04-08
 - Completion note on `2026-04-08`: the programDetails.xml follow-up is now complete.
 - [x] MASC-14 Plugin missing fields expansion | Completed: 2026-03-25

@@ -23,6 +23,11 @@ title: "MASC-18 Lending detail and rendering polish bundle"
 ## Discussion
 - [ ] Confirm whether the lending-value formatting items can be handled in the theme rendering layer or require dataset-level changes first.
 
+## Launch Note - 2026-04-13
+- `b0a598d` introduced a sitewide currency-formatting module on `main`, which gives this bundle a real theme-layer path for rendering dollar amounts instead of leaving the value-formatting question fully open.
+- This should reduce uncertainty around the loan-maximum and Young Farmer Rebate formatting subset, but the launched formatter still needs page-level QA before those checklist items can be treated as fully closed.
+- Remaining likely scope is still the link, wording, photo, layout-alignment, and broken-link follow-through.
+
 ## Dependencies
 - Some items may be backend-dataset-driven.
 - Photo direction may need design review if the crop change looks awkward.
